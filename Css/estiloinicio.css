@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin:auto;
+    margin-top: 100px;
+}
+
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.caja__trasero{
+    width: 100px;
+    padding: 10pxpx 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: #1845EE;
+}
+
+.caja__trasero div{
+    margin: 100px 40px;
+    color: white;
+    transition: all 500ms;
+}
+
+.caja__trasero div p,
+.caja__trasero div button{
+    margin-top: 30px;
+
+}
+
+.caja__trasero div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
