@@ -5,8 +5,16 @@
     text-decoration: none;
     font-family: sans-serif;
 }
+body{
+    background-image: url(../Img/fondo\ imagenes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-attachment: fixed;
+}
 
 main{
+    width: 100%;
     padding: 20px;
     margin:auto;
     margin-top: 100px;
@@ -20,7 +28,7 @@ main{
 }
 
 .caja__trasera{
-    width: 100px;
+    width: 100%;
     padding: 10px 20px;
     display: flex;
     justify-content: center;
@@ -28,22 +36,26 @@ main{
     background-color: rgba(0, 128, 255, 0.5);
 }
 
-.caja__trasera div {
+.caja__trasera div{
     margin: 100px 40px;
-    color: white;
+    color:white;
     transition: all 500ms;
 }
-
 .caja__trasera div p,
 .caja__trasera div button{
-    margin-top: 30px;
-
+      margin-top: 30px;
 }
 
 .caja__trasera div h3{
     font-weight: 400;
     font-size: 26px;
- }
-
-
-   
+}
+.caja__trasera button{
+    padding: 10px 40px;
+    border: 2px soild #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color:white;
+}
