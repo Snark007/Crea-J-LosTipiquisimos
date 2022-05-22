@@ -52,7 +52,7 @@ main{
 }
 .caja__trasera button{
     padding: 10px 40px;
-    border: 2px soild #fff;
+    border: 2px soild white;
     background: transparent;
     font-size: 14px;
     font-weight: 600;
