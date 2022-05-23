@@ -30,7 +30,7 @@ footer{
     margin-bottom: 1rem;
 }
 
-.social-icons-container, .footer-menu-container{
+.social-icons, .footer-menu{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@ footer{
 }
 
 
-.footer-menu-container{
+.footer-menu{
     list-style-type: none;
     color: #02365C;
     font-size: 18px;
