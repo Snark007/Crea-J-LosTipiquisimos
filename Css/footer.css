@@ -64,3 +64,24 @@ footer {
     background-image: url();
 }
 
+.footer-menu{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item:hover{
+    opacity: 1;
+}
+
+.copyright{
+    color: rgba(0, 128, 255, 0.5)
+    opacity: 0.3;
+    text-align: center;
+}
