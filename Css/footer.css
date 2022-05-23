@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
-
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
 }
 
 body{
@@ -12,17 +12,17 @@ body{
     position: relative;
 }
 
-footer {
+footer{
     width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 2rem 8%;
-    background-color: rgb(255, 255, 255);
+    padding: 1rem 8%;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .logo{
@@ -30,7 +30,7 @@ footer {
     margin-bottom: 1rem;
 }
 
-.social-icon, .footer-menu {
+.social-icons-container, .footer-menu-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,42 +38,39 @@ footer {
     margin-bottom: 1rem;
 }
 
-.social-icon{
-    height: 50px;
-    width: 50px;
+.social-icon {
+    height: 60px;
+    width: 60px;
     border-radius: 50px;
-    border: 1px solid rgb(255, 255, 255);
-    background-image: ;
-    background-size: 40%;
+    border: 1px solid #02365C;
+    background-position: center;
+    background-size: 60%;
     background-repeat: no-repeat;
     margin: 1rem;
 }
 
-.social-icon:hover{
-    background-color: black;
-    filter: invert(1);
+.social-icon:nth-of-type(1){
+    background-image: url(../Img/facebook.png);
 }
-
 .social-icon:nth-of-type(2){
-    background-image: url();
+    background-image: url(../Img/instagram.png);
+
 }
-.social-icon:nth-of-type(4){
-    background-image: url();
-}
-.social-icon:nth-of-type(5){
-    background-image: url();
+.social-icon:nth-of-type(3){
+    background-image: url(../Img/twitter.png);
 }
 
-.footer-menu{
-    list-style: none;
-    color: rgb(255, 255, 255);
+
+.footer-menu-container{
+    list-style-type: none;
+    color: #02365C;
     font-size: 18px;
 }
 
 .menu-item{
     margin: 1rem 1.5rem;
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 1.0;
 }
 
 .menu-item:hover{
@@ -81,7 +78,22 @@ footer {
 }
 
 .copyright{
-    color: rgba(0, 128, 255, 0.5)
-    opacity: 0.3;
+    color: #02365C;
+    opacity: 0.9;
     text-align: center;
+}
+
+.fin{
+    color: #02365C;
+    opacity: 1.0;
+    font-weight: bolder;
+}
+
+.ray {
+     display: block; 
+     height: 1px;
+     border: 0; 
+     border-top: 1px solid #02365C;; 
+     padding: 0;
+     opacity: 0.5;
 }
