@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+.information {
+    color: #0067b1;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline
+}
+
+.tex {
+    color: #0067b1;
+    /*font-size: 35px;*/
+    text-align: center;
+    margin-top: 0.5%;
+}
+
+.back {
+color: #0067b1;
+}
+
+.base button {
+font-weight: 700%;
+color: rgb(255, 255, 255);
+padding: 9px 25px;
+background-color: #0075c9;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.com {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    height: 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #0075c9;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600%;
+  }
+
+  img{
+      width: 100px;
+      height: 100px;
+  }
+
+.teibol{
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+}
+
+.images{
+    border-radius: 20%;
+    width: 50%;
+    height: 60%;
+    margin:10,10,10,10;
+}
+ 
+#one{
+    height: 50%;
+}
+
+.infor{
+    color: #004e86;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#prec{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.6)
+}
+
+h3{
+    text-align: center;
+}
