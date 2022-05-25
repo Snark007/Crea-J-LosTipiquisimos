@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Lobster&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -86,10 +86,10 @@ header a:hover {
 
 /*frase de menu*/
 #hero {
+    font-size: 120%;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     flex-direction: column;
     height: 100vh;
     background-image: linear-gradient(0deg,
@@ -102,7 +102,11 @@ header a:hover {
 }
 
 #hero h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
     color: white;
+
+
 }
 /*frase de menu*/
 
@@ -225,13 +229,6 @@ section .basic .kut{
     margin-top: 1%;
 }
 
-section .basic .ki{
-    color: #0067b1;
-    font-size: 175%;
-    text-align: center;
-    margin-top: 6%;
-}
-
 
 section .basic .tor{
     color: #0067b1;
@@ -242,7 +239,7 @@ section .basic .tor{
 section .lytin{
     width: 45%;
     border-color: #007ed7; 
-    border-top: 13px;
+    border-top: 0px;
 }
 
 section .basic .poy{
@@ -282,7 +279,7 @@ section .let{
     align-items: center;
     border-radius: 20px;
     cursor: pointer;
-    margin-bottom: 8%;
+    margin-bottom: 20%;
 }
 
 
