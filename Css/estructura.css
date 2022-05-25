@@ -11,6 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     background-color: rgb(233, 245, 255);
+    position: relative;
 }
 
 
@@ -36,7 +37,9 @@ li {
 /*menu*/
 header {
     background-color: rgb(255, 255, 255);
-
+    position: sticky;
+    top: 0;
+    z-index:9999999999999 ;
 }
 
 header .logo {
@@ -48,6 +51,7 @@ font-family:'Arial Narrow Bold', sans-serif;
     font-size: 1.6em;
     max-width: 40%;
     max-height: 40%
+    
 }
 
 
@@ -56,6 +60,7 @@ header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 header nav {
@@ -86,13 +91,14 @@ header a:hover {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("../Img/arroz-slider.png");
+            rgba(62, 62, 62, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../Img/pupusa-slider.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    
 }
 
 #hero h1 {
@@ -102,9 +108,11 @@ header a:hover {
 
 /*pie de pagina*/
 footer {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 24, 46);
     font-size: 100%;
     padding-top:1%;
+    width: 100%;
+    margin-top: 10%;
 }
 
 footer p {
@@ -114,6 +122,7 @@ footer p {
 }
 
 footer .container {
+
     height: 40px;
     display: flex;
     justify-content: center;
@@ -139,7 +148,7 @@ footer .container {
     }
 
     #hero h1 {
-        font-size: 5em;
+        font-size: 3.5em;
     }
 
 
@@ -154,7 +163,7 @@ footer .container {
 button {
     color: rgb(255, 255, 255);
     padding: 9px 25px;
-    background-color: #0075c9;
+    background-color: #0060a4;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -184,9 +193,9 @@ button {
     text-align: center;
 }
 
-.contar #qer {
-    max-width: 12%;
-    max-height: 12%
+.contar #final {
+    max-width: 20%;
+    max-height: 20%
     
  }
  .contar .bar {
@@ -196,21 +205,27 @@ button {
      opacity: 0.6;
 }
 
-section .vajac .kut{
+section .basic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .basic .kut{
     color: #0067b1;
     font-size: 175%;
     text-align: center;
 
 }
 
-section .vajac .kut{
+section .basic .kut{
     color: #0067b1;
     font-size: 175%;
     text-align: center;
     margin-top: 1%;
 }
 
-section .vajac .ki{
+section .basic .ki{
     color: #0067b1;
     font-size: 175%;
     text-align: center;
@@ -218,7 +233,7 @@ section .vajac .ki{
 }
 
 
-section .vajac .tor{
+section .basic .tor{
     color: #0067b1;
     font-size: 100%;
     text-align: center;
@@ -230,7 +245,7 @@ section .lytin{
     border-top: 13px;
 }
 
-section .vajac .poy{
+section .basic .poy{
     color: rgb(255, 255, 255);
     background-color: #0060a4;
     border: none;
@@ -241,3 +256,34 @@ section .vajac .poy{
     top:50%; 
     left:50%; 
 }
+
+
+.sniner {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+.sniner h2{
+  width: 100%;
+  color: #999;
+  font-family: monospace;
+}
+.card{
+  width: 33.333333%;
+}
+section .let{
+    border-radius: 10%;
+    background-color: #0060a4;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 8%;
+}
+
+
+
