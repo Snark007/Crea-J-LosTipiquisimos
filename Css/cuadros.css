@@ -16,7 +16,7 @@ body{
 
 
 .container2{
-    width: 100%;
+    
     max-width: 1200px;
     height: 430px;
     display: flex;
@@ -64,4 +64,11 @@ body{
     font-weight: 500;
     text-decoration: none;
     color: #3498db;
+}
+
+@media (max-width:1123px) {
+    .container2 {
+        flex-direction: column;
+        overflow:scroll;
+    }
 }
