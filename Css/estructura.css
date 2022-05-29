@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Lobster&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -203,7 +203,7 @@ section .basic .start {
     color: #002769 ;
     font-size: 175%;
     text-align: center;
-
+   
 }
 
 
