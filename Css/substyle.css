@@ -20,7 +20,7 @@ ul {
 }
 
 li {
-    font-size: 1.25em;
+    font-size: 1.20em;
 }
 
 
@@ -283,3 +283,150 @@ section .let{
     cursor: pointer;
     margin-bottom: 20%;
 }
+h1{
+    color: #0067b1;
+}
+ol{
+    margin: 40px;
+}
+li{
+    margin: 20px;
+}
+.ti{
+    margin: 20px;  
+}
+
+.login-box {
+    width: 320px;
+    height: 535px;
+    background: rgba(0, 90, 192, 0.619);
+    color: #fff;
+    top: 45%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.059);
+}
+.login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  
+  }
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  
+  }.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"],
+.login-box input[type="email"] {
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #0065d9;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #9cd7ff;
+  color: #000;
+}
+
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.login-box a:hover {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"],
+  .login-box input[type="password"],
+  .login-box input[type="email"] {
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0065d9;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #9cd7ff;
+    color: #000;
+  }
+  
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .login-box a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
