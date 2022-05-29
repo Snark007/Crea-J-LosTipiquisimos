@@ -12,8 +12,8 @@ body {
 
 .login-box {
   width: 320px;
-  height: 535px;
-  background: rgba(0, 90, 192, 0.619);
+  height: 540px;
+  background: rgba(0, 90, 192, 0.852);
   color: #fff;
   top: 50%;
   left: 50%;
@@ -67,22 +67,21 @@ body {
   font-size: 16px;
 }
 
-.login-box input[type="submit"] {
+.login-box input[type="button"] {
   border: none;
   outline: none;
   height: 40px;
-  background: #0065d9;
+  background: #002552;
   color: rgb(255, 255, 255);
   font-size: 18px;
   border-radius: 20px;
 }
 
-.login-box input[type="submit"]:hover {
+.login-box input[type="button"]:hover {
   cursor: pointer;
   background: #9cd7ff;
   color: #000;
 }
-
 
 .login-box a {
   text-decoration: none;
