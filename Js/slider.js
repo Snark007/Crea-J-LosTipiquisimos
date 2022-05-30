@@ -1,36 +1,43 @@
-var imageno = 1;
-displayimg(imageno);
+const myslide = document.querySelectorAll('.myslide'),
+	  dot = document.querySelectorAll('.dot');
+let counter = 1;
+slidefun(counter);
 
-function nextimg(n) {
-    displayimg(imageno += n)
+let timer = setInterval(autoSlide, 8000);
+function autoSlide() {
+	counter += 1;
+	slidefun(counter);
 }
-
+function plusSlides(n) {
+	counter += n;
+	slidefun(counter);
+	resetTimer();
+}
 function currentSlide(n) {
-    displayimg(imageno = n)
+	counter = n;
+	slidefun(counter);
+	resetTimer();
+}
+function resetTimer() {
+	clearInterval(timer);
+	timer = setInterval(autoSlide, 8000);
 }
 
-function displayimg(n) {
-    var i;
-    var image = document.getElementsByClassName("image");
-    var dots = document.getElementsByClassName("dot");
-
-    if (n > image.length) {
-        imageno = 1;
-    }
-
-    if (n < 1) {
-        imageno = image.length;
-    }
-
-    for (i = 0; i < image.length; i++) {
-        image[i].style.display = "none";
-    }
-
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-
-    image[imageno - 1].style.display = "block";
-    dots[imageno - 1].className += " active";
-
+function slidefun(n) {
+	
+	let i;
+	for(i = 0;i<myslide.length;i++){
+		myslide[i].style.display = "none";
+	}
+	for(i = 0;i<dot.length;i++) {
+		dot[i].className = dot[i].className.replace(' active', '');
+	}
+	if(n > myslide.length){
+	   counter = 1;
+	   }
+	if(n < 1){
+	   counter = myslide.length;
+	   }
+	myslide[counter - 1].style.display = "block";
+	dot[counter - 1].className += " active";
 }
