@@ -27,9 +27,41 @@
         </div>
     </header>
 
-    <section id="hero">
+    <div class="container4">
+        <div class="image">
+            <img src="../Img/pupusa-slider.png" alt="">
+        </div>
+        <div class="image">
+            <img src="../Img/pan-pollo-slider.png" alt="">
+        </div>
+        <div class="image">
+            <img src="../Img/enpanada-slider.png" alt="">
+        </div>
+        <div class="image">
+            <img src="../Img/quesadilla-slider.png" alt="">
+        </div>
+        <div class="image">
+            <img src="../Img/riguas-slider.png" alt="">
+        </div>
+
+        <div class="button">
+            <a onclick="nextimg(-1)" class="prev">&#10094;</a>
+            <a onclick="nextimg(1)" class="next">&#10095;</a>
+        </div>
+
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+
+   <!-- <section id="hero">
         <h1>Recetas Faciles<br>¡Animate a Cocinar!</h1>
-    </section>
+    </section>-->
+
     <!--BASE-->
 
     <section>
@@ -84,7 +116,7 @@
             <a href="https://twitter.com/Tipiquisimos503"><img src="../Img/twitter.png" alt="" class="Photographs"></a><br>
         </div>
     </footer>
-
+<script src="../Js/slider.js"></script>
 </body>
 
 </html>
