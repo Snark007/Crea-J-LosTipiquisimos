@@ -35,7 +35,7 @@ header .logo {
     font-weight: bold;
     color: rgb(0, 51, 162);
     font-size: 25px;
-   
+
 }
 
 header .container {
@@ -67,32 +67,6 @@ header a:hover {
 
 /*--------------------fin menu---------------*/
 
-/*--------------------frase de menu--------------------*/
-#hero {
-    font-size: 120%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    background-image: linear-gradient(0deg,
-            rgba(49, 49, 49, 0.5),
-            rgba(12, 12, 12, 0.5)), url("../Comida/pupusas2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
-}
-
-#hero h1 {
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    color: white;
-    text-transform: initial;
-    text-shadow: 0px 0px 25px #000;
-}
-
-/*--------------------fin frase de menu--------------*/
 
 /*--------------------pie de pagina-------------------*/
 footer {
@@ -173,15 +147,13 @@ button:hover {
 
 /*-------------------fin Botones-----------------*/
 
-/*-----------------Imagenes del footer------------------------*/
 .Photographs {
     width: 85%;
     height: 85%;
     text-align: left;
 
 }
-/*----------------- Fin imagenesdel footer------------------------*/
-/*----------------- Letras del footer------------------------*/
+
 .contar {
     text-align: center;
 }
@@ -190,8 +162,8 @@ button:hover {
     max-width: 20%;
     max-height: 20%
 }
-/*----------------- Fin de las teras del footer------------------------*/
-/*-----------------Letras de la base del index------------------------*/
+
+
 section .basic {
     display: flex;
     flex-direction: column;
@@ -199,10 +171,10 @@ section .basic {
 }
 
 section .basic .start {
-    color: #002769 ;
+    color: #002769;
     font-size: 175%;
     text-align: center;
-   
+
 }
 
 
@@ -217,17 +189,148 @@ section .space {
     border-color: #00225298;
     border-top: 0px;
 }
-/*----------------- Fin Letras de la base del index------------------------*/
 
-/*------------Boton de mas informacion-----------*/
-section .let {
-    border-radius: 10%;
-    background-color:#002552;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+
+.card {
+    width: 33.333333%;
+}
+
+
+/*------------------Subir una receta----------------------*/
+
+section{
+    padding: 0 1rem;
+}
+
+.want{
+    margin-top: 110px;
+    background-color: rgb(255, 255, 255);
+    border: thin solid #a9acaa;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 1350px;
+    height: 690px;
+  
+}
+
+.major{
+ color: #001b4a;
+ margin-bottom: 50px;
+ margin-left: 50px;
+ font-size: 15px;
+}
+
+
+ol{
+    margin: 20px;
+    color: #001232;
+    
+}
+li{
+    margin: 20px;
+    color: #001232;
+}
+
+/*------------------ Fin Subir una receta----------------------*/
+
+
+/*------------------------Formulario----------------------*/
+.login-box {
+    width: 350px;
+    height: 560px;
+    background: rgba(255, 255, 255, 0.852);
+    color: rgb(0, 56, 121);
+    top: 35%;
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border: thin solid #a9acaa;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  .login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  
+  }
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
     text-align: center;
-    align-items: center;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .login-box input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #002552;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .login-box input[type="button"]:hover {
+    cursor: pointer;
+    background: #9cd7ff;
+    color: #000;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"], .login-box input[type="email"]  {
+    border: none;
+    border-bottom: 2px solid rgba(0, 74, 159, 0.515);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgba(0, 90, 192, 0.852);
+    font-size: 16px;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 58, 125, 0.852);
+  }
+  
+  .login-box a:hover {
+    color: rgba(0, 90, 192, 0.852);
+    font-weight: bold;
+  }
+  
+  .login-box input[type="submit"] {
+    color: rgb(255, 255, 255);
+    padding: 9px 25px;
+    background-color: #0044a4;
+    border: none;
     border-radius: 20px;
     cursor: pointer;
-    margin-bottom: 20%;
-}
+    font-weight: bold;
+  }
+
+  .login-box input[type="file"] {
+
+  }
+  ::placeholder { color: rgba(0, 71, 152, 0.496); }

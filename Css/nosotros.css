@@ -11,6 +11,7 @@ body {
     margin: 0;
     background-color: rgb(233, 245, 255);
     position: relative;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -235,3 +236,11 @@ section .let {
     cursor: pointer;
     margin-bottom: 20%;
 }
+
+/*------------Logo-------------*/
+.log{
+    width: 15%;
+    margin:10px auto;
+    display:block;
+}
+/*--------fin Logo-----------*/

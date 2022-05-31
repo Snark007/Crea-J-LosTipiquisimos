@@ -66,6 +66,10 @@ body{
     color: #346cdb;
 }
 
+.card {
+    width: 33.333333%;
+}
+
 @media (max-width:1123px) {
     .container2 {
         flex-direction: column;
