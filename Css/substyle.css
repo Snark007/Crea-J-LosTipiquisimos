@@ -283,8 +283,11 @@ section .let{
     cursor: pointer;
     margin-bottom: 20%;
 }
+.l{
+    color:#0060a4 ;
+  }
 h1{
-    color: #0067b1;
+    color: #0060a4;
 }
 ol{
     margin: 40px;
@@ -293,11 +296,12 @@ li{
     margin: 20px;
 }
 .ti{
-    margin: 20px;  
+    margin: 20px; 
+    color:#0060a4 ;
 }
 
 .login-box {
-    width: 320px;
+    width: 400px;
     height: 535px;
     background: rgba(0, 90, 192, 0.619);
     color: #fff;
@@ -430,3 +434,4 @@ li{
     color: rgb(255, 255, 255);
     font-weight: bold;
   }
+  
