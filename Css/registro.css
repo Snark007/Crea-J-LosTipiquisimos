@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Lobster&display=swap');
 body {
   margin: 0;
   padding: 0;
-    font-size: 100%;
+    font-size: 120%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,19 +10,20 @@ body {
     height: 100vh;
     background-image: linear-gradient(0deg,
             rgba(49, 49, 49, 0.5),
-            rgba(12, 12, 12, 0.5)), url("../Img/enchiladas-slider.png");
+            rgba(12, 12, 12, 0.5)), url("../Img/centro.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 
 .login-box {
-  width: 320px;
-  height: 570px;
-  background: rgba(0, 90, 192, 0.852);
-  color: #fff;
+  width: 350px;
+  height: 560px;
+  background: rgba(255, 255, 255, 0.852);
+  color: rgb(0, 56, 121);
   top: 52%;
   left: 50%;
   position: absolute;
@@ -46,32 +48,7 @@ body {
   padding: 0 0 20px;
   text-align: center;
   font-size: 22px;
-
-}
-
-.login-box label {
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-  display: block;
-
-}
-
-.login-box input {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.login-box input[type="text"],
-.login-box input[type="password"],
-.login-box input[type="email"] {
-  border: none;
-  border-bottom: 2px solid rgb(255, 255, 255);
-  background: transparent;
-  outline: none;
-  height: 40px;
-  color: #fff;
-  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .login-box input[type="button"] {
@@ -90,17 +67,39 @@ body {
   color: #000;
 }
 
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"], .login-box input[type="email"]  {
+  border: none;
+  border-bottom: 2px solid rgba(0, 74, 159, 0.515);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgba(0, 90, 192, 0.852);
+  font-size: 16px;
+}
+
 .login-box a {
   text-decoration: none;
   font-size: 12px;
-  line-height: 20px;
-  color: rgb(255, 255, 255);
+  line-height: 15px;
+  color: rgba(0, 58, 125, 0.852);
 }
 
 .login-box a:hover {
-  color: rgb(255, 255, 255);
+  color: rgba(0, 90, 192, 0.852);
   font-weight: bold;
 }
 
-::placeholder { color: rgba(236, 236, 236, 0.524); }
-
+::placeholder { color: rgba(0, 71, 152, 0.496); }
