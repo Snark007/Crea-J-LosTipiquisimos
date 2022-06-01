@@ -8,6 +8,8 @@ body {
     background-color: rgb(233, 245, 255);
     position: relative;
     font-family: 'Open Sans', sans-serif;
+   
+    
 }
 
 
@@ -202,4 +204,10 @@ section .let {
     border-radius: 20px;
     cursor: pointer;
     margin-bottom: 20%;
+}
+.basic{
+    margin-top: 100px;
+}
+section{
+    margin-top: 30px;
 }
