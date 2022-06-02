@@ -209,14 +209,16 @@ button:hover {
 }
 
 .beginning {
-
     color: #001b4a;
     font-size: 40px;
+    text-align: center;
+
 }
 
+    
 .princess {
     color: #002b77;
-
+text-align: center;
 }
 
 article {
@@ -248,7 +250,20 @@ article{
     border: thin solid #a9acaa;
     border-radius: 0.5rem;
     box-sizing: border-box;
-    width: 1500px;
+    width: 1300px;
     height: 690px;
-    padding: 0 2rem;
+}
+
+.space {
+    padding: 0 5rem;
+}
+
+.corpse {
+    color: #001b4a;
+    font-size: 40px;
+    text-align: center;
+}
+
+.dead {
+    color: #002b77;
 }
