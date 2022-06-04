@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Lobster&display=swap');
+* {
+    box-sizing: border-box;
+   
+}
+.container {
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+.color-acento {
+    color: rgb(0, 51, 162);
+}
+
+/*--------------------menu-----------------*/
+header {
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 9999999999999;
+}
+
+header .logo {
+    font-family: 'Lobster', cursive;
+    padding: 0px 0px;
+    font-weight: bold;
+    color: rgb(0, 51, 162);
+    font-size: 25px;
+   
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-indent: 20px;
+}
+
+header nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+header a:hover {
+    color: rgb(0, 43, 137);
+}
+
+/*--------------------fin menu---------------*/
+
+/*--------------------frase de menu--------------------*/
+#hero {
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(0deg,
+            rgba(49, 49, 49, 0.5),
+            rgba(12, 12, 12, 0.5)), url("../Comida/pupusas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#hero h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: white;
+    text-transform: initial;
+    text-shadow: 0px 0px 25px #000;
+}
+
+/*--------------------fin frase de menu--------------*/
+
+/*--------------------pie de pagina-------------------*/
+footer {
+    background-color: rgb(0, 24, 46);
+    font-size: 100%;
+    padding-top: 1%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: #ffffff;
+}
+
+footer .container3 {
+
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 850px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 15px;
+    }
+
+    #hero h1 {
+        font-size: 3.5em;
+    }
+
+
+    footer .container3 {
+        justify-content: center;
+    }
+
+}
+
+/*-----------------------fin pie de pagina fin--------------------*/
+
+
+
+/*-----------------Imagenes del footer------------------------*/
+.Photographs {
+    width: 85%;
+    height: 85%;
+    text-align: left;
+
+}
+/*----------------- Fin imagenesdel footer------------------------*/
+/*----------------- Letras del footer------------------------*/
+.contar {
+    text-align: center;
+}
+
+.contar #final {
+    max-width: 20%;
+    max-height: 20%
+}
+/*----------------- Fin de las teras del footer------------------------*/
+
