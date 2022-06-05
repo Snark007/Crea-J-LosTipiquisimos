@@ -76,3 +76,10 @@ body{
         overflow:scroll;
     }
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+div .ver {
+    color: #346cdb;
+}
