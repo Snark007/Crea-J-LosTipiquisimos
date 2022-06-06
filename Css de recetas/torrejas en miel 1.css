@@ -35,7 +35,7 @@ header .logo {
     font-weight: bold;
     color: rgb(0, 51, 162);
     font-size: 25px;
-   
+
 }
 
 header .container {
@@ -77,7 +77,7 @@ header a:hover {
     height: 100vh;
     background-image: linear-gradient(0deg,
             rgba(49, 49, 49, 0.5),
-            rgba(12, 12, 12, 0.5)), url("../Comida/pupusas.jpg");
+            rgba(12, 12, 12, 0.5)), url("../Comida/Atol-de-elote.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -100,7 +100,10 @@ footer {
     font-size: 100%;
     padding-top: 1%;
     width: 100%;
-    margin-top: 10%;
+    margin: 0%;
+    margin-top: 8%;
+
+    
 }
 
 footer p {
@@ -180,6 +183,7 @@ button:hover {
     text-align: left;
 
 }
+
 /*----------------- Fin imagenesdel footer------------------------*/
 /*----------------- Letras del footer------------------------*/
 .contar {
@@ -190,44 +194,76 @@ button:hover {
     max-width: 20%;
     max-height: 20%
 }
+
 /*----------------- Fin de las teras del footer------------------------*/
-/*-----------------Letras de la base del index------------------------*/
-section .basic {
-    display: flex;
+
+
+/*------------Texto de informacion-----------*/
+
+.five {
+    padding: 0 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
     flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
-section .basic .start {
-    color: #002769 ;
-    font-size: 175%;
-    text-align: center;
-   
-}
-
-
-section .basic .letters {
+.beginning {
     color: #001b4a;
-    font-size: 100%;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+    
+.princess {
+    color: #002b77;
+text-align: center;
+}
+
+article {
+    padding: 0 1rem;
+    margin-top: 75px;
+}
+
+li {
+
+    list-style-type: circle;
+}
+
+
+hr {
+    border: 0;
+    border-top: 1px solid #001b4a;
+    border-bottom: 1px solid #002b77;
+    height: 0;
+}
+
+.giraffe {
+    color: #002b77;
+    width: 55%;
+    float: right;
+}
+article{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    border: thin solid #a9acaa;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 1200px;
+    height: 690px;
+}
+
+.space {
+    padding: 0 5rem;
+}
+
+.corpse {
+    color: #001b4a;
+    font-size: 40px;
     text-align: center;
 }
 
-section .space {
-    width: 45%;
-    border-color: #00225298;
-    border-top: 0px;
-}
-/*----------------- Fin Letras de la base del index------------------------*/
-
-/*------------Boton de mas informacion-----------*/
-section .let {
-    border-radius: 10%;
-    background-color:#002552;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-bottom: 20%;
+.dead {
+    color: #002b77;
 }
