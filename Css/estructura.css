@@ -94,59 +94,6 @@ header a:hover {
 
 /*--------------------fin frase de menu--------------*/
 
-/*--------------------pie de pagina-------------------*/
-footer {
-    background-color: rgb(0, 24, 46);
-    font-size: 100%;
-    padding-top: 1%;
-    width: 100%;
-    margin-top: 10%;
-}
-
-footer p {
-    margin: 0;
-    padding: 12px;
-    color: #ffffff;
-}
-
-footer .container3 {
-
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-@media (min-width: 850px) {
-    header {
-        position: fixed;
-        width: 100%;
-    }
-
-    header .container {
-        flex-direction: row;
-        justify-content: space-between;
-
-    }
-
-    header nav {
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 15px;
-    }
-
-    #hero h1 {
-        font-size: 3.5em;
-    }
-
-
-    footer .container3 {
-        justify-content: center;
-    }
-
-}
-
-/*-----------------------fin pie de pagina fin--------------------*/
 
 /*-------------------Botones-----------------*/
 button {
@@ -173,24 +120,7 @@ button:hover {
 
 /*-------------------fin Botones-----------------*/
 
-/*-----------------Imagenes del footer------------------------*/
-.Photographs {
-    width: 85%;
-    height: 85%;
-    text-align: left;
 
-}
-/*----------------- Fin imagenesdel footer------------------------*/
-/*----------------- Letras del footer------------------------*/
-.contar {
-    text-align: center;
-}
-
-.contar #final {
-    max-width: 20%;
-    max-height: 20%
-}
-/*----------------- Fin de las teras del footer------------------------*/
 /*-----------------Letras de la base del index------------------------*/
 section .basic {
     display: flex;
