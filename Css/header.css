@@ -3,18 +3,22 @@
 	padding: 0;
 	box-sizing: border-box;
 	text-decoration: none;
-	font-family: "Open Sans", sans-serif;
+	
 }
+
+
 
 header{
 	width: 100%;
 	height: 90px;
 	background-color: white;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
 }
 
-.header{
+.logoletras{
 	max-width: 100%;
-	padding: 0 10px;
+	padding: 0 5px;
 	margin: auto;
 }
 
@@ -24,7 +28,7 @@ header{
 }
 
 .letras img{
-	height: 40px;
+	height: 35px;
 }
 
 .letras img:hover{
@@ -41,7 +45,7 @@ header{
 
 .listas ul{
 	list-style: none;
-	padding: 30px 10px;
+	padding: 10px 10px;
 }
 
 .listas ul li{
