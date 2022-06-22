@@ -34,6 +34,8 @@ header {
     background-color: white;
     font-family: 'Lobster', cursive;
     z-index: 100;
+    position: sticky;
+    top: 0;
    
     
     
