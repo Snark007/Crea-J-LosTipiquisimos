@@ -11,11 +11,6 @@ body {
 }
 
 
-.container {
-    max-width: 1400px;
-    margin: auto;
-
-}
 
 .color-acento {
     color: rgb(0, 51, 162);
@@ -23,6 +18,7 @@ body {
 
 /*--------------------menu-----------------*/
 header {
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
     position: sticky;
     top: 0;
@@ -241,17 +237,14 @@ hr {
 
 .giraffe {
     color: #002b77;
-    width: 55%;
+    width: 80%;
     float: right;
 }
 article{
     margin-top: 50px;
     background-color: rgb(255, 255, 255);
     border: thin solid #a9acaa;
-    border-radius: 0.5rem;
-    box-sizing: border-box;
-    width: 1200px;
-    height: 690px;
+    flex-shrink: 2
 }
 
 .space {

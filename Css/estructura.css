@@ -49,7 +49,7 @@ body {
 }
 
 /*--------------------fin frase de menu--------------*/
-
+    
 
 
 /*-------------------Botones-----------------*/
@@ -86,10 +86,10 @@ section .basic {
 }
 
 section .basic .start {
-    color: #002769;
+    color: #002769 ;
     font-size: 175%;
     text-align: center;
-
+   
 }
 
 
@@ -104,13 +104,12 @@ section .space {
     border-color: #00225298;
     border-top: 0px;
 }
-
 /*----------------- Fin Letras de la base del index------------------------*/
 
 /*------------Boton de mas informacion-----------*/
 section .let {
     border-radius: 10%;
-    background-color: #002552;
+    background-color:#002552;
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
@@ -118,4 +117,7 @@ section .let {
     border-radius: 20px;
     cursor: pointer;
     margin-bottom: 20%;
+}
+.cuadro{
+    line-height: 5rem;
 }
