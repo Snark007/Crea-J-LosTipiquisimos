@@ -27,18 +27,21 @@ body {
 /*header*/
 header {
     display: flex;
+    flex-direction: row;
     width: 100%;
     height: 90px;
+    justify-content: center;
     background-color: white;
     font-family: 'Lobster', cursive;
+    z-index: 100;
+   
     
-    top: 0;
+    
 }
 
 .logoletras {
     max-width: 100%;
-    padding: 0 5px;
-    margin: auto;
+    
 }
 
 .letras {
@@ -202,15 +205,12 @@ section .let {
     cursor: pointer;
     margin-bottom: 20%;
 }
-<<<<<<< HEAD
-.cuadro{
-    line-height: 5rem;
-}
-=======
+
+
 
 /* media para el responsive*/
 
-@media (max-width: 1024px) {}
+@media only screen and (max-width: 1024px) {
     header {
         
         width: 100%;
@@ -239,5 +239,4 @@ section .let {
         display: contents;
     }
 
->>>>>>> c09638c491a55349370bd0410b999a508a58ba8d
 }

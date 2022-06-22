@@ -4,10 +4,11 @@
 
 
 body {
-    margin: 0;
+
     background-color: rgb(233, 245, 255);
     position: relative;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 
@@ -220,6 +221,13 @@ text-align: center;
 article {
     padding: 0 1rem;
     margin-top: 75px;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
 }
 
 li {
