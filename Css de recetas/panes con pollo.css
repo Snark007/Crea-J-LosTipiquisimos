@@ -239,12 +239,15 @@ hr {
     color: #002b77;
     width: 80%;
     float: right;
+    
 }
 article{
+    border-radius: 10px;
+    display: flex;
     margin-top: 50px;
     background-color: rgb(255, 255, 255);
     border: thin solid #a9acaa;
-    flex-shrink: 2
+   
 }
 
 .space {
