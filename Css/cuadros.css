@@ -40,6 +40,7 @@ body{
 }
 
 .container2 .card:hover{
+    z-index: 0;
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }

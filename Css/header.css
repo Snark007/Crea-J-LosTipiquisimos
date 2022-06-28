@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+
+
+header {
+	width: 100%;
+	height: 90px;
+	background-color: white;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	position: sticky;
+	top: 0;
+}
+
+.logoletras {
+	max-width: 100%;
+	padding: 0 5px;
+	margin: auto;
+}
+
+.letras {
+	float: left;
+	padding: 30px 10px 0;
+}
+
+.letras img {
+	height: 35px;
+}
+
+.letras img:hover {
+	transform: scale(1.1);
+}
+
+.listas {
+	float: right;
+	display: flex;
+	align-items: center;
+	min-height: 90px;
+	z-index: 1000;
+}
+
+.listas ul {
+	list-style: none;
+	padding: 10px 10px;
+}
+
+.listas ul li {
+	display: inline-block;
+	position: relative;
+	transition: .3s linear;
+	z-index: 1000;
+}
+
+.listas ul li:hover {
+	transform: scale(1.1);
+}
+
+.listas ul li a {
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 14px 25px;
+	transition: .3s linear;
+}
+
+.listas ul li a:hover {
+	color: #2f4faa;
+	transform: scale(1.1);
+}
+
+.listas ul li:hover .tipos {
+	display: block;
+}
+
+.listas .recetas .tipos {
+	display: none;
+	background: white;
+	position: absolute;
+	width: 120%;
+}
+
+.listas .recetas .tipos li {
+	display: block;
+	overflow: hidden;
+	border-bottom: none;
+}
+
+.listas .recetas .tipos li a {
+	display: block;
+}

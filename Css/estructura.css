@@ -1,5 +1,8 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 
@@ -21,51 +24,93 @@ body {
     color: rgb(0, 51, 162);
 }
 
-/*--------------------menu-----------------*/
+/*header*/
 header {
-    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Lobster', cursive;
+    z-index: 100;
     position: sticky;
     top: 0;
-    z-index: 9999999999999;
-}
-
-header .logo {
-    font-family: 'Lobster', cursive;
-    padding: 0px 0px;
-    font-weight: bold;
-    color: rgb(0, 51, 162);
-    font-size: 25px;
    
+    
+    
 }
 
-header .container {
+.logoletras {
+    max-width: 100%;
+    
+}
+
+.letras {
+    float: left;
+    padding: 30px 10px 0;
+}
+
+.letras img {
+    height: 35px;
+}
+
+
+.listas {
+    float: right;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-indent: 20px;
+    min-height: 90px;
+    z-index: 1000;
 }
 
-header nav {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
+.listas ul {
+    list-style: none;
+    padding: 0px 1px;
 }
 
-header a {
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
+.listas ul li {
+    display: inline-block;
+    position: relative;
+    z-index: 1000;
+}
+
+
+.listas ul li a {
     color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 25px;
 
 }
 
-header a:hover {
-    color: rgb(0, 43, 137);
+.listas ul li a:hover {
+    color: #2f4faa;
 }
 
-/*--------------------fin menu---------------*/
+.listas ul li:hover .tipos {
+    display: block;
+}
+
+.listas .recetas .tipos {
+    display: none;
+    background: white;
+    position: absolute;
+    width: 120%;
+}
+
+.listas .recetas .tipos li {
+    display: block;
+    overflow: hidden;
+    border-bottom: none;
+}
+
+.listas .recetas .tipos li a {
+    display: block;
+}
+
+/*fin header*/
 
 /*--------------------frase de menu--------------------*/
 #hero {
@@ -74,7 +119,7 @@ header a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 75vh;
     background-image: linear-gradient(0deg,
             rgba(49, 49, 49, 0.5),
             rgba(12, 12, 12, 0.5)), url("../Comida/pupusas.jpg");
@@ -93,60 +138,8 @@ header a:hover {
 }
 
 /*--------------------fin frase de menu--------------*/
+    
 
-/*--------------------pie de pagina-------------------*/
-footer {
-    background-color: rgb(0, 24, 46);
-    font-size: 100%;
-    padding-top: 1%;
-    width: 100%;
-    margin-top: 10%;
-}
-
-footer p {
-    margin: 0;
-    padding: 12px;
-    color: #ffffff;
-}
-
-footer .container3 {
-
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-@media (min-width: 850px) {
-    header {
-        position: fixed;
-        width: 100%;
-    }
-
-    header .container {
-        flex-direction: row;
-        justify-content: space-between;
-
-    }
-
-    header nav {
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 15px;
-    }
-
-    #hero h1 {
-        font-size: 3.5em;
-    }
-
-
-    footer .container3 {
-        justify-content: center;
-    }
-
-}
-
-/*-----------------------fin pie de pagina fin--------------------*/
 
 /*-------------------Botones-----------------*/
 button {
@@ -173,24 +166,15 @@ button:hover {
 
 /*-------------------fin Botones-----------------*/
 
+<<<<<<< HEAD
 /*-----------------Imagenes del footer------------------------*/
 .Photographs {
     width: 40px;
     height: 40px;
     text-align: left;
+=======
+>>>>>>> 4e3aba0c731ba653b28feb97b1abf2403329091f
 
-}
-/*----------------- Fin imagenesdel footer------------------------*/
-/*----------------- Letras del footer------------------------*/
-.contar {
-    text-align: center;
-}
-
-.contar #final {
-    max-width: 20%;
-    max-height: 20%
-}
-/*----------------- Fin de las teras del footer------------------------*/
 /*-----------------Letras de la base del index------------------------*/
 section .basic {
     display: flex;
@@ -230,4 +214,39 @@ section .let {
     border-radius: 20px;
     cursor: pointer;
     margin-bottom: 20%;
+}
+
+
+
+/* media para el responsive*/
+
+@media only screen and (max-width: 1024px) {
+    header {
+        
+        width: 100%;
+        height: 90px;
+        background-color: white;
+        font-family: 'Lobster', cursive;
+        position: sticky;
+        top: 0;
+    }
+
+
+    .letras img {
+        height: 20px;
+
+    }
+
+    .letras {
+        padding: 30px 0;
+    }
+
+    .listas {
+        width: 87.5%;
+    }
+
+    .listas ul {
+        display: contents;
+    }
+
 }

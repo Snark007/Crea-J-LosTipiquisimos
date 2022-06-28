@@ -4,18 +4,14 @@
 
 
 body {
-    margin: 0;
+
     background-color: rgb(233, 245, 255);
     position: relative;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 
-.container {
-    max-width: 1400px;
-    margin: auto;
-
-}
 
 .color-acento {
     color: rgb(0, 51, 162);
@@ -23,6 +19,7 @@ body {
 
 /*--------------------menu-----------------*/
 header {
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
     position: sticky;
     top: 0;
@@ -224,6 +221,13 @@ text-align: center;
 article {
     padding: 0 1rem;
     margin-top: 75px;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
 }
 
 li {
@@ -241,17 +245,17 @@ hr {
 
 .giraffe {
     color: #002b77;
-    width: 55%;
+    width: 80%;
     float: right;
+    
 }
 article{
+    border-radius: 10px;
+    display: flex;
     margin-top: 50px;
     background-color: rgb(255, 255, 255);
     border: thin solid #a9acaa;
-    border-radius: 0.5rem;
-    box-sizing: border-box;
-    width: 1200px;
-    height: 690px;
+   
 }
 
 .space {
