@@ -78,10 +78,10 @@ header a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 80vh;
     background-image: linear-gradient(0deg,
             rgba(49, 49, 49, 0.5),
-            rgba(12, 12, 12, 0.5)), url("../Comida/pupusas.jpg");
+            rgba(12, 12, 12, 0.5)), url("../Img/pupusaaaas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
