@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -74,15 +76,15 @@ header a:hover {
 /*--------------------frase de menu--------------------*/
 #hero {
     width: calc(100% / 5);
-    font-size: 120%;
+    font-size: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 80vh;
     background-image: linear-gradient(0deg,
-            rgba(49, 49, 49, 0.5),
-            rgba(12, 12, 12, 0.5)), url("../Img/pupusaaaas.jpg");
+    rgba(49, 49, 49, 0.5),
+    rgba(45, 45, 45, 0.361)), url("../Comida/pupusas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -92,29 +94,29 @@ header a:hover {
 #hero:nth-child(2){
     background-image: linear-gradient(0deg,
     rgba(49, 49, 49, 0.5),
-    rgba(12, 12, 12, 0.5)), url("../Comida/empanadas.jpg");
+    rgba(45, 45, 45, 0.361)), url("../Comida/empanadas.jpg");
 background-repeat: no-repeat;
 }
 #hero:nth-child(3){
     background-image: linear-gradient(0deg,
     rgba(49, 49, 49, 0.5),
-    rgba(12, 12, 12, 0.5)), url("../Img/plancha.jpg");
+    rgba(45, 45, 45, 0.361)),  url("../Comida/sopa\ de\ gallina.jpg");
 background-repeat: no-repeat;
 }
 #hero:nth-child(4){
     background-image: linear-gradient(0deg,
     rgba(49, 49, 49, 0.5),
-    rgba(12, 12, 12, 0.5)), url("../Comida/coco.jpg");
+    rgba(45, 45, 45, 0.361)),  url("../Comida/dulce-leche.png");
 background-repeat: no-repeat;
 }
 #hero:nth-child(5){
     background-image: linear-gradient(0deg,
     rgba(49, 49, 49, 0.5),
-    rgba(12, 12, 12, 0.5)), url("../Comida/dulce-leche.png");
+    rgba(45, 45, 45, 0.361)),  url("../Comida/enchiladas.jpg");
 background-repeat: no-repeat;
 }
 #hero h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: white;
     text-transform: initial;
