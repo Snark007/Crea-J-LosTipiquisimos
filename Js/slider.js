@@ -64,4 +64,4 @@ setInterval(()=>{
         v.classList.remove("active-circulo")
     })
     botones[imagenPresente].classList.add("active-circulo")
-},3000)
+},3500)
