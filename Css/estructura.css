@@ -3,6 +3,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -18,8 +20,9 @@ body {
 
 
 .container {
-    max-width: 1400px;
+    max-width: 1250px;
     margin: auto;
+    height: 7.5rem;
 
 }
 
@@ -84,7 +87,7 @@ header a:hover {
     height: 80vh;
     background-image: linear-gradient(0deg,
     rgba(49, 49, 49, 0.5),
-    rgba(45, 45, 45, 0.361)), url("../Comida/pupusas.jpg");
+    rgba(45, 45, 45, 0.361)), url("../Img/pupusaaaas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -146,7 +149,7 @@ background-repeat: no-repeat;
 }
 
 .flecha:hover{
-opacity: 1;
+    opacity: 1;
 }
 
 .invertido{
@@ -186,6 +189,212 @@ opacity: 1;
     z-index: 9999;
     position: relative;
 }
+
+.dis-sto .global {
+    margin-top: 6.9rem;
+}
+
+.global .circle {
+    margin: 2.4rem 0;
+}
+
+.hea-dark {
+    color: #252525;
+    letter-spacing: .7rem;
+    margin-right: -.7rem;
+}
+
+.global .h2-sub {
+    letter-spacing: -1px;
+    line-height: .42;
+}
+
+.res-info {
+    text-align: center;
+}
+
+.res-des {
+    margin-bottom: 3rem;
+}
+
+.res-des p {
+    line-height: 1.6;
+    margin-bottom: 2.4rem
+}
+
+.res-info {
+    display: flex;
+    align-items: center;
+}
+
+.res-info > div {
+    flex: 1;
+}
+
+.pad-rig {
+    padding-right: 5rem;
+}
+
+.res-info div img {
+    border-radius: 20%;
+    height: 19rem;
+}
+
+.cta-btn {
+    background-color: #0044a4;
+    color: white;
+    border-radius: 0.6rem;
+    padding: 1.2rem 2rem;
+}
+
+.fil {
+    color: blue;
+}
+
+.ahh {
+    width: 100%;
+    height: 70vh;
+    background: url("../Comida/pupusas\ revueltas.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.ahh::before {
+    content:"" ;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.30);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.letras-ahh h2 {
+    text-align: center;
+    padding-left: 30rem;
+    color: #0067b1;
+    font-size: 3rem;
+
+}
+
+.letras-ahh h1 {
+    text-align: center;
+    padding-left: 30rem;
+    color: white;
+    font-size: 3rem;
+}
+
+
+.imagen-4 {
+    max-width: 500px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+}
+
+.img-4 {
+    border-radius: 15px!important;
+    aspect-ratio: 16/9;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.disco-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.disco {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.disco-informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.disco-titulo {
+    color: #0067b1;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.disco-titulo2 {
+    font-weight: bold;
+    font-size: 3.2rem;
+    letter-spacing: 10px;
+
+}
+
+.disco-descripcion {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.disco-boton {
+    color: white;
+    background-color: #0044a4;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 250px;
+}
+
+@media (max-width: 768px) {
+    .disco-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .container-1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .ahh {
+        width: 100%;
+        height: 70vh;
+        background: url("../Comida/pupusas\ revueltas.jpg") center no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        position: relative;   
+    }
+
+    .letras-ahh h2 {
+        text-align: center;
+        padding-left: 75px;
+        color: #0044a4;
+        font-size: 3rem;
+    
+    }
+    
+    .letras-ahh h1 {
+        text-align: center;
+        padding-left: 75px;
+        color: white;
+        font-size: 3rem;
+    }
+
+    .res-info img{
+        max-width: 290px;
+    }
+}
+
 /*--------------------pie de pagina-------------------*/
 
 
