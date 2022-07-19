@@ -20,8 +20,9 @@ body {
 
 
 .container {
-    max-width: 1400px;
+    max-width: 1250px;
     margin: auto;
+    height: 7.5rem;
 
 }
 
@@ -148,7 +149,7 @@ background-repeat: no-repeat;
 }
 
 .flecha:hover{
-opacity: 1;
+    opacity: 1;
 }
 
 .invertido{
@@ -273,15 +274,15 @@ opacity: 1;
 
 .letras-ahh h2 {
     text-align: center;
-    padding-left: 32rem;
-    color: #0044a4;
+    padding-left: 30rem;
+    color: #0067b1;
     font-size: 3rem;
 
 }
 
 .letras-ahh h1 {
     text-align: center;
-    padding-left: 32rem;
+    padding-left: 30rem;
     color: white;
     font-size: 3rem;
 }
@@ -344,7 +345,7 @@ opacity: 1;
 
 .disco-boton {
     color: white;
-    background-color: #002552;
+    background-color: #0044a4;
     padding: 10px;
     border-radius: 5px;
     max-width: 250px;
@@ -355,6 +356,42 @@ opacity: 1;
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+
+    .container-1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .ahh {
+        width: 100%;
+        height: 70vh;
+        background: url("../Comida/pupusas\ revueltas.jpg") center no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        position: relative;   
+    }
+
+    .letras-ahh h2 {
+        text-align: center;
+        padding-left: 75px;
+        color: #0044a4;
+        font-size: 3rem;
+    
+    }
+    
+    .letras-ahh h1 {
+        text-align: center;
+        padding-left: 75px;
+        color: white;
+        font-size: 3rem;
+    }
+
+    .res-info img{
+        max-width: 290px;
     }
 }
 
