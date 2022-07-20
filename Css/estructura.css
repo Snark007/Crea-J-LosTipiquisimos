@@ -22,7 +22,7 @@ body {
 .container {
     max-width: 1250px;
     margin: auto;
-    height: 7.5rem;
+    height: 6.2rem;
 
 }
 
@@ -254,7 +254,7 @@ background-repeat: no-repeat;
 .ahh {
     width: 100%;
     height: 70vh;
-    background: url("../Comida/pupusas\ revueltas.jpg") center no-repeat;
+    background: url("../Comida/pupusaaaas.jpg") center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -272,21 +272,25 @@ background-repeat: no-repeat;
     right: 0px;
 }
 
-.letras-ahh h2 {
+.letras-ahh  {
+    max-width: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
-    padding-left: 30rem;
-    color: #0067b1;
-    font-size: 3rem;
+    text-transform: initial;
+    text-shadow: 0px 0px 25px #000;
+    font-size: 1.5rem;
 
 }
 
-.letras-ahh h1 {
-    text-align: center;
-    padding-left: 30rem;
-    color: white;
-    font-size: 3rem;
+.letras-ahh-n {
+    color: #ffffff;
+    position: relative;
 }
 
+.letras-ahh-n h2 {
+    color: #0095ff;
+}
 
 .imagen-4 {
     max-width: 500px;
@@ -367,7 +371,7 @@ background-repeat: no-repeat;
     .ahh {
         width: 100%;
         height: 70vh;
-        background: url("../Comida/pupusas\ revueltas.jpg") center no-repeat;
+        background: url("../Comida/pupusaaaas.jpg") center no-repeat;
         background-size: cover;
         display: flex;
         align-items: center;
@@ -375,25 +379,22 @@ background-repeat: no-repeat;
         position: relative;   
     }
 
-    .letras-ahh h2 {
+    .letras-ahh  {
+        max-width: 100%;
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
         text-align: center;
-        padding-left: 75px;
-        color: #0044a4;
-        font-size: 3rem;
+        text-transform: initial;
+        text-shadow: 0px 0px 25px #000;
+        font-size: 1.5rem;
     
     }
     
-    .letras-ahh h1 {
-        text-align: center;
-        padding-left: 75px;
-        color: white;
-        font-size: 3rem;
-    }
-
     .res-info img{
         max-width: 290px;
     }
 }
+
 
 /*--------------------pie de pagina-------------------*/
 
