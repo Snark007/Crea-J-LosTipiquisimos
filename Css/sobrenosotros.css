@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
 
-
 * {
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+    margin: 0;
     padding: 0;
 }
 
@@ -16,8 +14,8 @@
 }
 
 .papi {
-    font-family: 'Poppins', sans-serif;
-    gap: 40px;
+    font-family: open sans-serif;
+    gap: 50px;
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -25,22 +23,18 @@
 }
 
 .wawa {
-    
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
     gap: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    
 }
 
 .log {
-    width: 500px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto;
-    
+    width: 400px;
+    margin-top: 10rem;
 }
 
 h1{
@@ -48,33 +42,9 @@ h1{
     font-size: 40px;
 }
 hr{
-    size:1px ;
+    size: 1rem;
     border: none;
     background-color: #0059ff;
     border-radius: 10px;
-    
-}
-.recetas{
-
-  border: 3px dotted #000000;
-  min-height: 500px;
-  width: 500px;
-  border-radius: 15px;
-  align-items: flex-start;
-  margin-left: 1rem;
-
-}
-
-
-.preparacion{
-    min-height: 500px;
-    background-color:#B2DAFF;
-    border: none;
-    margin-right: 75px;
-    border-radius: 20px;
-
-}
-.titulo{
-    font-size: 50px;
-
+   
 }
