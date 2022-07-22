@@ -237,10 +237,11 @@ background-repeat: no-repeat;
 
 .res-info div img {
     border-radius: 15px;
-    height: 16.5rem;
+    height: 15rem;
     max-width: 100%;
-    width: 16.5rem;
     padding: auto;
+    width: 18rem;
+    background-size: contain;
 }
 
 .cta-btn {
