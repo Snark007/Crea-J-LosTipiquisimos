@@ -375,7 +375,7 @@ background-repeat: no-repeat;
     .ahh {
         width: 100%;
         height: 70vh;
-        background: url("../Comida/pupusaaaas.jpg") center no-repeat;
+        background: url("../Comida/frijoles.jpg") center no-repeat;
         background-size: cover;
         display: flex;
         align-items: center;
@@ -423,7 +423,9 @@ footer .container3 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin-top: 15px;
 }
+
 
 @media (min-width: 850px) {
     header {

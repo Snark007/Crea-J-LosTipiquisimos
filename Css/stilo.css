@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1250px;
+    margin: auto;
+    height: 6.2rem;
+
+}
+
+.color-acento {
+    color: rgb(0, 51, 162);
+}
+
+/*--------------------nav-----------------*/
+header {
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 9999999999999;
+}
+
+header .logo {
+    font-family: 'Lobster', cursive;
+    padding: 0px 0px;
+    font-weight: bold;
+    color: rgb(0, 51, 162);
+    font-size: 25px;
+   
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-indent: 20px;
+}
+
+header nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+header a:hover {
+    color: rgb(0, 43, 137);
+}
+
+button {
+    color: rgb(255, 255, 255);
+    padding: 9px 25px;
+    background-color: #0044a4;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #a4d9ff;
+    color: #0067b1;
+
+}
+
+.buttons {
+    min-width: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*-------------------         fin-nav  ----------------*/
+    .recetas img {
+        height: 250px;
+        border-radius: 50%;
+    }
+
+    .recetas {
+        margin-top: 7.5rem;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 20px ;
+    }
+
+    .recetas-letras {
+        padding: 0 50px ;
+    }
+
+    .recetas-letras h1 {
+        color: #0067b1;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .recetas-letras p {
+        font-size: 18px;
+        
+
+    }
+
+    .linea {
+        size: 1cm;
+        border:1rem;
+        background-color: #0059ff;
+        border-radius: 10px;
+        border-bottom: 1cm;
+    }
+
+    .ingredientes {
+        display:flex;
+        justify-content: space-around;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+    
+    .ingredientes2 {
+        padding-left: 3rem;
+        border: 3px dotted;
+        border-radius: 15px;
+        margin-left: 2rem;
+        padding-bottom: 18rem;
+    }
+
+    .ingredientes2 h1 {
+        color: #0059ff;
+        font-size: 50px;
+        padding-bottom: 1rem;
+    }
+
+    .ingredientes-pasos {
+        border: 1px;
+        background-color: #B2DAFF;
+        border-radius: 15px;
+        margin-right: 2rem;
+    }
+
+    .ingredientes-pasos h1 {
+        color: #0059ff;
+        font-size: 50px;
+        padding-bottom: 1rem;
+    }
+
+
+/*--------------------pie de pagina-------------------*/
+
+
+footer {
+    background-color: rgb(0, 24, 46);
+    font-size: 100%;
+    padding-top: 1%;
+    width: 100%;
+    margin-top: 15rem;
+   
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: #ffffff;
+}
+
+footer .container3 {
+
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+
+@media (min-width: 850px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 15px;
+    }
+
+    #hero h1 {
+        font-size: 3.5em;
+    }
+
+
+    footer .container3 {
+        justify-content: center;
+    }
+
+}
+
+.contar {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contar #final {
+    max-width: 20%;
+    max-height: 20%
+}
+
+.log{
+    font-family: 'Lobster', cursive;
+    padding: 0px 0px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 35px;
+}
+
+/*-----------------------fin pie de pagina fin--------------------*/
