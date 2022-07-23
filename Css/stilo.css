@@ -156,6 +156,7 @@ button:hover {
         background-color: #B2DAFF;
         border-radius: 15px;
         margin-right: 2rem;
+        padding: 20px;
     }
 
     .ingredientes-pasos h1 {
