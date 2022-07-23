@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Mobile*/
+.instructions-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 5rem;       
+     margin-top: 5rem;
+}
+.instructions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+.instructions-title{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+.instructions-pasos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.pasos-numero{
+    aspect-ratio: 1;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua; /*Cambiar Color*/
+}
+.pasos-seguir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.wrapper-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.inputs-form, .textarea-form{
+    display: flex;
+    flex-direction: column;
+}
+.label-form{
+    color: #02365C;
+    font-weight: bold;
+}
+input{
+    border: none;
+    outline: none;
+}
+.input{
+    border: 2px solid #AEAEAE;
+    border-radius: 7px;
+    padding: .6rem;
+    font-size: 18px;   
+}
+.textarea{
+    outline: none;
+    border: 2px solid #AEAEAE;
+    border-radius: 7px;
+    padding: .6rem;
+    font-size: 18px;
+    resize: none;
+}
+
+.imgs-forms{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.img-input::-webkit-file-upload-button{
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 7px;
+border: 1px solid #55ACEE;
+color: #55ACEE;
+background-color: white;
+padding: .2rem 1.5rem;
+margin: 10px;
+}
+.submit-form{
+    background-color: #1877F2;
+    color: white;
+    border-radius: 7px;
+    padding: .6rem;
+    width: 20rem;
+    font-size: 20px;
+    font-weight: 600;
+    align-self: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    /* border: 1px solid red; */
+}
+.wrapper-form{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid green; */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+}
+@media (min-width: 1119px ) {
+    .pasos-seguir{
+        flex-direction: row;
+        text-align: start;
+        gap: 30px;
+        align-items: center;
+    }
+    .pasos-descripcion{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .instructions-pasos{
+        gap: 40px;
+        margin: 0;
+    }
+    .instructions-title{
+        font-size: 28px;
+    }
+
+    .instructions-container{
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 5rem;
+    }
+    .form{
+        align-self: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+    
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: .2rem; */
+}
+.form-inputs{
+    gap: 30px;   
+}
+.wrapper-form{
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+    max-width: 430px;
+}
