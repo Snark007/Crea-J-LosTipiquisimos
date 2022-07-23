@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
 
 
 
@@ -30,7 +31,7 @@ header {
 }
 
 header .logo {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive!important;
     padding: 0px 0px;
     font-weight: bold;
     color: rgb(0, 51, 162);
@@ -58,7 +59,7 @@ header a {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif!important;
 
 }
 
