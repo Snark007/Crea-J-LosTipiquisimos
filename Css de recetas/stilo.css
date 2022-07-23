@@ -56,14 +56,15 @@ hr{
 }
 .recetas{
 
-  border: 3px dotted #000000;
-  min-height: 500px;
-  width: 500px;
-  border-radius: 15px;
-  align-items: flex-start;
-  margin-left: 1rem;
-
-}
+    border: 3px dotted #000000;
+    min-height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    align-items: flex-start;
+    margin-left: 1rem;
+    padding: 20px;
+  
+  }
 
 
 .preparacion{
