@@ -85,7 +85,7 @@ button:hover {
     justify-content: space-around;
 }
 
-/*-------------------         fin-nav  ----------------*/
+/*-------------------       fin-nav  ----------------*/
     .recetas img {
         height: 250px;
         border-radius: 50%;
@@ -111,16 +111,18 @@ button:hover {
 
     .recetas-letras p {
         font-size: 18px;
-        
-
     }
 
     .linea {
-        size: 1cm;
-        border:1rem;
+        padding-top: 5rem;
+        max-width: 95%;
+        padding-left: 5rem;
+    }
+
+    .linea hr {
+        height: 10px;
         background-color: #0059ff;
-        border-radius: 10px;
-        border-bottom: 1cm;
+        border-radius: 2rem;
     }
 
     .ingredientes {
@@ -135,7 +137,7 @@ button:hover {
         border: 3px dotted;
         border-radius: 15px;
         margin-left: 2rem;
-        padding-bottom: 18rem;
+
     }
 
     .ingredientes2 h1 {
