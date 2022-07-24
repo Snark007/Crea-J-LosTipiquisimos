@@ -143,7 +143,7 @@ button:hover {
         border: 2px dotted;
         border-radius: 10px;
         margin-left: 2rem;
-        padding: 30px;
+        padding: 22px;
 
     }
 
@@ -158,11 +158,8 @@ button:hover {
         background-color: #B2DAFF;
         border-radius: 15px;
         margin-right: 2rem;
-        padding: 30px;
+        padding: 20px;
         font-size: 20px;
-        
-        
-        
     }
 
     .ingredientes-pasos h1 {
@@ -171,7 +168,6 @@ button:hover {
         padding-bottom: 1rem;
         padding: 10px;
         padding-left: 20px;
-        
     }
 
 
