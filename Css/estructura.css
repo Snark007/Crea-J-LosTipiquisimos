@@ -44,38 +44,42 @@ body {
     flex-direction: column;
     height: 80vh;
     background-image: linear-gradient(0deg,
-    rgba(49, 49, 49, 0.5),
-    rgba(45, 45, 45, 0.361)), url("../Img/pupusaaaas.jpg");
+            rgba(49, 49, 49, 0.5),
+            rgba(45, 45, 45, 0.361)), url("../Img/pupusaaaas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 
 }
 
-#hero:nth-child(2){
+#hero:nth-child(2) {
     background-image: linear-gradient(0deg,
-    rgba(49, 49, 49, 0.5),
-    rgba(45, 45, 45, 0.361)), url("../Comida/empanadas.jpg");
-background-repeat: no-repeat;
+            rgba(49, 49, 49, 0.5),
+            rgba(45, 45, 45, 0.361)), url("../Comida/empanadas.jpg");
+    background-repeat: no-repeat;
 }
-#hero:nth-child(3){
+
+#hero:nth-child(3) {
     background-image: linear-gradient(0deg,
-    rgba(49, 49, 49, 0.5),
-    rgba(45, 45, 45, 0.361)),  url("../Comida/sopa\ de\ gallina.jpg");
-background-repeat: no-repeat;
+            rgba(49, 49, 49, 0.5),
+            rgba(45, 45, 45, 0.361)), url("../Comida/sopa-de-pata.png");
+    background-repeat: no-repeat;
 }
-#hero:nth-child(4){
+
+#hero:nth-child(4) {
     background-image: linear-gradient(0deg,
-    rgba(49, 49, 49, 0.5),
-    rgba(45, 45, 45, 0.361)),  url("../Comida/dulce-leche.png");
-background-repeat: no-repeat;
+            rgba(49, 49, 49, 0.5),
+            rgba(45, 45, 45, 0.361)), url("../Comida/dulce-leche.png");
+    background-repeat: no-repeat;
 }
-#hero:nth-child(5){
+
+#hero:nth-child(5) {
     background-image: linear-gradient(0deg,
-    rgba(49, 49, 49, 0.5),
-    rgba(45, 45, 45, 0.361)),  url("../Comida/enchiladas.jpg");
-background-repeat: no-repeat;
+            rgba(49, 49, 49, 0.5),
+            rgba(45, 45, 45, 0.361)), url("../Comida/enchiladas.jpg");
+    background-repeat: no-repeat;
 }
+
 #hero h1 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -85,19 +89,19 @@ background-repeat: no-repeat;
 }
 
 /*--------------------fin frase de menu--------------*/
-.slider{
+.slider {
     display: flex;
     width: 500%;
     transition: cubic-bezier(0.165, 0.84, 0.44, 1) 800ms;
 }
 
 
-.container-slider{
+.container-slider {
     overflow: hidden;
     position: relative;
 }
 
-.flecha{
+.flecha {
     filter: invert(1);
     transform: rotate(90deg);
     z-index: 999;
@@ -106,15 +110,15 @@ background-repeat: no-repeat;
     transition: 250ms;
 }
 
-.flecha:hover{
+.flecha:hover {
     opacity: 1;
 }
 
-.invertido{
+.invertido {
     transform: rotate(270deg);
 }
 
-.boton{
+.boton {
     position: absolute;
     width: 100%;
     display: flex;
@@ -123,27 +127,29 @@ background-repeat: no-repeat;
     z-index: 9999;
 }
 
-.circulo{
+.circulo {
     aspect-ratio: 1;
     width: 20px;
-    background-color: rgba(255, 255, 255, 0.671) ;
+    background-color: rgba(255, 255, 255, 0.671);
     border-radius: 50%;
     transition: 0.3s;
     cursor: pointer;
 }
-.active-circulo{
+
+.active-circulo {
     background-color: rgb(255, 255, 255);
 }
 
-.circulo:hover{
+.circulo:hover {
     background-color: rgba(255, 255, 255, 0.836)
 }
-.container-circulo{
+
+.container-circulo {
     display: flex;
     gap: 10px;
-   justify-content: center;
-   margin-top: -30px;
-   padding-bottom: 20px; 
+    justify-content: center;
+    margin-top: -30px;
+    padding-bottom: 20px;
     z-index: 9999;
     position: relative;
 }
@@ -166,10 +172,12 @@ background-repeat: no-repeat;
     letter-spacing: -1px;
     line-height: .42;
 }
-.container-1{
+
+.container-1 {
     display: flex;
     justify-content: center;
 }
+
 .res-info {
     text-align: center;
 }
@@ -191,18 +199,21 @@ background-repeat: no-repeat;
     justify-content: center;
     max-width: 100rem;
 }
+
 @media (max-width: 901px) {
-    .res-info{
+    .res-info {
         grid-template-columns: 1fr;
     }
-  .res-img-comida{
-    grid-row: 1;
-    align-self: center;
-  }
-  .res-des-history{
-    grid-row: 2;
-    align-self: center;
-  }
+
+    .res-img-comida {
+        grid-row: 1;
+        align-self: center;
+    }
+
+    .res-des-history {
+        grid-row: 2;
+        align-self: center;
+    }
 }
 
 
@@ -238,7 +249,7 @@ background-repeat: no-repeat;
 }
 
 .ahh::before {
-    content:"" ;
+    content: "";
     position: absolute;
     background-color: rgba(0, 0, 0, 0.30);
     top: 0px;
@@ -247,7 +258,7 @@ background-repeat: no-repeat;
     right: 0px;
 }
 
-.letras-ahh  {
+.letras-ahh {
     max-width: 100%;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -277,7 +288,7 @@ background-repeat: no-repeat;
 }
 
 .img-4 {
-    border-radius: 15px!important;
+    border-radius: 15px !important;
     aspect-ratio: 16/9;
     max-width: 100%;
     object-fit: cover;
@@ -351,10 +362,10 @@ background-repeat: no-repeat;
         display: flex;
         align-items: center;
         text-align: center;
-        position: relative;   
+        position: relative;
     }
 
-    .letras-ahh  {
+    .letras-ahh {
         max-width: 100%;
         width: 100%;
         font-family: 'Open Sans', sans-serif;
@@ -362,10 +373,10 @@ background-repeat: no-repeat;
         text-transform: initial;
         text-shadow: 0px 0px 25px #000;
         font-size: 1.5rem;
-    
+
     }
-    
-    .res-info img{
+
+    .res-info img {
         max-width: 290px;
     }
 }
@@ -464,10 +475,10 @@ section .basic {
 }
 
 section .basic .start {
-    color: #002769 ;
+    color: #002769;
     font-size: 175%;
     text-align: center;
-   
+
 }
 
 
@@ -490,7 +501,7 @@ section .space {
 
 section .let {
     border-radius: 10%;
-    background-color:#002552;
+    background-color: #002552;
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
@@ -501,11 +512,12 @@ section .let {
 }
 
 /*------------Logo-------------*/
-.log{
+.log {
     font-family: 'Lobster', cursive;
     padding: 0px 0px;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.836);
     font-size: 35px;
 }
+
 /*--------fin Logo-----------*/
