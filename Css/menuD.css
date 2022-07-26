@@ -137,7 +137,6 @@ header a:hover {
         padding: 0;
     }
     .wrapper-menu{
-        border: 1px solid green;
         display: grid;
         grid-template-columns: .5fr 1fr .5fr;
         padding: 10px;
