@@ -37,7 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua; /*Cambiar Color*/
+    background-color: #0044a4; /*Cambiar Color*/
 }
 .pasos-seguir{
     display: flex;
@@ -117,6 +117,11 @@ margin: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
 }
+
+.num1{
+    color: #ffffff;
+}
+
 @media (min-width: 1119px ) {
     .pasos-seguir{
         flex-direction: row;

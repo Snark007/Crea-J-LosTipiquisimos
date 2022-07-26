@@ -88,7 +88,7 @@
                 <!--Pasos a seguir-->
                 <div class="pasos-seguir">
                     <div class="pasos-numero">
-                        <span>1</span>
+                        <div class="num1"><span>1</span></div>
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
@@ -103,7 +103,7 @@
                 <!--Pasos a seguir-->
                 <div class="pasos-seguir">
                     <div class="pasos-numero">
-                        <span>1</span>
+                        <div class="num1"><span>1</span></div>
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
@@ -118,7 +118,7 @@
                 <!--Pasos a seguir-->
                 <div class="pasos-seguir">
                     <div class="pasos-numero">
-                        <span>1</span>
+                        <div class="num1"><span>1</span></div>
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
@@ -133,7 +133,7 @@
                 <!--Pasos a seguir-->
                 <div class="pasos-seguir">
                     <div class="pasos-numero">
-                        <span>1</span>
+                        <div class="num1"><span>1</span></div>
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
@@ -148,7 +148,7 @@
                 <!--Pasos a seguir-->
                 <div class="pasos-seguir">
                     <div class="pasos-numero">
-                        <span>1</span>
+                        <div class="num1"><span>1</span></div>
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
