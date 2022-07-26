@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-menu-desplegable{
+    position: relative;
+}
+.more-options-recetas{
+    display: none;
+    position: absolute;
+    background-color: white;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -50px;
+    width: 200px;
+}
+.more-options-recetas:hover{
+    display: block;
+}
+.main-text:hover ~ .more-options-recetas{
+    display: block;
+}
+
+.wrapper-menu{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 9999999999999;
+    /* max-height: 50px; */
+}
+
+header .logo {
+    font-family: 'Lobster', cursive;
+    padding: 0px 0px;
+    font-weight: bold;
+    color: rgb(0, 51, 162);
+    font-size: 25px;
+   
+}
+
+header>div {
+    display: flex;
+    /* flex-direction: column;*/
+    justify-content: center;
+    align-items: center; 
+    /* border: 1px solid   red; */
+    /* width: 200px; */
+    text-indent: 20px;
+}
+
+header nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+header a:hover {
+    color: rgb(0, 43, 137);
+}
+
+
+    
+.logo-grid{
+    grid-column: 2;
+    place-self: center;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 850px) {
+
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 15px;
+    }
+
+    
+    .nav-hide{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        width: 50vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        text-align: start;
+
+        transform: translateX(-150%);
+        transition: cubic-bezier(0.755, 0.05, 0.855, 0.06) 250ms;
+    }
+    
+    .btn-translate-hide{
+        position: absolute;
+        top: 350px;
+        right: 0;
+        z-index: 99;
+
+        transform: translateX(-150%);
+        transition: cubic-bezier(0.755, 0.05, 0.855, 0.06) 250ms;
+
+    }
+    .hide-login{
+        position: absolute;
+        top: 450px;
+
+        transform: translateX(-150%);
+        transition: cubic-bezier(0.755, 0.05, 0.855, 0.06) 250ms;
+    }
+    .menu-hamburguer{
+        z-index:999;
+    }
+    .more-options-recetas{
+        display: block;
+        position: static;
+        margin: 0;
+        margin-left: 50px;
+        padding: 0;
+    }
+    .wrapper-menu{
+        border: 1px solid green;
+        display: grid;
+        grid-template-columns: .5fr 1fr .5fr;
+        padding: 10px;
+    }
+}
+@media (min-width: 851px) {
+   
+    .menu-hamburguer{
+        display: none;
+    }
+    .nav-hide{
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+.show{
+    transform: translate(0);
+}
+.container-menu-desplegable:hover{
+    color: black;
+}
+.main-text:hover{
+    color: #002b89;
+}
+
+.more-options-recetas>p:hover{
+    color: #002b89;
+}
