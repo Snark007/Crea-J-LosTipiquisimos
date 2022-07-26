@@ -16,17 +16,17 @@
     <!--MENU-->
     <header>
         <div class="container">
-            <a href="../Html/Index.html">
+            <a href="../Html/Index.php">
                 <h3 class="logo">Los Tipiquisimos</h3>
             </a>
             <nav>
-                <a href="../Html/nosotros.html">¡Sobre nosotros!</a>
-                <a href="../Html/receta.html">Recetas</a>
-                <a href="../Html/subir.html">¿Quieres subir tu receta?</a>
-                <a href="../COMIDAS/Comunidad.html">Comunidad</a>
+                <a href="../Html/nosotros.php">¡Sobre nosotros!</a>
+                <a href="../Html/receta.php">Recetas</a>
+                <a href="../Html/subir.php">¿Quieres subir tu receta?</a>
+                <a href="../COMIDAS/Comunidad.php">Comunidad</a>
             </nav>
 
-            <a href="../Html/Iniciarsecion.html"><button class="but">Iniciar sesión</button></a>
+            <a href="../Html/Iniciarsecion.php"><button class="but">Iniciar sesión</button></a>
         </div>
     </header>
 
@@ -44,7 +44,7 @@
 
         <div class="container2">
 
-            <a href="../COMIDAS/navidenas.html">
+            <a href="../COMIDAS/navidenas.php">
                 <div class="card">
                     <img src="../Img/nav.jpg">
                     <h4>Navideñas</h4>
@@ -53,7 +53,7 @@
                 </div>
             </a>
 
-            <a href="../COMIDAS/semanasanta.html">
+            <a href="../COMIDAS/semanasanta.php">
                 <div class="card">
                     <img src="../Img/semana.jpg">
                     <h4>Semana Santa</h4>
@@ -62,7 +62,7 @@
                 </div>
             </a>
 
-            <a href="../COMIDAS/plantilla.html">
+            <a href="../COMIDAS/plantilla.php">
                 <div class="card">
                     <img src="../Img/pupusa.jpg">
                     <h4>Pupusas</h4>
@@ -75,7 +75,7 @@
 
         <div class="container2">
 
-            <a href="../COMIDAS/postres.html">
+            <a href="../COMIDAS/postres.php">
                 <div class="card">
                     <img src="../Img/POSTRES-SV.jpg">
                     <h4>Postres</h4>
@@ -84,7 +84,7 @@
                 </div>
             </a>
 
-            <a href="../COMIDAS/tamales.html">
+            <a href="../COMIDAS/tamales.php">
                 <div class="card">
                     <img src="../Img/tamales.jpg">
                     <h4>Tamales</h4>
@@ -93,7 +93,7 @@
                 </div>
             </a>
 
-            <a href="../COMIDAS/sopas.html">
+            <a href="../COMIDAS/sopas.php">
                 <div class="card">
                     <img src="../Img/sopas.jpg">
                     <h4>Sopas</h4>
@@ -108,7 +108,7 @@
 
         <div class="container2">
 
-            <a href="../COMIDAS/comida.html">
+            <a href="../COMIDAS/comida.php">
                 <div class="card">
                     <img src="../Img/yuca.jpg">
                     <h4>Recetas típicas</h4>
@@ -116,7 +116,7 @@
                     <div class="ver"> Ver más</div>
                 </div>
             </a>
-            <a href="../COMIDAS/Atoles.html">
+            <a href="../COMIDAS/Atoles.php">
                 <div class="card">
                     <img src="../Comida/chuco.jpg">
                     <h4>Atoles</h4>

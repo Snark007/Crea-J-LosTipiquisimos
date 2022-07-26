@@ -23,11 +23,11 @@
       <label for="password">Contraseña</label>
       <input type="password" placeholder="Ingrese su contraseña" required>
       <!-- secion -->
-      <a href="../Html/Index.html">
+      <a href="../Html/Index.php">
         <input type="button" value="Iniciar" required>
         </a> 
       <!-- registrase -->
-      <a href="../Html/registrarse.html">No tienes cuenta ¿Registrarse?</a>
+      <a href="../Html/registrarse.php">No tienes cuenta ¿Registrarse?</a>
     </form>
   </div>
   

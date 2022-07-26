@@ -44,12 +44,12 @@
                 </div>
             </div>
             <img src="../Img/menu.svg" alt="" class="menu-hamburguer">
-            <a href="../Html/Index.html" class="logo-grid">
+            <a href="../Html/Index.php" class="logo-grid">
                 <h3 class="logo ">Los Tipiquisimos</h3>
             </a>
             <nav class="nav-hide">
-                <a href="../Html/nosotros.html" data-nav="4" >¡Sobre nosotros!</a>
-                <a href="../Html/receta.html">
+                <a href="../Html/nosotros.php" data-nav="4" >¡Sobre nosotros!</a>
+                <a href="../Html/receta.php">
                     <div class="container-menu-desplegable">
                         
                             <p class="main-text" data-nav="5" >Recetas</p>
@@ -68,11 +68,11 @@
              
                     </div>
                 </a>
-                <a href="../Html/subir.html" data-nav="6">¿Quieres subir tu receta?</a>
-                <a href="../COMIDAS/Comunidad.html" data-nav="7">Comunidad</a>
+                <a href="../Html/subir.php" data-nav="6">¿Quieres subir tu receta?</a>
+                <a href="../COMIDAS/Comunidad.php" data-nav="7">Comunidad</a>
             </nav>
 
-            <a href="../Html/Iniciarsecion.html" class="hide-login"><button class="but" data-nav="8" >Iniciar sesión</button></a>
+            <a href="../Html/Iniciarsecion.php" class="hide-login"><button class="but" data-nav="8" >Iniciar sesión</button></a>
 
         </div>
     </header>

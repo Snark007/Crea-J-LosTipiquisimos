@@ -26,11 +26,11 @@
           <label for="password">Contraseña</label>
           <input type="password" placeholder="Ingrese su contraseña" required>
           <!-- index-->
-          <a href="../Html/Index.html">
+          <a href="../Html/Index.php">
             <input type="button" value="Iniciar">
             </a> 
           <!--No tienes -->
-          <a href="../Html/Iniciarsecion.html" class="boton">Ya tienes cuenta ¿Inicia seción?</a>
+          <a href="../Html/Iniciarsecion.php" class="boton">Ya tienes cuenta ¿Inicia seción?</a>
         </form>
       </div>
 </body>
