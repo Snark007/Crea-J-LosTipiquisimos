@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tipiquisimos</title>
     <link rel="icon" href="../Img/cocina.png">
-    <link rel="stylesheet" href="../Css/nosotros.css">
+    <link rel="stylesheet" href="../Css/receta.css">
+    <link rel="stylesheet" href="../Css/cuadros.css">
     <link rel="stylesheet" href="../Css/estructura.css">
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
@@ -58,6 +59,7 @@
                         <p><a href="../Html/receta-atoles.php">Atoles</a></p>
                     </div>
 
+
                 </div>
                 </a>
                 <a href="../Html/subir.php" data-nav="6">¿Quieres subir tu receta?</a>
@@ -69,105 +71,105 @@
         </div>
     </header>
 
+
+
     <!--BASE-->
 
-    <div class="container-slider">
-        <div class="boton">
-            <img src="../icons/chevron-up-arrow.svg" alt="" class="flecha invertido izquierda">
-            <img src="../icons/chevron-up-arrow.svg" alt="" class="flecha derecha">
-        </div>
-        <div class="slider">
-            <section id="hero">
-                <h1>Recetas Faciles<br>¡Animate a Cocinar!</h1>
-            </section>
-            <section id="hero">
-                <h1>Casate con alguien que cocine rico<br>la belleza se acaba el hambre no</h1>
-            </section>
-            <section id="hero">
-                <h1> Los abdominales son temporales.<br>El chocolate es para siempre</h1>
-            </section>
-            <section id="hero">
-                <h1>Mi mente dice "Cuerpo perfecto" pero mi corazón<br>dice ¡Unas pupusas revueltas!</h1>
-            </section>
-            <section id="hero">
-                <h1>Lo único que me gusta más que hablar<br>de comida es comer</h1>
-            </section>
-        </div>
-        <div class="container-circulo">
-            <div class="circulo active-circulo">
-            </div>
-            <div class="circulo">
-            </div>
-            <div class="circulo">
-            </div>
-            <div class="circulo">
-            </div>
-            <div class="circulo">
-            </div>
-        </div>
-    </div>
-
-    <section class="dis-sto">
-        <div class="container-1">
-            <div class="res-info">
-                <div class="res-img-comida">
-                    <img src="../Comida/tamales-pisques.jpg" alt="">
-                    <img src="../Comida/riguas.jpg" alt="">
-                </div>
-
-                <div class="res-des res-des-history">
-                    <div class="global">
-                        <h2 class="h2-sub">
-                            <span class="disco-titulo">Descubre</span>
-                        </h2>
-                        <h1 class="disco-titulo2">La Historia</h1>
-                        <div class="circle">
-                        </div>
-                    </div>
-                    <p>
-                        Los Tipiquisimos somos un Sitio Web que
-                        pretende ayudar a las personas que <br> quieran
-                        aprender sobre la gastronomia Salvadoreña
-                    </p>
-                    <a href="#" class="cta-btn">Nosotros</a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
     <section>
-        <div class="ahh">
-            <div class="letras-ahh">
-                <div class="letras-ahh-n">
-                    <h2>Lo mejor de la comida</h2>
-                    <h1>Salvadoreña</h1>
-                </div>
-            </div>
-        </div>
-    </section>
+        <div class="basic">
 
-    <section class="disco">
-        <div class="disco-container">
-            <div class="disco-informacion">
-                <div class="disco-informacion-texto">
-                    <h2 class="disco-titulo">Descubre nuestras</h2>
-                    <p class="disco-titulo2">Recetas</p>
+            <h1 class="start">Aquí están nuestras recetas.</h1>
+            <hr class="space">
+            <p class="letters">Tenemos disponibles los diferentes catalogos de recetas.</p>
+        </div>
+
+        <div class="container2">
+
+            <a href="../COMIDAS/navidenas.php">
+                <div class="card">
+                    <img src="../Img/nav.jpg">
+                    <h4>Navideñas</h4>
+                    <p>En el salvador se acostumbra a cocinar en Navidad con familia.</p><br>
+                    <div class="ver"> Ver más</div>
                 </div>
-                <div class="disco-descripcion">
-                    <p>Podras ver todas nuestras recetas de nuestros pais desde comidas como la pupusas y panes con <br>pollo hasta bebidas como atoles de elote y atoles chucos</p>
-                    <a class="disco-boton" href="">ver recetas</a>
+            </a>
+
+            <a href="../COMIDAS/semanasanta.php">
+                <div class="card">
+                    <img src="../Img/semana.jpg">
+                    <h4>Semana Santa</h4>
+                    <p> Semana Santa se celebra con comidas sensillas pero exquisitas.</p><br>
+                    <div class="ver"> Ver más</div>
                 </div>
-            </div>
-            <div class="imagen-4">
-                <img class="img-4" src="../Comida/chuco.jpg" alt="">
-                <img class="img-4" src="../Comida/panes con pollo.jfif" alt="">
-                <img class="img-4" src="../Comida/empanadas.jpg" alt="">
-                <img class="img-4" src="../Comida/magos-en-miel.png" alt="">
-            </div>
+            </a>
+
+            <a href="../COMIDAS/plantilla.php">
+                <div class="card">
+                    <img src="../Img/pupusa.jpg">
+                    <h4>Pupusas</h4>
+                    <p>Las pupusan son el platillo más representativo y delicioso de el Salvador.</p>
+                    <div class="ver"> Ver más</div>
+                </div>
+            </a>
+    </section>
+    <section>
+
+        <div class="container2">
+
+            <a href="../COMIDAS/postres.php">
+                <div class="card">
+                    <img src="../Img/POSTRES-SV.jpg">
+                    <h4>Postres</h4>
+                    <p>Los postres son una gran parte de la gastronomia salvadoreña.Mira las recetas</p>
+                    <div class="ver"> Ver más</div>
+                </div>
+            </a>
+
+            <a href="../COMIDAS/tamales.php">
+                <div class="card">
+                    <img src="../Img/tamales.jpg">
+                    <h4>Tamales</h4>
+                    <p> Los tamales salvadoreños es parte de la cocina tradicional, A base de maíz.</p><br>
+                    <div class="ver"> Ver más</div>
+                </div>
+            </a>
+
+            <a href="../COMIDAS/sopas.php">
+                <div class="card">
+                    <img src="../Img/sopas.jpg">
+                    <h4>Sopas</h4>
+                    <p>Son muchas las recetas de sopas salvadoreñas, pero lo cierto es que las hay mas preferidas unas
+                        que otras.</p>
+                    <div class="ver"> Ver más</div>
+                </div>
+            </a>
+    </section>
+    <section>
+
+
+        <div class="container2">
+
+            <a href="../COMIDAS/comida.php">
+                <div class="card">
+                    <img src="../Img/yuca.jpg">
+                    <h4>Recetas típicas</h4>
+                    <p>En este apartado estan los platos mas reconocidos y tipiquisimos salvadoreños</p>
+                    <div class="ver"> Ver más</div>
+                </div>
+            </a>
+            <a href="../COMIDAS/Atoles.php">
+                <div class="card">
+                    <img src="../Comida/chuco.jpg">
+                    <h4>Atoles</h4>
+                    <p>En la gastronomia Salvadoreña hay mucha variedad de Atoles. Veamos</p><br>
+                    <div class="ver"> Ver más</div>
+                </div>
+            </a>
+
+
         </div>
     </section>
-    <!--::::Pie de Pagina::::::-->
+    <!--PIE DE PAGINA-->
     <footer>
         <div class="contar">
             <h3 class="log">Los Tipiquisimos</h3>
@@ -179,9 +181,6 @@
             <a href="https://twitter.com/Tipiquisimos503"><img src="../Img/twitter.png" alt="" class="Photographs"></a><br>
         </div>
     </footer>
-
-    <script src="../Js/slider.js"></script>
-
 </body>
 
 </html>

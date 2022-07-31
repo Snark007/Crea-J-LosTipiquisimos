@@ -10,15 +10,17 @@
     display: none;
     position: absolute;
     background-color: white;
-    /* border: 1px solid red; */
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: -50px;
     width: 200px;
+    line-height: 1.8rem;
 }
 .more-options-recetas:hover{
     display: block;
 }
+
+
 .main-text:hover ~ .more-options-recetas{
     display: block;
 }
@@ -33,7 +35,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 9999999999999;
-    /* max-height: 50px; */
 }
 
 header .logo {
@@ -47,11 +48,8 @@ header .logo {
 
 header>div {
     display: flex;
-    /* flex-direction: column;*/
     justify-content: center;
     align-items: center; 
-    /* border: 1px solid   red; */
-    /* width: 200px; */
     text-indent: 20px;
 }
 
