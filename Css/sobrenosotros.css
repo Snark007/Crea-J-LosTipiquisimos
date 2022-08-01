@@ -35,7 +35,7 @@
 
 .wewe{
     width: 425px;
-    
+    margin-top: 25px;
 }
 
 h1{
@@ -56,3 +56,8 @@ h1{
     background-color: #0044a4;
     border-radius: 10px;
 }
+
+.bajar{
+    margin-top: 50px;
+}
+

@@ -106,7 +106,7 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="bajar">
         <div class="contar">
             <h3 class="log">Los Tipiquisimos</h3>
             <p>&copy; Los Tipiquisimos 2022-Derechos reservados</p>
