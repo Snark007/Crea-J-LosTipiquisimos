@@ -210,7 +210,7 @@ body {
         align-self: center;
     }
 
-    .res-des-history {
+    .basicc {
         grid-row: 2;
         align-self: center;
     }
@@ -231,6 +231,7 @@ body {
     color: white;
     border-radius: 0.6rem;
     padding: 1.2rem 2rem;
+    text-decoration: none;
 }
 
 .fil {
@@ -339,6 +340,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     max-width: 250px;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -521,3 +523,4 @@ section .let {
 }
 
 /*--------fin Logo-----------*/
+

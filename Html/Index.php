@@ -66,7 +66,7 @@
                     <img src="../Comida/riguas.jpg" alt="">
                 </div>
 
-                <div class="res-des res-des-history">
+                <div class="res-des basicc">
                     <div class="global">
                         <h2 class="h2-sub">
                             <span class="disco-titulo">Descubre</span>
@@ -80,7 +80,7 @@
                         pretende ayudar a las personas que <br> quieran
                         aprender sobre la gastronomia Salvadoreña
                     </p>
-                    <a href="#" class="cta-btn">Nosotros</a>
+                    <a href="../Html/nosotros.php" class="cta-btn">Nosotros</a>
                 </div>
 
             </div>
