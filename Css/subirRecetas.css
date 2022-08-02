@@ -10,7 +10,8 @@
     flex-direction: column;
     gap: 50px;
     padding: 5rem;       
-     margin-top: 5rem;
+     margin-top: 3rem;
+     margin-bottom: 35px;
 }
 .instructions{
     display: flex;
@@ -143,7 +144,7 @@ margin: 10px;
     }
 
     .instructions-container{
-        margin-top: 5rem;
+        margin-top: 3rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
