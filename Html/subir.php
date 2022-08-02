@@ -49,19 +49,6 @@
                 <div class="pasos-seguir">
                     <div class="pasos-numero">
                         <div class="num1"><span>1</span></div>
-                    </div>
-                    <div class="pasos-descripcion">
-                        <div class="pasos-titulo">
-                            <h3>Llena el formulario que esta en pantalla</h3>
-                        </div>
-                        <div class="pasos-descripcion">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus eum,
-                                exercitationem doloribus quos ratione.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Pasos a seguir-->
-                <div class="pasos-seguir">
                     <div class="pasos-numero">
                         <div class="num1"><span>1</span></div>
                     </div>
