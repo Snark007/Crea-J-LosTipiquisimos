@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
     <script defer src="../Js/menu.js"></script>
-    <script defer src="../Js/translate.js"></script>
+    <script defer src="../Js/translate_menu.js"></script>
 </head>
 
 <body>

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
     <script defer src="../Js/menu.js"></script>
-    <script defer src="../Js/translate.js"></script>
+    <script defer src="../Js/translate_index.js"></script>
 </head>
 
 <body>
@@ -29,7 +29,7 @@
         </div>
         <div class="slider">
             <section id="hero">
-                <h1>Recetas Faciles<br>¡Animate a Cocinar!</h1>
+                <h1><span data-index="1">Recetas Faciles</span><br><span data-index="2">¡Animate a Cocinar!</span></h1>
             </section>
             <section id="hero">
                 <h1>Casate con alguien que cocine rico<br>la belleza se acaba el hambre no</h1>
@@ -91,7 +91,7 @@
         <div class="ahh">
             <div class="letras-ahh">
                 <div class="letras-ahh-n">
-                    <h2>Lo mejor de la comida</h2>
+                    <h2>Lo mejor de la comida </h2>
                     <h1>Salvadoreña</h1>
                 </div>
             </div>
