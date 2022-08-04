@@ -17,9 +17,9 @@
 
 <body>
     <!--MENU-->
-   <?php 
-     include "hader.php";
-     ?>
+    <?php
+    include "hader.php";
+    ?>
     <!--BASE-->
 
     <div class="container-slider">
@@ -38,10 +38,10 @@
                 <h1><span data-index="5"> Los abdominales son temporales</span><br> <span data-index="6">El chocolate es para siempre</span></h1>
             </section>
             <section id="hero">
-                <h1>Mi mente dice "Cuerpo perfecto" pero mi corazón<br>dice ¡Unas pupusas revueltas!</h1>
+                <h1><span data-index="7">La que cocina no esta</span><br><span data-index="8">pero la que esta no cocina</span></h1>
             </section>
             <section id="hero">
-                <h1>Lo único que me gusta más que hablar<br>de comida es comer</h1>
+                <h1><span data-index="9">Lo único que me gusta más que hablar</span><br><span data-index="10">de comida es comer</span></h1>
             </section>
         </div>
         <div class="container-circulo">
@@ -69,18 +69,18 @@
                 <div class="res-des basicc">
                     <div class="global">
                         <h2 class="h2-sub">
-                            <span class="disco-titulo">Descubre</span>
+                            <span class="disco-titulo" data-index="11">Descubre</span>
                         </h2>
-                        <h1 class="disco-titulo2">La Historia</h1>
+                        <h1 class="disco-titulo2"><span data-index="12">La Historia</span></h1>
                         <div class="circle">
                         </div>
                     </div>
-                    <p>
-                        Los Tipiquisimos somos un Sitio Web que
-                        pretende ayudar a las personas que <br> quieran
-                        aprender sobre la gastronomia Salvadoreña
+                    <p> <span data-index="13">
+                            Los Tipiquisimos somos un Sitio Web que
+                            pretende ayudar a las personas que <br> quieran
+                            aprender sobre la gastronomia Salvadoreña</span>
                     </p>
-                    <a href="../Html/nosotros.php" class="cta-btn">Nosotros</a>
+                    <a href="../Html/nosotros.php" class="cta-btn"><span data-index="14">Nosotros</span></a>
                 </div>
 
             </div>
@@ -91,8 +91,8 @@
         <div class="ahh">
             <div class="letras-ahh">
                 <div class="letras-ahh-n">
-                    <h2>Lo mejor de la comida </h2>
-                    <h1>Salvadoreña</h1>
+                    <h2><span data-index="15"> Lo mejor de la comida</span></h2>
+                    <h1><span data-index="16">Salvadoreña</span> </h1>
                 </div>
             </div>
         </div>
@@ -102,12 +102,13 @@
         <div class="disco-container">
             <div class="disco-informacion">
                 <div class="disco-informacion-texto">
-                    <h2 class="disco-titulo">Descubre nuestras</h2>
-                    <p class="disco-titulo2">Recetas</p>
+                    <h2 class="disco-titulo"><span data-index="17">Descubre tu talento </span></h2>
+                    <p class="disco-titulo2"><span data-index="18">en la cocina </span></p><br>
                 </div>
                 <div class="disco-descripcion">
-                    <p>Podras ver todas nuestras recetas de nuestros pais desde comidas como la pupusas y panes con <br>pollo hasta bebidas como atoles de elote y atoles chucos</p>
-                    <a class="disco-boton" href="">ver recetas</a>
+                    <p class="bajar"><span data-index="19"> Podras subir tus recetas de comida de el salvador y demostrar
+                         tus habilidades en la cocina</span> <br> <span  data-index="20">para que los demas usuarios puedan recrear tus recetas</span> </p><br>
+                    <a class="disco-boton" href="../Html/subir.php"><span data-index="21">subir mi receta</span></a>
                 </div>
             </div>
             <div class="imagen-4">
@@ -121,8 +122,8 @@
     <!--::::Pie de Pagina::::::-->
     <footer>
         <div class="contar">
-            <h3 class="log">Los Tipiquisimos</h3>
-            <p>&copy; Los Tipiquisimos 2022-Derechos reservados</p>
+            <h3 class="log"><span data-index="22">Los Tipiquisimos</span> </h3>
+            <p>&copy; <span data-index="23">Los Tipiquisimos 2022-Derechos reservados</span></p>
         </div>
         <div class="container3">
             <a href="https://www.facebook.com/Los-Tipiquisimos-110215061699961/?ref=page_internal"><img src="../Img/facebook.png" alt="" class="Photographs"></a><br>
