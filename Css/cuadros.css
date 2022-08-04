@@ -4,15 +4,18 @@ body{
     letter-spacing: 0.03em;
     line-height: 1.6;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
 }
 
 .title{
-    text-align: center;
+   
     font-size: 40px;
-    color: #6a6a6a;
+    color: #346cdb;
     margin-top: 100px;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 
@@ -24,6 +27,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    margin-top: 50px;
 
 }
 
@@ -70,6 +74,8 @@ body{
 
 .card {
     width: 33.333333%;
+    
+   
 }
 
 @media (max-width:1123px) {
@@ -84,4 +90,25 @@ a{
 }
 div .ver {
     color: #346cdb;
+    margin-top: 30px;
+    font-size: 20px;
+}
+section{
+    margin-top: 80px;
+}
+h1{
+    font-size: 50px;
+    color: #346cdb;
+}
+h4{
+    font-size: 20px;
+    color: #346cdb;
+    margin-top: 10px;
+    
+}
+p{
+    margin-top: 8px;
+}
+h2{
+color: rgb(0, 24, 46);
 }
