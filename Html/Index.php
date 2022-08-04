@@ -32,10 +32,10 @@
                 <h1><span data-index="1">Recetas Faciles</span><br><span data-index="2">¡Animate a Cocinar!</span></h1>
             </section>
             <section id="hero">
-                <h1>Casate con alguien que cocine rico<br>la belleza se acaba el hambre no</h1>
+                <h1><span data-index="3">Casate con alguien que cocine rico</span><br><span data-index="4">la belleza se acaba el hambre no</span></h1>
             </section>
             <section id="hero">
-                <h1> Los abdominales son temporales.<br>El chocolate es para siempre</h1>
+                <h1><span data-index="5"> Los abdominales son temporales</span><br> <span data-index="6">El chocolate es para siempre</span></h1>
             </section>
             <section id="hero">
                 <h1>Mi mente dice "Cuerpo perfecto" pero mi corazón<br>dice ¡Unas pupusas revueltas!</h1>
