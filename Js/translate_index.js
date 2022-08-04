@@ -2,10 +2,18 @@
 let indexEspañol = `
 Recetas Faciles
 ¡Animate a Cocinar!
+la belleza se acaba el hambre no
+Casate con alguien que cocine rico
+Los abdominales son temporales.
+El chocolate es para siempre
 `
 let indexIngles = `
 Easy Recipes
 Get Cooking!
+Marry someone who cooks good food
+beauty is over hunger is not
+Abs are temporary.
+Chocolate is forever
 `
 let navEspañol = `
 Elegir idioma
@@ -39,8 +47,6 @@ console.log(lang)
 if(!lang){
     lang = sessionStorage.setItem("lang", "es");
 }
-
-
 
 
 
