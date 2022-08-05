@@ -35,21 +35,21 @@
 
         <div class="container2">
 
-            <a href="../COMIDAS/yuca frita.html"> <div class="card">
+            <a href="../COMIDAS/yuca frita.php"> <div class="card">
                 <img src="../Comida/yuca.jpg">
                 <h4>Yuca frita</h4>
                 <p>La yuquita frita sin lugar a duda es el aperitivo perfecto para acompañar una rica comida. </p>
                 <div class="ver"> Ver más</div>
             </div></a>
 
-            <a href="../COMIDAS/pastelitos.html"><div class="card">
+            <a href="../COMIDAS/pastelitos.php"><div class="card">
                 <img src="../Comida/pastelitos.jpg">
                 <h4>Pastelitos</h4>
                 <p> son un tipo de empanadas rellenas, fritas, suculentas y crujientes.</p><br>
                 <div class="ver"> Ver más</div>
             </div></a>
 
-            <a href="../COMIDAS/Enchiladas.html"><div class="card">
+            <a href="../COMIDAS/enchiladas.php"><div class="card">
                 <img src="../Comida/enchiladas.jpg">
                 <h4>Enchiladas</h4>
                 <p>Las enchiladas salvadoreñas son un plato muy típico de la cocina de El Salvador.</p>

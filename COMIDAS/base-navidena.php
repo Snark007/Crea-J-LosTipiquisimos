@@ -35,21 +35,21 @@
 
         <div class="container2">
 
-            <a href="../COMIDAS/tamales de pollo.html"> <div class="card">
+            <a href="../COMIDAS/tamales-pollo.php"> <div class="card">
                 <img src="../Comida/tamales-de-pollo.jpg">
                 <h4>Tamales de Pollo</h4>
                 <p>Este delicioso platillo se prepara con masa, recaudo, pollo, papas, aceitunas y sal al gusto.</p>
                 <div class="ver"> Ver más</div>
             </div></a>
 
-            <a href="../COMIDAS/panes con pollo.html"> <div class="card">
+            <a href="../COMIDAS/panes-pollo.php"> <div class="card">
                 <img src="../Comida/pan-pollo.jpg">
                 <h4>Pan con Pollo</h4>
                 <p> Muy ricos aperitivos de El Salvador que podemos degustar de forma tradicional en las fiestas decembrinas.</p>
                 <div class="ver"> Ver más</div>
             </div></a>
 
-            <a href="../COMIDAS/Pavo en salsa.html"> <div class="card">
+            <a href="../COMIDAS/Pavo-salsa.php"> <div class="card">
                 <img src="../Comida/pavo en salsa.jpg">
                 <h4>Pavo en salsa</h4>
                 <p>Sabroso pavo al estilo de El Salvador para disfrutar en las fiestas decembrinas.</p>

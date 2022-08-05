@@ -35,7 +35,7 @@
 
         <div class="container2">
 
-        <a href="../COMIDAS/sopade res.html"> <div class="container2">
+        <a href="../COMIDAS/sopa-res.php"> <div class="container2">
             <div class="card">
                 <img src="../Comida/sopa de res.jpg">
                 <h4>Sopa de res</h4>
@@ -43,7 +43,7 @@
                 <div class="ver"> Ver más</div>
             </div></a>
 
-            <a href="../COMIDAS/sopade frijoles .html"><div class="card">
+            <a href="../COMIDAS/sopa-frijoles.php"><div class="card">
                 <img src="../Comida/sopa-de-frijole.jpg">
                 <h4>Sopa de frijoles</h4>
                 <p> Este plato contiene elementos principales de las comidas salvadoreñas como el frijol rojo.</p>
@@ -51,7 +51,7 @@
             </div></a>
 
             <a href="../COMIDAS/sopade pollo.html"> <div class="card">
-                <img src="../Comida/sopa de gallina.jpg">
+                <img src="../Comida/sopa-pollo.php">
                 <h4>Sopa de gallina</h4>
                 <p>El caldo de pollo es una sopa a menudo se sirve con trozos de carne de pollo.</p>
                 <div class="ver"> Ver más</div>

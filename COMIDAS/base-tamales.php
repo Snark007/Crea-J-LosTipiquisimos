@@ -35,21 +35,21 @@
 
         <div class="container2">
 
-            <div class="card">
+        <a href="../COMIDAS/tamales-pisques.php"><div class="card">
                 <img src="../Comida/tamales-pisques.jpg">
                 <h4>Tamal pisques</h4>
                 <p>Está elaborado con masa de maíz, piloncillo y manteca de cerdo. </p><br>
                 <div class="ver"> Ver más</div>
             </div></a>
 
-            <a href="../COMIDAS/tamales de gallina.html"><div class="card">
+            <a href="../COMIDAS/TAMALES-GALLINA.php"><div class="card">
                 <img src="../Comida/tamales-depollo.jpg">
                 <h4>Tamales de gallina</h4>
                 <p> Los tamales de pollo o gallina, son uno de los platos mas populares en El Salvador. </p>
                 <div class="ver"> Ver más</div>
             </div></a>
 
-            <a href="../COMIDAS/tamales de elote.html"><div class="card">
+            <a href="../COMIDAS/tamales-elote.php"><div class="card">
                 <img src="../Comida/tamales-de-elote.jpg">
                 <h4>Tamales de elote</h4>
                 <p>Este es un tamal dulce hecho con masas a base de elote y azucar.</p><br>

@@ -35,7 +35,7 @@
 
         <div class="container2">
 
- <a href="../COMIDAS/atolpiñuela.html"> <div class="card">
+ <a href="../COMIDAS/atolpiñuela.php"> <div class="card">
     <img src="../Comida/atol-de-piñuela.jpg">
     <h4>Atol Piñuela.</h4>
     <p>El sabroso y tradicional Atol de Piñuela, es otra de las ricas variedades de atoles que tenemos. </p>
@@ -44,7 +44,7 @@
       
 </div></a>
 
-<a href="../COMIDAS/atol de elote.html"> <div class="card">
+<a href="../COMIDAS/atolelote.php"> <div class="card">
     <img src="../Comida/Atol-de-elote.jpg">
     <h4>Atol de Elote.</h4>
     <p> El atol de elote es una deliciosa bebida dulce hecha de maíz.</p><br>
@@ -52,7 +52,7 @@
     <div class="ver"> Ver más</div>
 </div></a>
 
-<a href="../COMIDAS/atol maiztostado.html"> <div class="card">
+<a href="../COMIDAS/atol-de-maiz-tostado.php"> <div class="card">
     <img src="../Comida/Atol-de-Maiz-Tostado.jpg">
     <h4>Atol de maíz tostado.</h4>
     <p>El atol de maíz tostado es muy rico y es uno de los atoles mas deseados por todos los salvadoreños.</p>
