@@ -48,60 +48,56 @@
                 <!--Pasos a seguir-->
                 <div class="pasos-seguir">
                     <div class="pasos-numero">
-                        <div class="num1"><span>1</span></div>
+                        <div class="num1"><span>2</span></div>
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
                             <h3>Llena el formulario que esta en pantalla</h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus eum,
-                                exercitationem doloribus quos ratione.</p>
+                            <p>En la rimera casilla pon el nombre de la receta</p>
                         </div>
                     </div>
                 </div>
                 <!--Pasos a seguir-->
                 <div class="pasos-seguir">
                     <div class="pasos-numero">
-                        <div class="num1"><span>1</span></div>
+                        <div class="num1"><span>3</span></div>
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
                             <h3>Llena el formulario que esta en pantalla</h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus eum,
-                                exercitationem doloribus quos ratione.</p>
+                            <p>Inserta una pequeña descripción de el plato en cuestion</p>
                         </div>
                     </div>
                 </div>
                 <!--Pasos a seguir-->
                 <div class="pasos-seguir">
                     <div class="pasos-numero">
-                        <div class="num1"><span>1</span></div>
+                        <div class="num1"><span>4</span></div>
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
-                            <h3>Llena el formulario que esta en pantalla</h3>
+                            <h3>Llena el apartado de ingredientes de la preparación </h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus eum,
-                                exercitationem doloribus quos ratione.</p>
+                            <p>Llena la casilla de pasos para poner el procedimiento de la preparación</p>
                         </div>
                     </div>
                 </div>
                 <!--Pasos a seguir-->
                 <div class="pasos-seguir">
                     <div class="pasos-numero">
-                        <div class="num1"><span>1</span></div>
+                        <div class="num1"><span>5</span></div>
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
-                            <h3>Llena el formulario que esta en pantalla</h3>
+                            <h3>Por ultimo.</h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus eum,
-                                exercitationem doloribus quos ratione.</p>
+                            <p>Inserta una miagen de tu preparacion en la ultima casilla</p>
                         </div>
                     </div>
                 </div>
@@ -129,7 +125,7 @@
                             <input type="text" class="input">
                         </div>
                         <div class="textarea-form">
-                            <label for="descripcion-receta" class="label-form">Descripcion</label>
+                            <label for="descripcion-receta" class="label-form">Preparación</label>
                             <textarea name="" id="" cols="20" rows="5" class="textarea"></textarea>
                         </div>
                         <div class="imgs-forms">
