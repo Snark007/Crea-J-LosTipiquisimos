@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/stilo.css">
+    <link rel="stylesheet" href="../Css/stilo-plantilla.css">
+    <link rel="stylesheet" href="../Css/cuadros.css">
     <link rel="stylesheet" href="../Css/estructura.css">
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
+    <link rel="stylesheet" href="../Css/bases.css">
     <script defer src="../Js/menu.js"></script>
     <script defer src="../Js/translate.js"></script>
     <title>Pupusa frijol con queso</title>
 </head>
 
 <body>
-       <!--MENU-->
-       <?php 
-     include "hader.php";
-     ?>
+    <!--MENU-->
+    <?php
+    include "../Html/hader.php";
+    ?>
     <!--BASE-->
     <section>
         <div class="recetas">
