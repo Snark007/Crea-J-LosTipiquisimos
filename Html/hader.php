@@ -29,14 +29,14 @@
                     <p class="main-text"><a href="" data-nav="5">Recetas</a></p>
 
                     <div class="more-options-recetas">
-                        <p><a href="../Html/receta-navideñas.php">Navideñas</a></p>
-                        <p><a href="../Html/receta-semana.php">Semana santa</a></p>
-                        <p><a href="../Html/receta-pupusas.php">pupusas</a></p>
-                        <p><a href="../Html/receta-postres.php">postres</a></p>
-                        <p><a href="../Html/receta-tamales.php">Tamales</a></p>
-                        <p><a href="../Html/receta-sopas.php">Sopas</a></p>
-                        <p><a href="../Html/receta-tipicas.php">Recetas tipicas</a></p>
-                        <p><a href="../Html/receta-atoles.php">Atoles</a></p>
+                        <p><a href="#">Navideñas</a></p>
+                        <p><a href="#">Semana santa</a></p>
+                        <p><a href="#">pupusas</a></p>
+                        <p><a href="#">postres</a></p>
+                        <p><a href="#">Tamales</a></p>
+                        <p><a href="#">Sopas</a></p>
+                        <p><a href="#">Recetas tipicas</a></p>
+                        <p><a href="#">Atoles</a></p>
                     </div>
 
                 </div>
