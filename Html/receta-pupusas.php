@@ -21,8 +21,6 @@
     <?php 
      include "hader.php";
      ?>
-
-
     <!--BASE-->
 
     <section>
