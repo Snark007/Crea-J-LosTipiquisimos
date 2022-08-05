@@ -26,10 +26,10 @@
 </head>
 
 <body>
-       <!--MENU-->
-       <?php 
-     include "hader.php";
-     ?>
+   <!--MENU-->
+   <?php
+    include "../Html/hader.php";
+    ?>
     <!--BASE-->
     <section>
         <div class="recetas">

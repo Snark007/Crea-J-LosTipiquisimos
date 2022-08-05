@@ -30,10 +30,10 @@
 
     <body>
         <!--MENU-->
-        <?php
-        include "hader.php";
-        ?>
-        <!--BASE-->
+    <?php
+    include "../Html/hader.php";
+    ?>
+    <!--BASE-->
         <section>
             <div class="recetas">
                 <img src="../Comida/Chilate.jpg" alt="">
