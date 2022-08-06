@@ -123,6 +123,8 @@ margin: 10px;
     color: #ffffff;
 }
 
+
+
 @media (min-width: 1119px ) {
     .pasos-seguir{
         flex-direction: row;

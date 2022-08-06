@@ -46,8 +46,8 @@ in the kitchen
 You will be able to upload your food recipes from el salvador and show your skills in the kitchen
 so that other users can recreate your recipes.
 upload my recipe
-The Tipiquisimos
-The Tipiquisimos 2022-Rights Reserved
+Tipiquisimos
+Tipiquisimos 2022-Rights Reserved
 `
 let navEspañol = `
 Elegir idioma

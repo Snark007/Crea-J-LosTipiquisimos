@@ -13,21 +13,19 @@
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
     <script defer src="../Js/menu.js"></script>
-    <script defer src="../Js/translate.js"></script>
+    <script defer src="../Js/translate_subir.js"></script>
 </head>
 
 <body>
     <!--MENU-->
-    <?php 
-     include "hader.php";
-     ?>
-
+    <?php
+    include "hader.php";
+    ?>
     <!--BASE-->
-
     <main class="instructions-container">
         <div class="instructions">
-            <h1 class="instructions-title">Quieres subir tus recetas debes realizar los siguientes pasos al pies de la
-                letra como te indican.</h1>
+            <h1 class="instructions-title"> <span data-subir="1"> Quieres subir tus recetas debes realizar los siguientes pasos al pies de la
+                    letra como te indican. </span></h1>
 
             <div class="instructions-pasos">
                 <!--Pasos a seguir-->
@@ -37,11 +35,10 @@
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
-                            <h3>Llena el formulario que esta en pantalla</h3>
+                            <h3> <span data-subir="2">Para empezar</span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus eum,
-                                exercitationem doloribus quos ratione.</p>
+                            <p> <span data-subir="3">Primero ingresa el nombre de tu recetas de forma presisa como: pupusas de queso con loroco</span></p>
                         </div>
                     </div>
                 </div>
@@ -52,10 +49,10 @@
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
-                            <h3>Llena el formulario que esta en pantalla</h3>
+                            <h3> <span data-subir="4"> Despues de eso</span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p>En la rimera casilla pon el nombre de la receta</p>
+                            <p> <span data-subir="5">Tendrás que poner una descripción de tus receta que anterior mente avías mencionado</span> </p>
                         </div>
                     </div>
                 </div>
@@ -66,10 +63,10 @@
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
-                            <h3>Llena el formulario que esta en pantalla</h3>
+                            <h3> <span data-subir="6"> Una vez ya hecho el punto anterior </span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p>Inserta una pequeña descripción de el plato en cuestion</p>
+                            <p> <span data-subir="7"> tienes que ingresar los igredientes de tu receta </span></p>
                         </div>
                     </div>
                 </div>
@@ -80,10 +77,10 @@
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
-                            <h3>Llena el apartado de ingredientes de la preparación </h3>
+                            <h3> <span data-subir="8"> Ahora tienes que </span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p>Llena la casilla de pasos para poner el procedimiento de la preparación</p>
+                            <p> <span data-subir="9">Poner como lo preparastes para que los demas usuarios puedan segir la receta al pie de la letra </span> </p>
                         </div>
                     </div>
                 </div>
@@ -94,10 +91,10 @@
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
-                            <h3>Por ultimo.</h3>
+                            <h3> <span data-subir="10"> Ya para terminar </span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p>Inserta una miagen de tu preparacion en la ultima casilla</p>
+                            <p> <span data-subir="11"> Solo tienes que poner poner una imagen de referencia como que te tiene que quedar </span></p>
                         </div>
                     </div>
                 </div>
@@ -108,24 +105,24 @@
 
             <form action="">
                 <div class="wrapper-form">
-                    <h2 class="instructions-title">Solicitud de recetas</h2>
+                    <h2 class="instructions-title">  Solicitud de recetas</h2>
 
                     <div class="form-inputs">
 
                         <div class="inputs-form">
-                            <label for="nombre-receta" class="label-form">Nombre de la receta</label>
+                            <label for="nombre-receta" class="label-form">  Nombre de la receta</label>
                             <input type="text" class="input">
                         </div>
                         <div class="textarea-form">
                             <label for="descripcion-receta" class="label-form">Descripcion</label>
                             <textarea name="" id="" cols="20" rows="5" class="textarea"></textarea>
                         </div>
-                        <div class="inputs-form">
-                            <label for="nombre-receta" class="label-form">Ingredientes</label>
-                            <input type="text" class="input">
+                        <div class="textarea-form">
+                            <label for="descripcion-receta" class="label-form">Igredientes</label>
+                            <textarea name="" id="" cols="20" rows="5" class="textarea"></textarea>
                         </div>
                         <div class="textarea-form">
-                            <label for="descripcion-receta" class="label-form">Preparación</label>
+                            <label for="descripcion-receta" class="label-form">Preparacion</label>
                             <textarea name="" id="" cols="20" rows="5" class="textarea"></textarea>
                         </div>
                         <div class="imgs-forms">
