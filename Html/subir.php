@@ -105,29 +105,29 @@
 
             <form action="">
                 <div class="wrapper-form">
-                    <h2 class="instructions-title">  Solicitud de recetas</h2>
+                    <h2 class="instructions-title"> <span data-subir="12"> Solicitud de recetas</span></h2>
 
                     <div class="form-inputs">
 
                         <div class="inputs-form">
-                            <label for="nombre-receta" class="label-form">  Nombre de la receta</label>
+                            <label for="nombre-receta" class="label-form"> <span data-subir="13">Nombre de la receta</span> </label>
                             <input type="text" class="input">
                         </div>
                         <div class="textarea-form">
-                            <label for="descripcion-receta" class="label-form">Descripcion</label>
+                            <label for="descripcion-receta" class="label-form"> <span data-subir="14">Descripcion</span></label>
                             <textarea name="" id="" cols="20" rows="5" class="textarea"></textarea>
                         </div>
                         <div class="textarea-form">
-                            <label for="descripcion-receta" class="label-form">Igredientes</label>
+                            <label for="descripcion-receta" class="label-form"> <span data-subir="15">Igredientes</span></label>
                             <textarea name="" id="" cols="20" rows="5" class="textarea"></textarea>
                         </div>
                         <div class="textarea-form">
-                            <label for="descripcion-receta" class="label-form">Preparacion</label>
+                            <label for="descripcion-receta" class="label-form"> <span data-subir="16">Preparacion </span></label>
                             <textarea name="" id="" cols="20" rows="5" class="textarea"></textarea>
                         </div>
                         <div class="imgs-forms">
-                            <label for="img-receta" class="label-form">Imagen</label>
-                            <input type="file" class="img-input">
+                            <label for="img-receta" class="label-form container-bom" > <span data-subir="17">Imagen</span></label>
+                            <input type="file" class="img-input" id='img-receta' name='img-receta'>
                         </div>
 
                         <input type="submit" class="submit-form">

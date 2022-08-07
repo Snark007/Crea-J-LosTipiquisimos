@@ -11,6 +11,12 @@ Ahora tienes que
 Poner como lo preparastes para que los demas usuarios puedan segir la receta al pie de la letra
 Ya para terminar
 Solo tienes que poner poner una imagen de referencia como que te tiene que quedar
+Solicitud de recetas
+Nombre de la receta
+Descripcion
+Igredientes
+Preparacion
+Imagen
 `
 let subirIngles = `
 If you want to upload your recipes, you must follow the steps below as indicated.
@@ -24,6 +30,12 @@ Now you have to
 Put how you prepared it so that other users can follow the recipe to the letter.
 Now to finish
 All you have to do is put a reference image of how it should look like.
+Request for prescriptions
+Name of the recipe
+Description
+Ingredients
+Preparation
+Image
 `
 let navEspañol = `
 Elegir idioma
@@ -74,7 +86,7 @@ function  traducir(element) {
              
             document.querySelector("[data-subir='"+i+"']").innerHTML = element;
         });
-
+        document.querySelector("input[type=submit").value = "Send"
        sessionStorage.setItem("lang", "en");
        lang = sessionStorage.getItem("lang");
 
@@ -89,7 +101,7 @@ function  traducir(element) {
             if(!element) return
             document.querySelector("[data-subir='"+i+"']").innerHTML = element;
         });
-
+        document.querySelector("input[type=submit").value = "Enviar"
        sessionStorage.setItem("lang", "es");
        lang = sessionStorage.getItem("lang");
     }
