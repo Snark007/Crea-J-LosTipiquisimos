@@ -41,8 +41,16 @@ let navEspañol = `
 Elegir idioma
 España
 Ingles
-¡Sobre subir!
+¡Sobre nosotros!
 Recetas
+Navideñas
+Semana santa
+pupusas
+postres
+Tamales
+Sopas
+Recetas tipicas
+Atoles
 ¿Quieres subir tu receta?
 Comunidad
 Inciar sesion
@@ -53,6 +61,14 @@ Spanish
 English
 ¡About us!
 Recipes
+Christmas
+Easter
+pupusas
+desserts
+Tamales
+Soups
+Typical recipes
+Atoles
 ¿Want to upload your recipes?
 Community
 Log in

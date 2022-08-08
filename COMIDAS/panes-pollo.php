@@ -16,10 +16,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/stilo.css">
     <link rel="stylesheet" href="../Css/estructura.css">
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
+    <link rel="stylesheet" href="../css/stilo.css">
     <script defer src="../Js/menu.js"></script>
     <script defer src="../Js/translate.js"></script>
     <title>Atol de Piñeula</title>
@@ -33,7 +33,7 @@
     <!--BASE-->
     <section>
         <div class="recetas">
-            <img src="../Comida/jocostes-en-miel.jpg" alt="">
+            <img src="../Comida/pan-pollo.jpg" alt="">
             <div class="recetas-letras">
                 <h1>PANES CON POLLO</h1>
                 <p>

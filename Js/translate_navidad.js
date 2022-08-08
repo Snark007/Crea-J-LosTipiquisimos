@@ -1,21 +1,31 @@
 // let español, english;
-let nosotrosEspañol = `
-SOBRE NOSOTROS
-Nosotros somos Los Tipiquisimos un sitio web, nuestra principal meta es brindar recetas sobre la gastronomía Salvadoreña para que todas las diferentes culturas y países sepan apreciar los sabores de nuestras tierras salvadoreñas.
-MISIÓN
-Dar a conocer la comida salvadoreña brindando recetas de buena calidad y excelentes pasos, para llegar a recrearlas con el fin de que las personas puedan lograr hacer todo tipo de comida típica salvadoreña.
-VISIÓN
-Ser el mejor website que brinde recetas de comidas tipicas salvadoreñas logrando ser mundialmente conocido y logrando que las personas conozcan la gran variedad de platillos que se encuentran en nuestro país.
+let navideñaEspañol = `
+Recetas Navideñas
+Estas son las recetas de comidas tipicos Navideñas disponibles.
+Tamales de Pollo
+Este delicioso platillo se prepara con masa, recaudo, pollo, papas, aceitunas y sal al gusto.
+Ver más
+Pan con Pollo
+Muy ricos aperitivos de El Salvador que podemos degustar de forma tradicional en las fiestas decembrinas.
+Ver más
+Pavo en salsa
+Sabroso pavo al estilo de El Salvador para disfrutar en las fiestas decembrinas.
+Ver más
 Los Tipiquisimos
 © Los Tipiquisimos 2022-Derechos reservados
 `
-let nosotrosIngles = `
-ABOUT US
-We are Los Tipiquisimos a web site, our main goal is to provide recipes about Salvadoran gastronomy Salvadorian gastronomy so that all different cultures and countries can appreciate the flavors of our Salvadorian lands. the flavors of our Salvadoran lands.
-MISSION
-To make Salvadoran food known by providing good quality recipes and excellent steps, in order to recreate them so that people can make all kinds of typical Salvadoran food.
-VIEW
-To be the best website that offers recipes of typical Salvadoran food, achieving to be known worldwide and making people know the great variety of dishes found in our country.
+let navideñaIngles = `
+Christmas Recipes
+These are the recipes of typical Christmas meals available.
+Chicken Tamales
+This delicious dish is prepared with dough, recaudo, chicken, potatoes, olives and salt to taste.
+See more
+Bread with Chicken
+Very tasty appetizers from El Salvador that we can enjoy in a traditional way during the Christmas holidays.
+See more
+Turkey in sauce
+Tasty turkey in El Salvador style to enjoy during the Christmas holidays.
+See more
 Los Tipiquisimos
 Tipiquisimos 2022-Rights Reserved
 `
@@ -55,8 +65,8 @@ Atoles
 Community
 Log in
 `
-nosotrosIngles = nosotrosIngles.split("\n");
-nosotrosEspañol = nosotrosEspañol.split("\n");
+navideñaIngles = navideñaIngles.split("\n");
+navideñaEspañol = navideñaEspañol.split("\n");
 
 navIngles = navIngles.split("\n");
 navEspañol = navEspañol.split("\n");
@@ -79,12 +89,12 @@ function  traducir(element) {
              
             document.querySelector("[data-nav='"+i+"']").innerHTML = element;
         });
-        nosotrosIngles.forEach((element, i) => {
+        navideñaIngles.forEach((element, i) => {
             if(!element) return
              
-            document.querySelector("[data-nosotros='"+i+"']").innerHTML = element;
+            document.querySelector("[data-navideña='"+i+"']").innerHTML = element;
         });
-
+        document.querySelector("input[type=submit").value = "Send"
        sessionStorage.setItem("lang", "en");
        lang = sessionStorage.getItem("lang");
 
@@ -95,11 +105,11 @@ function  traducir(element) {
             if(!element) return
             document.querySelector("[data-nav='"+i+"']").innerHTML = element;
         });
-        nosotrosEspañol.forEach((element, i) => {
+        navideñaEspañol.forEach((element, i) => {
             if(!element) return
-            document.querySelector("[data-nosotros='"+i+"']").innerHTML = element;
+            document.querySelector("[data-navideña='"+i+"']").innerHTML = element;
         });
-
+        document.querySelector("input[type=submit").value = "Enviar"
        sessionStorage.setItem("lang", "es");
        lang = sessionStorage.getItem("lang");
     }

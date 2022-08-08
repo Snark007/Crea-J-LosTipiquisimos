@@ -10,7 +10,7 @@ body {
     height: 100vh;
     background-image: linear-gradient(0deg,
             rgba(49, 49, 49, 0.5),
-            rgba(12, 12, 12, 0.5)), url("../Img/fondo2.png");
+            rgba(12, 12, 12, 0.5)), url("../Comida/enchiladas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -103,3 +103,8 @@ body {
 }
 
 ::placeholder { color: rgba(0, 71, 152, 0.496); }
+
+.boton{
+ display: flex;
+ justify-content: center;
+}

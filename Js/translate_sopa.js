@@ -1,21 +1,31 @@
 // let español, english;
-let nosotrosEspañol = `
-SOBRE NOSOTROS
-Nosotros somos Los Tipiquisimos un sitio web, nuestra principal meta es brindar recetas sobre la gastronomía Salvadoreña para que todas las diferentes culturas y países sepan apreciar los sabores de nuestras tierras salvadoreñas.
-MISIÓN
-Dar a conocer la comida salvadoreña brindando recetas de buena calidad y excelentes pasos, para llegar a recrearlas con el fin de que las personas puedan lograr hacer todo tipo de comida típica salvadoreña.
-VISIÓN
-Ser el mejor website que brinde recetas de comidas tipicas salvadoreñas logrando ser mundialmente conocido y logrando que las personas conozcan la gran variedad de platillos que se encuentran en nuestro país.
+let sopaEspañol = `
+Recetas de Sopas
+Estas son las recetas de sopas tipicas disponibles.
+Sopa de res
+Es muy popular y su elaboración ha pasado de generación en generación convirtiéndose en una tradición.
+Ver más
+Sopa de frijoles
+Este plato contiene elementos principales de las comidas salvadoreñas como el frijol rojo.
+Ver más
+Sopa de gallina
+El caldo de pollo es una sopa a menudo se sirve con trozos de carne de pollo.
+Ver más
 Los Tipiquisimos
 © Los Tipiquisimos 2022-Derechos reservados
 `
-let nosotrosIngles = `
-ABOUT US
-We are Los Tipiquisimos a web site, our main goal is to provide recipes about Salvadoran gastronomy Salvadorian gastronomy so that all different cultures and countries can appreciate the flavors of our Salvadorian lands. the flavors of our Salvadoran lands.
-MISSION
-To make Salvadoran food known by providing good quality recipes and excellent steps, in order to recreate them so that people can make all kinds of typical Salvadoran food.
-VIEW
-To be the best website that offers recipes of typical Salvadoran food, achieving to be known worldwide and making people know the great variety of dishes found in our country.
+let sopaIngles = `
+These are the recipes of typical soups available.
+Beef soup
+It is very popular and its preparation has passed from generation to generation becoming a tradition.
+See more
+Bean soup
+This dish contains main elements of Salvadoran foods such as red beans.
+See more
+Chicken soup
+Chicken broth is a soup often served with pieces of chicken meat.
+See more
+Soup Recipes
 Los Tipiquisimos
 Tipiquisimos 2022-Rights Reserved
 `
@@ -25,10 +35,10 @@ España
 Ingles
 ¡Sobre nosotros!
 Recetas
-Navideñas
+sopas
 Semana santa
 pupusas
-postres
+sopas
 Tamales
 Sopas
 Recetas tipicas
@@ -55,8 +65,8 @@ Atoles
 Community
 Log in
 `
-nosotrosIngles = nosotrosIngles.split("\n");
-nosotrosEspañol = nosotrosEspañol.split("\n");
+sopaIngles = sopaIngles.split("\n");
+sopaEspañol = sopaEspañol.split("\n");
 
 navIngles = navIngles.split("\n");
 navEspañol = navEspañol.split("\n");
@@ -79,12 +89,12 @@ function  traducir(element) {
              
             document.querySelector("[data-nav='"+i+"']").innerHTML = element;
         });
-        nosotrosIngles.forEach((element, i) => {
+        sopaIngles.forEach((element, i) => {
             if(!element) return
              
-            document.querySelector("[data-nosotros='"+i+"']").innerHTML = element;
+            document.querySelector("[data-sopa='"+i+"']").innerHTML = element;
         });
-
+        document.querySelector("input[type=submit").value = "Send"
        sessionStorage.setItem("lang", "en");
        lang = sessionStorage.getItem("lang");
 
@@ -95,11 +105,11 @@ function  traducir(element) {
             if(!element) return
             document.querySelector("[data-nav='"+i+"']").innerHTML = element;
         });
-        nosotrosEspañol.forEach((element, i) => {
+        sopaEspañol.forEach((element, i) => {
             if(!element) return
-            document.querySelector("[data-nosotros='"+i+"']").innerHTML = element;
+            document.querySelector("[data-sopa='"+i+"']").innerHTML = element;
         });
-
+        document.querySelector("input[type=submit").value = "Enviar"
        sessionStorage.setItem("lang", "es");
        lang = sessionStorage.getItem("lang");
     }

@@ -145,8 +145,8 @@
     <!--PIE DE PAGINA-->
     <footer>
         <div class="contar">
-            <h3 class="log">Los Tipiquisimos</h3>
-            <p>&copy; Los Tipiquisimos 2022-Derechos reservados</p>
+            <h3 class="log"> <span>Los Tipiquisimos</span> </h3>
+            <p>&copy; <span> Los Tipiquisimos 2022-Derechos reservados</span></p>
         </div>
         <div class="container3">
             <a href="https://www.facebook.com/Los-Tipiquisimos-110215061699961/?ref=page_internal"><img src="../Img/facebook.png" alt="" class="Photographs"></a><br>

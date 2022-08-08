@@ -1,21 +1,31 @@
 // let español, english;
-let nosotrosEspañol = `
-SOBRE NOSOTROS
-Nosotros somos Los Tipiquisimos un sitio web, nuestra principal meta es brindar recetas sobre la gastronomía Salvadoreña para que todas las diferentes culturas y países sepan apreciar los sabores de nuestras tierras salvadoreñas.
-MISIÓN
-Dar a conocer la comida salvadoreña brindando recetas de buena calidad y excelentes pasos, para llegar a recrearlas con el fin de que las personas puedan lograr hacer todo tipo de comida típica salvadoreña.
-VISIÓN
-Ser el mejor website que brinde recetas de comidas tipicas salvadoreñas logrando ser mundialmente conocido y logrando que las personas conozcan la gran variedad de platillos que se encuentran en nuestro país.
+let postreEspañol = `
+Recetas de Postres
+Estas son las recetas de postres tipicos disponibles.
+Arroz con leche
+El arroz con leche es un postre típico hecho cociendo lentamente arroz con leche y azúcar.
+Ver más
+Quesadilla
+La quesadilla es un platillo mexicano que consiste en una tortilla de maíz, o también de trigo
+Ver más
+Empanadas de plátano
+Es un dulce económico y fácil de hacer ideal para hacer una merienda rápida. No puedes dejar de probarlo.
+Ver más
 Los Tipiquisimos
 © Los Tipiquisimos 2022-Derechos reservados
 `
-let nosotrosIngles = `
-ABOUT US
-We are Los Tipiquisimos a web site, our main goal is to provide recipes about Salvadoran gastronomy Salvadorian gastronomy so that all different cultures and countries can appreciate the flavors of our Salvadorian lands. the flavors of our Salvadoran lands.
-MISSION
-To make Salvadoran food known by providing good quality recipes and excellent steps, in order to recreate them so that people can make all kinds of typical Salvadoran food.
-VIEW
-To be the best website that offers recipes of typical Salvadoran food, achieving to be known worldwide and making people know the great variety of dishes found in our country.
+let postreIngles = `
+Dessert Recipes
+These are the typical dessert recipes available.
+Rice pudding
+Rice pudding is a typical dessert made by slowly cooking rice with milk and sugar.
+See more
+Quesadilla
+The quesadilla is a Mexican dish that consists of a corn tortilla, or wheat tortilla.
+See more
+Plantain Empanadas
+It is an economical and easy-to-make sweet ideal for a quick snack. You can't miss it.
+See more
 Los Tipiquisimos
 Tipiquisimos 2022-Rights Reserved
 `
@@ -25,7 +35,7 @@ España
 Ingles
 ¡Sobre nosotros!
 Recetas
-Navideñas
+postres
 Semana santa
 pupusas
 postres
@@ -55,8 +65,8 @@ Atoles
 Community
 Log in
 `
-nosotrosIngles = nosotrosIngles.split("\n");
-nosotrosEspañol = nosotrosEspañol.split("\n");
+postreIngles = postreIngles.split("\n");
+postreEspañol = postreEspañol.split("\n");
 
 navIngles = navIngles.split("\n");
 navEspañol = navEspañol.split("\n");
@@ -79,12 +89,12 @@ function  traducir(element) {
              
             document.querySelector("[data-nav='"+i+"']").innerHTML = element;
         });
-        nosotrosIngles.forEach((element, i) => {
+        postreIngles.forEach((element, i) => {
             if(!element) return
              
-            document.querySelector("[data-nosotros='"+i+"']").innerHTML = element;
+            document.querySelector("[data-postre='"+i+"']").innerHTML = element;
         });
-
+        document.querySelector("input[type=submit").value = "Send"
        sessionStorage.setItem("lang", "en");
        lang = sessionStorage.getItem("lang");
 
@@ -95,11 +105,11 @@ function  traducir(element) {
             if(!element) return
             document.querySelector("[data-nav='"+i+"']").innerHTML = element;
         });
-        nosotrosEspañol.forEach((element, i) => {
+        postreEspañol.forEach((element, i) => {
             if(!element) return
-            document.querySelector("[data-nosotros='"+i+"']").innerHTML = element;
+            document.querySelector("[data-postre='"+i+"']").innerHTML = element;
         });
-
+        document.querySelector("input[type=submit").value = "Enviar"
        sessionStorage.setItem("lang", "es");
        lang = sessionStorage.getItem("lang");
     }

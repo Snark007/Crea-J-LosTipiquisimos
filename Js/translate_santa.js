@@ -1,21 +1,31 @@
 // let español, english;
-let nosotrosEspañol = `
-SOBRE NOSOTROS
-Nosotros somos Los Tipiquisimos un sitio web, nuestra principal meta es brindar recetas sobre la gastronomía Salvadoreña para que todas las diferentes culturas y países sepan apreciar los sabores de nuestras tierras salvadoreñas.
-MISIÓN
-Dar a conocer la comida salvadoreña brindando recetas de buena calidad y excelentes pasos, para llegar a recrearlas con el fin de que las personas puedan lograr hacer todo tipo de comida típica salvadoreña.
-VISIÓN
-Ser el mejor website que brinde recetas de comidas tipicas salvadoreñas logrando ser mundialmente conocido y logrando que las personas conozcan la gran variedad de platillos que se encuentran en nuestro país.
+let santaEspañol = `
+Recetas de Semana Santa
+Estas son las recetas de semana Santa tipicas disponibles.
+Torrejas en miel
+Las torrejas salvadoreñas son un platillo típico que no puede faltar en Semana Santa
+Ver más
+Tortas de pescado
+Este platillo muy característico de la época de Semana Santa en el país
+Ver más
+Jocotes en miel
+Los jocotes en miel son unas de las comidas dulces más deliciosas de Semana Santa
+Ver más
 Los Tipiquisimos
 © Los Tipiquisimos 2022-Derechos reservados
 `
-let nosotrosIngles = `
-ABOUT US
-We are Los Tipiquisimos a web site, our main goal is to provide recipes about Salvadoran gastronomy Salvadorian gastronomy so that all different cultures and countries can appreciate the flavors of our Salvadorian lands. the flavors of our Salvadoran lands.
-MISSION
-To make Salvadoran food known by providing good quality recipes and excellent steps, in order to recreate them so that people can make all kinds of typical Salvadoran food.
-VIEW
-To be the best website that offers recipes of typical Salvadoran food, achieving to be known worldwide and making people know the great variety of dishes found in our country.
+let santaIngles = `
+Easter Recipes
+These are the typical Easter recipes available.
+Torrejas in honey
+Salvadoran torrejas are a typical dish that can not be missed at Easter.
+See more
+Fish cakes
+This dish is very characteristic of the Holy Week season in the country.
+See more
+Jocotes in honey
+Jocotes in honey are one of the most delicious sweet dishes of Easter.
+See more
 Los Tipiquisimos
 Tipiquisimos 2022-Rights Reserved
 `
@@ -25,7 +35,7 @@ España
 Ingles
 ¡Sobre nosotros!
 Recetas
-Navideñas
+santas
 Semana santa
 pupusas
 postres
@@ -55,8 +65,8 @@ Atoles
 Community
 Log in
 `
-nosotrosIngles = nosotrosIngles.split("\n");
-nosotrosEspañol = nosotrosEspañol.split("\n");
+santaIngles = santaIngles.split("\n");
+santaEspañol = santaEspañol.split("\n");
 
 navIngles = navIngles.split("\n");
 navEspañol = navEspañol.split("\n");
@@ -79,12 +89,12 @@ function  traducir(element) {
              
             document.querySelector("[data-nav='"+i+"']").innerHTML = element;
         });
-        nosotrosIngles.forEach((element, i) => {
+        santaIngles.forEach((element, i) => {
             if(!element) return
              
-            document.querySelector("[data-nosotros='"+i+"']").innerHTML = element;
+            document.querySelector("[data-santa='"+i+"']").innerHTML = element;
         });
-
+        document.querySelector("input[type=submit").value = "Send"
        sessionStorage.setItem("lang", "en");
        lang = sessionStorage.getItem("lang");
 
@@ -95,11 +105,11 @@ function  traducir(element) {
             if(!element) return
             document.querySelector("[data-nav='"+i+"']").innerHTML = element;
         });
-        nosotrosEspañol.forEach((element, i) => {
+        santaEspañol.forEach((element, i) => {
             if(!element) return
-            document.querySelector("[data-nosotros='"+i+"']").innerHTML = element;
+            document.querySelector("[data-santa='"+i+"']").innerHTML = element;
         });
-
+        document.querySelector("input[type=submit").value = "Enviar"
        sessionStorage.setItem("lang", "es");
        lang = sessionStorage.getItem("lang");
     }

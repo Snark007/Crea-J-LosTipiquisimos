@@ -46,7 +46,7 @@ in the kitchen
 You will be able to upload your food recipes from el salvador and show your skills in the kitchen
 so that other users can recreate your recipes.
 upload my recipe
-Tipiquisimos
+Los Tipiquisimos
 Tipiquisimos 2022-Rights Reserved
 `
 let navEspañol = `
@@ -55,6 +55,14 @@ España
 Ingles
 ¡Sobre nosotros!
 Recetas
+Navideñas
+Semana santa
+pupusas
+postres
+Tamales
+Sopas
+Recetas tipicas
+Atoles
 ¿Quieres subir tu receta?
 Comunidad
 Inciar sesion
@@ -65,6 +73,14 @@ Spanish
 English
 ¡About us!
 Recipes
+Christmas
+Easter
+pupusas
+desserts
+Tamales
+Soups
+Typical recipes
+Atoles
 ¿Want to upload your recipes?
 Community
 Log in
