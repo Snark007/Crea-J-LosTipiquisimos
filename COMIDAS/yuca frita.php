@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/stilo.css">
     <link rel="stylesheet" href="../Css/estructura.css">
+    <link rel="icon" href="../Img/cocina.png">
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
     <script defer src="../Js/menu.js"></script>

@@ -8,6 +8,7 @@
     <link rel="icon" href="../Img/cocina.png">
     <link rel="stylesheet" href="../Css/stilo-plantilla.css">
     <link rel="stylesheet" href="../Css/cuadros.css">
+    <link rel="icon" href="../Img/cocina.png">
     <link rel="stylesheet" href="../Css/estructura.css">
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
