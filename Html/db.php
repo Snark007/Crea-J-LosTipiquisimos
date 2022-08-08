@@ -23,7 +23,7 @@ function insertar($conexion)
         VALUES (NULL, '$nom', '$nombre_usu', '$correo', '$contrasenia')";
     if (mysqli_query($conexion, $sql)) {
         echo "New record created successfully";
-    } else {|   
+    } else {   
         echo "Error: " . $sql . "<br>" . mysqli_error($conexion);
     }
 

@@ -103,7 +103,7 @@
         </div>
         <div class="form">
 
-            <form action="">
+            <form action="v-subir.php" method="POST">
                 <div class="wrapper-form">
                     <h2 class="instructions-title"> <span data-subir="12"> Solicitud de recetas</span></h2>
 
