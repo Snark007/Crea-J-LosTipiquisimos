@@ -13,20 +13,18 @@
 
 <body>
  
-  <div class="login-box">
+<div class="login-box">
     <img src="../Img/cocineromejorado.png" class="avatar" alt="Avatar Image">
     <h1>Inicio de sesión</h1>
-    <form>
+    <form  action="verificar.php" method="POST">
       <!-- Usuario -->
       <label for="username">Usuario</label>
-      <input type="text" placeholder="Ingrese su usuario" class="difun" required>
+      <input type="text" name="usuario"placeholder="Ingrese su usuario" class="difun" required>
       <!--contra -->
       <label for="password">Contraseña</label>
-      <input type="password" placeholder="Ingrese su contraseña" required>
+      <input type="password" name="contrasenia" placeholder="Ingrese su contraseña" required>
       <!-- secion -->
-      <a href="../Html/Index.php">
-        <input type="button" value="Iniciar" required>
-        </a> 
+      <button type="submit" value="Iniciar" required>iniciar sesion</button>
       <!-- registrase -->
       <a href="../Html/registrarse.php">No tienes cuenta ¿Registrarse?</a>
     </form>
