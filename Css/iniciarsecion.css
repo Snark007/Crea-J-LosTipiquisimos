@@ -111,3 +111,38 @@ body {
 ::placeholder {
   color: rgba(0, 71, 152, 0.496);
 }
+
+.login-box button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+button {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #002552;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #9cd7ff;
+  color: #000;
+}
+
+
+.login-box buttom {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(0, 58, 125, 0.852);
+}
+
+.login-box buttom:hover {
+  color: rgba(0, 90, 192, 0.852);
+  font-weight: bold;
+}
