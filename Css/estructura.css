@@ -44,13 +44,8 @@ body {
     flex-direction: column;
     height: 80vh;
     background-image: linear-gradient(0deg,
-<<<<<<< Updated upstream
             rgba(49, 49, 49, 0.5),
             rgba(45, 45, 45, 0.361)), url("../Img/pupusaaaas.jpg");
-=======
-    rgba(49, 49, 49, 0.5),
-    rgba(45, 45, 45, 0.361)), url("../Img/pupusaaaas.jpg");
->>>>>>> Stashed changes
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
