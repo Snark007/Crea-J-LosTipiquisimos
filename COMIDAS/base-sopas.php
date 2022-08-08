@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../Css/menuD.css">
     <link rel="stylesheet" href="../Css/bases.css">
     <script defer src="../Js/menu.js"></script>
-    <script defer src="../Js/translate_sopa.js"></script>
+    <script defer src="../Js/translate.js"></script>
     <title>Sopas</title>
 </head>
 
@@ -27,10 +27,10 @@
     <section class="baja">
         <div class="basic">
             <div class="top">   
-                <h1 class="start"> <span data-sopa="1"> Recetas de Sopas</span></h1>
+                <h1 class="start"><span>Recetas de Sopas</h1>
               
                 <br>
-                <h2 class="start"> <span data-sopa="2"> Estas son las recetas de sopas tipicas disponibles.</span></h2>
+                <h2 class="start">Estas son las recetas de sopas tipicas disponibles.</h2>
             </div>
         </div>
 
@@ -39,30 +39,30 @@
         <a href="../COMIDAS/sopa-res.php"> <div class="container2">
             <div class="card">
                 <img src="../Comida/sopa de res.jpg">
-                <h4><span data-sopa="3"> Sopa de res</span></h4>
-                <p><span data-sopa="4"> Es muy popular y su elaboración ha pasado de generación en generación convirtiéndose en una tradición.</span></p>
-                <div class="ver"><span data-sopa="5">  Ver más</span></div>
+                <h4>Sopa de res</h4>
+                <p>Es muy popular y su elaboración ha pasado de generación en generación convirtiéndose en una tradición.</p>
+                <div class="ver"> Ver más</div>
             </div></a>
 
             <a href="../COMIDAS/sopa-frijoles.php"><div class="card">
                 <img src="../Comida/sopa-de-frijole.jpg">
-                <h4><span data-sopa="6"> Sopa de frijoles</h4>
-                <p> <span data-sopa="7"> Este plato contiene elementos principales de las comidas salvadoreñas como el frijol rojo.</span></p>
-                <div class="ver" data-sopa="8"> Ver más</span></div>
+                <h4>Sopa de frijoles</h4>
+                <p> Este plato contiene elementos principales de las comidas salvadoreñas como el frijol rojo.</p>
+                <div class="ver"> Ver más</div>
             </div></a>
 
             <a href="../COMIDAS/sopade pollo.html"> <div class="card">
                 <img src="../Comida/gallina.jpg">
-                <h4><span data-sopa="9"> Sopa de gallina</span></h4>
-                <p><span data-sopa="10"> El caldo de pollo es una sopa a menudo se sirve con trozos de carne de pollo.</span></p>
-                <div class="ver"><span data-sopa="11">  Ver más</span></div>
+                <h4>Sopa de gallina</h4>
+                <p>El caldo de pollo es una sopa a menudo se sirve con trozos de carne de pollo.</p>
+                <div class="ver"> Ver más</div>
             </div></a>
     </section>
     <!--::::Pie de Pagina::::::-->
     <footer>
         <div class="contar">
-            <h3 class="log"><span data-sopa="12"> Los Tipiquisimos</span></h3>
-            <p>&copy; <span data-sopa="13"> Los Tipiquisimos 2022-Derechos reservados</span></p>
+            <h3 class="log">Los Tipiquisimos</h3>
+            <p>&copy; Los Tipiquisimos 2022-Derechos reservados</p>
         </div>
         <div class="container3">
             <a href="https://www.facebook.com/Los-Tipiquisimos-110215061699961/?ref=page_internal"><img src="../Img/facebook.png" alt="" class="Photographs"></a><br>
