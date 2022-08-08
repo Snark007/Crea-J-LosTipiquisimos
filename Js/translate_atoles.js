@@ -1,30 +1,30 @@
 // let español, english;
-let sopaEspañol = `
-Recetas de Sopas
-Estas son las recetas de sopas tipicas disponibles.
-Sopa de res
-Es muy popular y su elaboración ha pasado de generación en generación convirtiéndose en una tradición.
+let atolesEspañol = `
+Recetas de Atoles.
+Estas son las recetas de atoles típicos disponibles.
+Atol Piñuela.
+El sabroso y tradicional Atol de Piñuela, es otra de las ricas variedades de atoles que tenemos.
 Ver más
-Sopa de frijoles
-Este plato contiene elementos principales de las comidas salvadoreñas como el frijol rojo.
+Atol de Elote.
+El atol de elote es una deliciosa bebida dulce hecha de maíz.
 Ver más
-Sopa de gallina
-El caldo de pollo es una sopa a menudo se sirve con trozos de carne de pollo.
+Atol de maíz tostado.
+El atol de maíz tostado es muy rico y es uno de los atoles mas deseados por todos los salvadoreños.
 Ver más
 Los Tipiquisimos
 © Los Tipiquisimos 2022-Derechos reservados
 `
-let sopaIngles = `
-Soup Recipes
-These are the recipes of typical soups available.
-Beef soup
-It is very popular and its preparation has passed from generation to generation becoming a tradition.
+let atolesIngles = `
+Atoles Recipes.
+These are the typical atoles recipes available.
+Atol Piñuela.
+The tasty and traditional Atol de Piñuela, is another of the rich varieties of atoles that we have.
 See more
-Bean soup
-This dish contains main elements of Salvadoran food such as red beans.
+Atol de Elote.
+Atol de elote is a delicious sweet drink made from corn.
 See more
-Chicken soup
-Chicken broth is a soup often served with pieces of chicken meat.
+Roasted corn atol.
+The roasted corn atol is very tasty and is one of the most desired atoles by all Salvadorans.
 See more
 Los Tipiquisimos
 Tipiquisimos 2022-Rights Reserved
@@ -35,9 +35,9 @@ España
 Ingles
 ¡Sobre nosotros!
 Recetas
-santas
+atoless
 Semana santa
-pupusas
+atoless
 postres
 Tamales
 Sopas
@@ -55,7 +55,7 @@ English
 Recipes
 Christmas
 Easter
-pupusas
+atoless
 desserts
 Tamales
 Soups
@@ -65,8 +65,8 @@ Atoles
 Community
 Log in
 `
-sopaIngles = sopaIngles.split("\n");
-sopaEspañol = sopaEspañol.split("\n");
+atolesIngles = atolesIngles.split("\n");
+atolesEspañol = atolesEspañol.split("\n");
 
 navIngles = navIngles.split("\n");
 navEspañol = navEspañol.split("\n");
@@ -89,10 +89,10 @@ function  traducir(element) {
              
             document.querySelector("[data-nav='"+i+"']").innerHTML = element;
         });
-        sopaIngles.forEach((element, i) => {
+        atolesIngles.forEach((element, i) => {
             if(!element) return
              
-            document.querySelector("[data-sopa='"+i+"']").innerHTML = element;
+            document.querySelector("[data-atoles='"+i+"']").innerHTML = element;
         });
         document.querySelector("input[type=submit").value = "Send"
        sessionStorage.setItem("lang", "en");
@@ -105,9 +105,9 @@ function  traducir(element) {
             if(!element) return
             document.querySelector("[data-nav='"+i+"']").innerHTML = element;
         });
-        sopaEspañol.forEach((element, i) => {
+        atolesEspañol.forEach((element, i) => {
             if(!element) return
-            document.querySelector("[data-sopa='"+i+"']").innerHTML = element;
+            document.querySelector("[data-atoles='"+i+"']").innerHTML = element;
         });
         document.querySelector("input[type=submit").value = "Enviar"
        sessionStorage.setItem("lang", "es");

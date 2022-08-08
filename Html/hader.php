@@ -35,7 +35,7 @@
                     <p><a href="../COMIDAS/base-postres.php"><span  data-nav="9">postres</span></a></p>
                     <p><a href="../COMIDAS/base-sopas.php"><span  data-nav="10">Tamales</span></a></p>
                     <p><a href="../COMIDAS/base-sopas.php"><span  data-nav="11">Sopas </span></a></p>
-                    <p><a href="../COMIDAS/base-comida.php"><span data-nav="12">Recetas tipicas</span></a></p>
+                    <p><a href="../COMIDAS/base-tipica.php"><span data-nav="12">Recetas tipicas</span></a></p>
                     <p><a href="../COMIDAS/base-atoles.php"><span data-nav="13">Atoles</span></a></p>
                 </div>
 

@@ -1,30 +1,30 @@
 // let español, english;
-let sopaEspañol = `
-Recetas de Sopas
-Estas son las recetas de sopas tipicas disponibles.
-Sopa de res
-Es muy popular y su elaboración ha pasado de generación en generación convirtiéndose en una tradición.
+let tipicaEspañol = `
+Recetas de comida
+Estas son las recetas de comidas tipicos disponibles.
+Yuca frita
+La yuquita frita sin lugar a duda es el aperitivo perfecto para acompañar una rica comida.
 Ver más
-Sopa de frijoles
-Este plato contiene elementos principales de las comidas salvadoreñas como el frijol rojo.
+Pastelitos
+son un tipo de empanadas rellenas, fritas, suculentas y crujientes.
 Ver más
-Sopa de gallina
-El caldo de pollo es una sopa a menudo se sirve con trozos de carne de pollo.
+Enchiladas
+Las enchiladas salvadoreñas son un plato muy típico de la cocina de El Salvador.
 Ver más
 Los Tipiquisimos
 © Los Tipiquisimos 2022-Derechos reservados
 `
-let sopaIngles = `
-Soup Recipes
-These are the recipes of typical soups available.
-Beef soup
-It is very popular and its preparation has passed from generation to generation becoming a tradition.
+let tipicaIngles = `
+Food recipes
+These are the typical food recipes available.
+Fried yucca
+Fried yucca is undoubtedly the perfect appetizer to accompany a delicious meal.
 See more
-Bean soup
-This dish contains main elements of Salvadoran food such as red beans.
+Pastelitos
+are a type of stuffed, fried, succulent and crunchy empanadas.
 See more
-Chicken soup
-Chicken broth is a soup often served with pieces of chicken meat.
+Enchiladas
+Enchiladas salvadoreñas are a very typical dish of El Salvador's cuisine.
 See more
 Los Tipiquisimos
 Tipiquisimos 2022-Rights Reserved
@@ -35,10 +35,10 @@ España
 Ingles
 ¡Sobre nosotros!
 Recetas
-santas
+tipicas
 Semana santa
 pupusas
-postres
+tipicas
 Tamales
 Sopas
 Recetas tipicas
@@ -65,8 +65,8 @@ Atoles
 Community
 Log in
 `
-sopaIngles = sopaIngles.split("\n");
-sopaEspañol = sopaEspañol.split("\n");
+tipicaIngles = tipicaIngles.split("\n");
+tipicaEspañol = tipicaEspañol.split("\n");
 
 navIngles = navIngles.split("\n");
 navEspañol = navEspañol.split("\n");
@@ -89,10 +89,10 @@ function  traducir(element) {
              
             document.querySelector("[data-nav='"+i+"']").innerHTML = element;
         });
-        sopaIngles.forEach((element, i) => {
+        tipicaIngles.forEach((element, i) => {
             if(!element) return
              
-            document.querySelector("[data-sopa='"+i+"']").innerHTML = element;
+            document.querySelector("[data-tipica='"+i+"']").innerHTML = element;
         });
         document.querySelector("input[type=submit").value = "Send"
        sessionStorage.setItem("lang", "en");
@@ -105,9 +105,9 @@ function  traducir(element) {
             if(!element) return
             document.querySelector("[data-nav='"+i+"']").innerHTML = element;
         });
-        sopaEspañol.forEach((element, i) => {
+        tipicaEspañol.forEach((element, i) => {
             if(!element) return
-            document.querySelector("[data-sopa='"+i+"']").innerHTML = element;
+            document.querySelector("[data-tipica='"+i+"']").innerHTML = element;
         });
         document.querySelector("input[type=submit").value = "Enviar"
        sessionStorage.setItem("lang", "es");

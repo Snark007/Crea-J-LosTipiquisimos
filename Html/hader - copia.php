@@ -35,7 +35,7 @@
                         <p><a href="../COMIDAS/base-postres.php">postres</a></p>
                         <p><a href="../COMIDAS/base-sopas.php">Tamales</a></p>
                         <p><a href="../COMIDAS/base-sopas.php">Sopas</a></p>
-                        <p><a href="../COMIDAS/base-comida.php">Recetas tipicas</a></p>
+                        <p><a href="../COMIDAS/base-tipica.php">Recetas tipicas</a></p>
                         <p><a href="../COMIDAS/base-atoles.php">Atoles</a></p>
                     </div>
 
@@ -45,7 +45,7 @@
                 <a href="../COMIDAS/Comunidad.php" data-nav="7">Comunidad</a>
             </nav>
 
-            <a href="../Html/Iniciarsecion.php" class="hide-login"><button class="but" data-nav="8">ya furula broooooo</button></a>
+            <a href="../Html/Iniciarsecion.php" class="hide-login"><button class="but" data-nav="8">inicision ya iniciada</button></a>
 
         </div>
     </header>
