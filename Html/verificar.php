@@ -20,7 +20,8 @@ $result = mysqli_query($conexion,$consu);
 $filas = mysqli_num_rows($result);
 
 if ($filas) {
-header("location:index - copia.php");
+    $_SESSION['aña'] = "logeado";
+header("location:index.php");
 } else {
     ?>
     <?php

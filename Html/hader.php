@@ -1,3 +1,8 @@
+<?php
+    session_start();
+
+?>
+
 <header>
     <div class="wrapper-menu">
         <div class="btn-translate-hide wrapper-caja ">
@@ -45,7 +50,17 @@
             <a href="../COMIDAS/Comunidad.php"  data-nav="15">Comunidad</a>
         </nav>
 
-        <a href="../Html/Iniciarsecion.php" class="hide-login"><button class="but"  data-nav="16">Iniciar sesión</button></a>
+        
+        <?php if (!isset($_SESSION['aña'])) { ?>
+               <a href="../Html/Iniciarsecion.php" class="hide-login"><button class="but"  data-nav="16">Iniciar sesión</button></a>             
+        <?php } else {  ?>  
+            <p class="main-text"><a href="" data-nav="5"><img src="../icons/icons8-user-24.png" alt=""></a></p>
 
+            <div class="more-options-recetas-i">
+            <p><a href="../Html/close.php">cerrar sesion</a></p>
+            </div>
+
+        <?php } ?>               
+        
     </div>
 </header>
