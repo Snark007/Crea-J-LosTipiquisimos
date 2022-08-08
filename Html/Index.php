@@ -29,7 +29,7 @@
         </div>
         <div class="slider">
             <section id="hero">
-                <h1><span data-index="1">Recetas Faciles</span><br><span data-index="2">¡Animate a Cocinar!</span></h1>
+                <h1><span data-index="1">Recetas Fáciles</span><br><span data-index="2">¡Animate a Cocinar!</span></h1>
             </section>
             <section id="hero">
                 <h1><span data-index="3">Casate con alguien que cocine rico</span><br><span data-index="4">la belleza se acaba el hambre no</span></h1>
@@ -38,7 +38,7 @@
                 <h1><span data-index="5"> Los abdominales son temporales</span><br> <span data-index="6">El chocolate es para siempre</span></h1>
             </section>
             <section id="hero">
-                <h1><span data-index="7">La que cocina no esta</span><br><span data-index="8">pero la que esta no cocina</span></h1>
+                <h1><span data-index="7">La que cocina no está</span><br><span data-index="8">pero la que está no cocina</span></h1>
             </section>
             <section id="hero">
                 <h1><span data-index="9">Lo único que me gusta más que hablar</span><br><span data-index="10">de comida es comer</span></h1>

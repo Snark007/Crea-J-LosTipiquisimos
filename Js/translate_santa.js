@@ -87,11 +87,13 @@ function  traducir(element) {
         navIngles.forEach((element, i) => {
             if(!element) return
              
-            document.querySelector("[data-nav='"+i+"']").innerHTML = element;
+            if (document.querySelector("[data-nav='"+i+"']")) {
+                
+                document.querySelector("[data-nav='"+i+"']").innerHTML = element;
+            }
         });
         santaIngles.forEach((element, i) => {
-            if(!element) return
-             
+            if(!element) return 
             document.querySelector("[data-santa='"+i+"']").innerHTML = element;
         });
         document.querySelector("input[type=submit").value = "Send"
@@ -103,7 +105,10 @@ function  traducir(element) {
     else if(element.id == "idioma-español"){
         navEspañol.forEach((element, i) => {
             if(!element) return
-            document.querySelector("[data-nav='"+i+"']").innerHTML = element;
+            if (document.querySelector("[data-nav='"+i+"']")) {
+                
+                document.querySelector("[data-nav='"+i+"']").innerHTML = element;
+            }
         });
         santaEspañol.forEach((element, i) => {
             if(!element) return

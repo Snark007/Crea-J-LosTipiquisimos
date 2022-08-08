@@ -29,7 +29,7 @@ header("location:index.php");
     ?>
     <div class="login-box1">
 
-        <h1>ERROR.......</h1>
+        <h1>Error: Usuario o contraseña no validos</h1>
     </div>
     
     <?php

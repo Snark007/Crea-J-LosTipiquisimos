@@ -17,7 +17,7 @@ session_start();
                 </div>
                 <div class="pais" id="idioma-ingles" onclick="traducir(this)">
                     <img src="../Img/translateIcons/en.webp" alt="">
-                    <p data-nav="3">Ingles</p>
+                    <p data-nav="3">Inglés</p>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@ session_start();
                     <p><a href="../COMIDAS/base-semanasanta.php"><span data-nav="7">Semana santa</span></a></p>
                     <p><a href="../COMIDAS/base-pupusas.php"><span data-nav="8">pupusas</span></a></p>
                     <p><a href="../COMIDAS/base-postres.php"><span data-nav="9">postres</span></a></p>
-                    <p><a href="../COMIDAS/base-sopas.php"><span data-nav="10">Tamales</span></a></p>
+                    <p><a href="../COMIDAS/base-tamales.php"><span data-nav="10">Tamales</span></a></p>
                     <p><a href="../COMIDAS/base-sopas.php"><span data-nav="11">Sopas </span></a></p>
                     <p><a href="../COMIDAS/base-tipica.php"><span data-nav="12">Recetas tipicas</span></a></p>
                     <p><a href="../COMIDAS/base-atoles.php"><span data-nav="13">Atoles</span></a></p>
@@ -55,7 +55,7 @@ session_start();
             <p class="main-text"><a href="" data-nav="5"><img src="../icons/icon-iniciar.png"></a></p>
 
             <div class="more-options-recetas-i">
-                <p><a href="../Html/close.php">cerrar sesion</a></p>
+            <a href="../Html/close.php" class="hide-login"><button class="but">cerrar sesion</button></a>
             </div>
 
         <?php } ?>

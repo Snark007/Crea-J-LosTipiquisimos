@@ -87,7 +87,9 @@ function  traducir(element) {
         navIngles.forEach((element, i) => {
             if(!element) return
              
-            document.querySelector("[data-nav='"+i+"']").innerHTML = element;
+            if (document.querySelector("[data-nav='"+i+"']")) {
+                document.querySelector("[data-nav='"+i+"']").innerHTML = element;
+            }
         });
         atolesIngles.forEach((element, i) => {
             if(!element) return
@@ -103,7 +105,10 @@ function  traducir(element) {
     else if(element.id == "idioma-español"){
         navEspañol.forEach((element, i) => {
             if(!element) return
-            document.querySelector("[data-nav='"+i+"']").innerHTML = element;
+            if (document.querySelector("[data-nav='"+i+"']")) {
+                
+                document.querySelector("[data-nav='"+i+"']").innerHTML = element;
+            }
         });
         atolesEspañol.forEach((element, i) => {
             if(!element) return

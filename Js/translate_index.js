@@ -107,7 +107,9 @@ function  traducir(element) {
         navIngles.forEach((element, i) => {
             if(!element) return
              
-            document.querySelector("[data-nav='"+i+"']").innerHTML = element;
+            if (document.querySelector("[data-nav='"+i+"']")) {
+                document.querySelector("[data-nav='"+i+"']").innerHTML = element;
+            }
         });
         indexIngles.forEach((element, i) => {
             if(!element) return
@@ -123,7 +125,10 @@ function  traducir(element) {
     else if(element.id == "idioma-español"){
         navEspañol.forEach((element, i) => {
             if(!element) return
-            document.querySelector("[data-nav='"+i+"']").innerHTML = element;
+            if (document.querySelector("[data-nav='"+i+"']")) {
+                
+                document.querySelector("[data-nav='"+i+"']").innerHTML = element;
+            }
         });
         indexEspañol.forEach((element, i) => {
             if(!element) return
