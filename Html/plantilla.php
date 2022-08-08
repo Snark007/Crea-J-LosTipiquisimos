@@ -5,123 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tipiquisimos</title>
     <link rel="icon" href="../Img/cocina.png">
-    <link rel="stylesheet" href="../Css/receta.css">
+    <link rel="stylesheet" href="../Css/stilo-plantilla.css">
     <link rel="stylesheet" href="../Css/cuadros.css">
+    <link rel="icon" href="../Img/cocina.png">
     <link rel="stylesheet" href="../Css/estructura.css">
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
+    <link rel="stylesheet" href="../Css/bases.css">
     <script defer src="../Js/menu.js"></script>
-    <script defer src="../Js/translate.js"></script>
+    <script defer src="../Js/translate_atoles.js"></script>
+    <title>Atoles</title>
 </head>
 
 <body>
     <!--MENU-->
-    <?php 
-     include "hader.php";
-     ?>
+    <?php
+    include "../Html/hader.php";
+    ?>
     <!--BASE-->
 
-    <section>
+    <section class="baja">
         <div class="basic">
-
-            <h1 class="start">Aquí están nuestras recetas.</h1>
-            <hr class="space">
-            <p class="letters">Tenemos disponibles los diferentes catalogos de recetas.</p>
+            <div class="top">  
+                <h1 class="start"> <span data-atoles="1"> Recetas de la comunidad</span></h1>
+              
+                <br>
+                <h2 class="start"><span data-atoles="2">Estas son las recetas que la comunidad a preparado para tí</span></h2>
+            </div>
         </div>
 
         <div class="container2">
 
-            <a href="../COMIDAS/navidenas.php">
-                <div class="card">
-                    <img src="../Img/nav.jpg">
-                    <h4>Navideñas</h4>
-                    <p>En el salvador se acostumbra a cocinar en Navidad con familia.</p><br>
-                    <div class="ver"> Ver más</div>
-                </div>
-            </a>
+ <a href="../COMIDAS/atolpiñuela.php"> <div class="card">
+    <img src="../Comida/atol-de-piñuela.jpg">
+    <h4><span data-atoles="3">Atol Piñuela.</span></h4>
+    <p><span data-atoles="4">El sabroso y tradicional Atol de Piñuela, es otra de las ricas variedades de atoles que tenemos. </span></p>
 
-            <a href="../COMIDAS/semanasanta.php">
-                <div class="card">
-                    <img src="../Img/semana.jpg">
-                    <h4>Semana Santa</h4>
-                    <p> Semana Santa se celebra con comidas sensillas pero exquisitas.</p><br>
-                    <div class="ver"> Ver más</div>
-                </div>
-            </a>
+    <div class="ver"><span data-atoles="5"> Ver más</span></div>
+      
+</div></a>
 
-            <a href="../COMIDAS/plantilla.php">
-                <div class="card">
-                    <img src="../Img/pupusa.jpg">
-                    <h4>Pupusas</h4>
-                    <p>Las pupusan son el platillo más representativo y delicioso de el Salvador.</p>
-                    <div class="ver"> Ver más</div>
-                </div>
-            </a>
-    </section>
-    <section>
+<a href="../COMIDAS/quesadillas.php"> <div class="card">
+    <img src="../Comida/quesadillaas.jpg">
+    <h4><span data-atoles="6">Quesadilla.</span></h4>
+    <p> <span data-atoles="7">La quesadilla salvadoreña es un pan dulce, similar a un bizcocho.</span></p><br>
 
-        <div class="container2">
+    <div class="ver"> <span data-atoles="8">Ver más</span></div>
+</div></a>
 
-            <a href="../COMIDAS/postres.php">
-                <div class="card">
-                    <img src="../Img/POSTRES-SV.jpg">
-                    <h4>Postres</h4>
-                    <p>Los postres son una gran parte de la gastronomia salvadoreña.Mira las recetas</p>
-                    <div class="ver"> Ver más</div>
-                </div>
-            </a>
+<a href="../COMIDAS/pupusas-frijolqueso copy.php"> <div class="card">
+    <img src="../Comida/pupusas revueltas.jpg">
+    <h4><span data-atoles="9">Pupusas revueltas</span></h4>
+    <p><span data-atoles="10">Las pupusas son un platillo tradicional de El Salvador, existen de diferentes rellenos, en este caso te dejamos la receta de pupusas con frijos y queso</span></p>
 
-            <a href="../COMIDAS/tamales.php">
-                <div class="card">
-                    <img src="../Img/tamales.jpg">
-                    <h4>Tamales</h4>
-                    <p> Los tamales salvadoreños es parte de la cocina tradicional, A base de maíz.</p><br>
-                    <div class="ver"> Ver más</div>
-                </div>
-            </a>
-
-            <a href="../COMIDAS/sopas.php">
-                <div class="card">
-                    <img src="../Img/sopas.jpg">
-                    <h4>Sopas</h4>
-                    <p>Son muchas las recetas de sopas salvadoreñas, pero lo cierto es que las hay mas preferidas unas
-                        que otras.</p>
-                    <div class="ver"> Ver más</div>
-                </div>
-            </a>
-    </section>
-    <section>
-
-
-        <div class="container2">
-
-            <a href="../COMIDAS/comida.php">
-                <div class="card">
-                    <img src="../Img/yuca.jpg">
-                    <h4>Recetas típicas</h4>
-                    <p>En este apartado estan los platos mas reconocidos y tipiquisimos salvadoreños</p>
-                    <div class="ver"> Ver más</div>
-                </div>
-            </a>
-            <a href="../COMIDAS/Atoles.php">
-                <div class="card">
-                    <img src="../Comida/chuco.jpg">
-                    <h4>Atoles</h4>
-                    <p>En la gastronomia Salvadoreña hay mucha variedad de Atoles. Veamos</p><br>
-                    <div class="ver"> Ver más</div>
-                </div>
-            </a>
-
-
-        </div>
-    </section>
-    <!--PIE DE PAGINA-->
+    <div class="ver"><span data-atoles="11"> Ver más</span></div>
+</div> </a>
+</section>
+    <!--::::Pie de Pagina::::::-->
     <footer>
         <div class="contar">
-            <h3 class="log">Los Tipiquisimos</h3>
-            <p>&copy; Los Tipiquisimos 2022-Derechos reservados</p>
+            <h3 class="log"> <span data-atoles="12">  Los Tipiquisimos</span></h3>
+            <p>&copy; <span data-atoles="13">  Los Tipiquisimos 2022-Derechos reservados</span></p>
         </div>
         <div class="container3">
             <a href="https://www.facebook.com/Los-Tipiquisimos-110215061699961/?ref=page_internal"><img src="../Img/facebook.png" alt="" class="Photographs"></a><br>

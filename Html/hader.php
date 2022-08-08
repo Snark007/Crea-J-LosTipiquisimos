@@ -45,7 +45,7 @@ session_start();
             </div>
             </a>
             <a href="../Html/subir.php" data-nav="14">¿Quieres subir tu receta?</a>
-            <a href="../COMIDAS/Comunidad.php" data-nav="15">Comunidad</a>
+            <a href="../Html/plantilla.php" data-nav="15">Comunidad</a>
         </nav>
 
 
