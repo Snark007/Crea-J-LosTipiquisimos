@@ -61,7 +61,7 @@
         <div class="container-1">
             <div class="res-info">
                 <div class="res-img-comida">
-                    <img src="../Comida/tamales-pisques.jpg" alt="">
+                    <img src="../Comida/pisque.jpg" alt="">
                     <img src="../Comida/riguas.jpg" alt="">
                 </div>
 
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                     <p> <span data-index="13">
-                            Los Tipiquisimos somos un Sitio Web que
+                            Los Tipiquisimos es un sitio web que
                             pretende ayudar a las personas que <br> quieran
                             aprender sobre la gastronomia Salvadoreña</span>
                     </p>
