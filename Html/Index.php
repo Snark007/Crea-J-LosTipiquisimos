@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tipiquisimos</title>
     <link rel="icon" href="../Img/cocina.png">
-    <link rel="stylesheet" href="../Css/nosotros.css">
     <link rel="stylesheet" href="../Css/estructura.css">
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
