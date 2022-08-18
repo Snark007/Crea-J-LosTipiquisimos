@@ -24,7 +24,7 @@
     <!--BASE-->
     <main class="instructions-container">
         <div class="instructions">
-            <h1 class="instructions-title"> <span data-subir="1"> Quieres subir tus recetas debes realizar los siguientes pasos al pies de la
+            <h1 class="instructions-title"> <span data-subir="1"> Quieres subir tus recetas debes realizar los siguientes pasos al pie de la
                     letra como te indican. </span></h1>
 
             <div class="instructions-pasos">
@@ -103,7 +103,7 @@
         </div>
         <div class="form">
 
-            <form action="v-subir.php" method="POST">
+            <form action="v-subir.php" method="POST" enctype="multipart/form-data">
                 <div class="wrapper-form">
                     <h2 class="instructions-title"> <span data-subir="12"> Solicitud de recetas</span></h2>
 
