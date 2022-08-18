@@ -35,6 +35,8 @@
     <section>
         <?php 
         $conexion = mysqli_connect('localhost', 'root', '', 'db_tipiquisimos');
+
+        
         ?>
         <div class="recetas">
             <img src="../Comida/arroz-con-leche.jpg" alt="">

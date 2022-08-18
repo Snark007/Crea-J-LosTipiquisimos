@@ -14,10 +14,8 @@ if ($_POST) {
     $preparacion_r = $_POST['proce'];
     $img = $_FILES['img-receta']['name'];
     $ruta = "../IMG-comunidad/".$_FILES['img-receta']['name'];
-    //$imgT = $_FILES['img-receta']['tmp_name'];
     $nombre_r = $_POST['nombre'];
 
-    //print_r($_FILES['img-receta']);
     //Funcion para guardar imagenes - move_uploaded_file pide dos argumento
     //1-Nombre temporal 2-Nombre con el que se va a guardar
     move_uploaded_file($_FILES['img-receta']['tmp_name'],"../IMG-comunidad/".$_FILES['img-receta']['name']);
