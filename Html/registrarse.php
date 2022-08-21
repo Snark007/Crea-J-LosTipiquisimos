@@ -33,7 +33,7 @@
         </div>
 
 <div class="login-box">
-    <img src="../Img/cocineromejorado.png" class="avatar" alt="Avatar Image">
+    <a href="../Html/Index.php"><img src="../Img/cocineromejorado.png" class="avatar" alt="Avatar Image"></a>
     <h1> <span data-ingresar="1"> Registarse</span></h1>
     <form action="../Html/db.php" method="post">
       <!--nombre -->
