@@ -19,7 +19,7 @@ Una vez que has colocado el relleno, se procede a envolver, dando forma de esfé
 Los Tipiquisimos 2022-Derechos reservados
 `
 let pupusafqIngles = `
-PUPUSA BEAN CHEESE
+PUPUSA FRIJOL QUESO
 Pupusas are a traditional dish from El Salvador, there are different fillings, in this case we leave you the recipe for pupusas with beans and cheese, however you can make it only with cheese or beans, with pork rinds, etc. It is important that you have at your disposal 1 iron to be able to make them and that they are well browned.
 Ingredients:
 Half a kilo of corn or rice flour
