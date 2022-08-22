@@ -22,6 +22,7 @@
     <!--MENU-->
     <?php
     include "../Html/hader.php";
+    include "../Html/m-comunidad.php";
     ?>
     <!--BASE-->
 
@@ -39,8 +40,8 @@
 
  <a href="../COMIDAS/atolpiñuela.php"> <div class="card">
     <img src="../Comida/atol-de-piñuela.jpg">
-    <h4><span data-atoles="3">Atol Piñuela.</span></h4>
-    <p><span data-atoles="4">El sabroso y tradicional Atol de Piñuela, es otra de las ricas variedades de atoles que tenemos. </span></p>
+    <h4><span data-atoles="3"><?php echo $nombre_r;?></span></h4>
+    <p><span data-atoles="4"><?php echo $descripcion_r;?></span></p>
 
     <div class="ver"><span data-atoles="5"> Ver más</span></div>
       
@@ -48,8 +49,8 @@
 
 <a href="../COMIDAS/quesadillas.php"> <div class="card">
     <img src="../Comida/quesadillaas.jpg">
-    <h4><span data-atoles="6">Quesadilla.</span></h4>
-    <p> <span data-atoles="7">La quesadilla salvadoreña es un pan dulce, similar a un bizcocho.</span></p><br>
+    <h4><span data-atoles="6"><?php echo $nombre_r;?></span></h4>
+    <p> <span data-atoles="7"><?php echo $descripcion_r;?></span></p><br>
 
     <div class="ver"> <span data-atoles="8">Ver más</span></div>
 </div></a>
