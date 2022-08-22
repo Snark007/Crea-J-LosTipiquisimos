@@ -45,7 +45,7 @@
     <div class="ver"><span  data-postre="5"> Ver más</span> </div>
 </div></a>
 
-<a href="../COMIDAS/.php"> <div class="card">
+<a href="../COMIDAS/quesadillas.php"> <div class="card">
     <img src="../Comida/quesadillaas.jpg">
     <h4><span  data-postre="6">Quesadilla</span> </h4>
     <p><span  data-postre="7">La quesadilla es un platillo mexicano que consiste en una tortilla de maíz, o también de trigo</span> </p>
