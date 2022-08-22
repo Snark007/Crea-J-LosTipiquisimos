@@ -26,7 +26,9 @@
         <div class="recetas">
             <?php
             if ($conexion) {
-                $consu = "SELECT * FROM `subir`";
+                $id = $_GET["estiben"];
+                $consu = "SELECT * FROM `subir` WHERE `id-subir` = $id";
+                //echo $consu;
                 $result = mysqli_query($conexion, $consu);
                 if ($result) {
 
