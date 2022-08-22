@@ -35,7 +35,7 @@ Copiar esto
     width: 100%;
     display: flex;
     justify-content: center;
-    background: linear-gradient(#B873FF, transparent);
+    background: linear-gradient(#9cc5ff, transparent);
     margin-bottom: 1.25rem;
 }
 
@@ -44,14 +44,8 @@ Copiar esto
     position: relative;
     width: 90%;
     height: 17rem;
-    background-image: linear-gradient(45deg, #BC3CFF, #317FFF);
+    background-image: linear-gradient(45deg, #005bb1, #a4d9ff);
     border-radius: 0 0 20px 20px;
-    /*
-    background-image: url('http://localhost/multimedia/png/user-portada-3.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    */
 }
 
 .seccion-perfil-usuario .perfil-usuario-portada .boton-portada {
@@ -92,18 +86,6 @@ Copiar esto
     border-radius: 50%;
 }
 
-.seccion-perfil-usuario .perfil-usuario-avatar .boton-avatar {
-    position: absolute;
-    left: -2px;
-    top: -2px;
-    border: 0;
-    background-color: #fff;
-    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    cursor: pointer;
-}
 
 .seccion-perfil-usuario .perfil-usuario-body {
     width: 70%;
@@ -154,32 +136,6 @@ Copiar esto
     vertical-align: middle;
 }
 
-.seccion-perfil-usuario .redes-sociales {
-    position: absolute;
-    right: calc(0px - 50px - 1rem);
-    top: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.seccion-perfil-usuario .redes-sociales .boton-redes {
-    border: 0;
-    background-color: #fff;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    color: #fff;
-    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
-    font-size: 1.3rem;
-}
-
-.seccion-perfil-usuario .redes-sociales .boton-redes+.boton-redes {
-    margin-top: .5rem;
-}
 
 .seccion-perfil-usuario .boton-redes.facebook {
     background-color: #5955FF;
@@ -204,22 +160,7 @@ Copiar esto
         width: 95%;
     }
 
-    .seccion-perfil-usuario .redes-sociales {
-        position: relative;
-        flex-direction: row;
-        width: 100%;
-        left: 0;
-        text-align: center;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        align-items: center;
-        justify-content: center
-    }
-
-    .seccion-perfil-usuario .redes-sociales .boton-redes+.boton-redes {
-        margin-left: 1rem;
-        margin-top: 0;
-    }
+   
 }
 
 .mensaje a {
