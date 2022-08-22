@@ -6,7 +6,7 @@ if (!$conexion) {
 }
 
 if ($conexion) {
-    $consu = "SELECT * FROM subir";
+    $consu = "SELECT * FROM `subir`";
     $result = mysqli_query($conexion, $consu);
     if ($result) {
         while ($most = $result->fetch_array()) {
