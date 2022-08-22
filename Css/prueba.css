@@ -43,7 +43,7 @@ Copiar esto
     display: block;
     position: relative;
     width: 90%;
-    height: 17rem;
+    height: 15rem;
     background-image: linear-gradient(45deg, #005bb1, #a4d9ff);
     border-radius: 0 0 20px 20px;
 }
@@ -53,16 +53,13 @@ Copiar esto
     top: 1rem;
     right: 1rem;
     border: 0;
-    border-radius: 8px;
+    border-radius: 20px;
     padding: 12px 25px;
     background-color: rgba(0, 0, 0, .5);
     color: #fff;
     cursor: pointer;
 }
 
-.seccion-perfil-usuario .perfil-usuario-portada .boton-portada i {
-    margin-right: 1rem;
-}
 
 .seccion-perfil-usuario .perfil-usuario-avatar {
     display: flex;
@@ -71,7 +68,7 @@ Copiar esto
     align-items: center;
     justify-content: center;
     border: 7px solid #FFFFFF;
-    background-color: #DFE5F2;
+    background-color: #ffffff;
     border-radius: 50%;
     box-shadow: 0 0 12px rgba(0, 0, 0, .2);
     position: absolute;
@@ -84,8 +81,21 @@ Copiar esto
     width: 100%;
     position: relative;
     border-radius: 50%;
+    height: 160px;
 }
 
+.seccion-perfil-usuario .perfil-usuario-avatar .boton-avatar {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
 .seccion-perfil-usuario .perfil-usuario-body {
     width: 70%;
@@ -98,6 +108,7 @@ Copiar esto
     width: 100%;
     font-size: 1.75em;
     margin-bottom: 0.5rem;
+    margin-bottom: 15px;
 }
 
 .seccion-perfil-usuario .perfil-usuario-body .texto {
@@ -114,6 +125,7 @@ Copiar esto
     background-color: #fff;
     border-radius: 15px;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .seccion-perfil-usuario .perfil-usuario-bio {
@@ -137,17 +149,10 @@ Copiar esto
 }
 
 
-.seccion-perfil-usuario .boton-redes.facebook {
-    background-color: #5955FF;
-}
 
-.seccion-perfil-usuario .boton-redes.twitter {
-    background-color: #35E1BF;
-}
 
-.seccion-perfil-usuario .boton-redes.instagram {
-    background: linear-gradient(45deg, #FF2DFD, #40A7FF);
-}
+
+
 
 /* adactacion a dispositivos */
 @media (max-width: 750px) {
@@ -160,7 +165,7 @@ Copiar esto
         width: 95%;
     }
 
-   
+
 }
 
 .mensaje a {
