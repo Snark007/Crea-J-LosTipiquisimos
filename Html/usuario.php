@@ -30,9 +30,6 @@
                     <i class="far fa-image"></i>
                     </button>
                 </div>
-                <button type="button" class="boton-portada">
-                    <i class="far fa-image"></i> Cambiar foto de perfil
-                </button>
             </div>
         </div>
         <div class="perfil-usuario-body">
