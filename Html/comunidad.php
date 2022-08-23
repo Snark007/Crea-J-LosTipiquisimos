@@ -22,14 +22,15 @@
     <!--MENU-->
     <?php
     include "../Html/hader.php";
+    include "../Html/m-comunidad.php";
     ?>
     <!--BASE-->
 
     <section class="baja">
         <div class="basic">
-            <div class="top">  
+            <div class="top">
                 <h1 class="start"> <span data-atoles="1"> Recetas de la comunidad</span></h1>
-              
+
                 <br>
                 <h2 class="start"><span data-atoles="2">Estas son las recetas que la comunidad a preparado para tí</span></h2>
             </div>
@@ -37,36 +38,36 @@
 
         <div class="container2">
 
- <a href="../COMIDAS/atolpiñuela.php"> <div class="card">
-    <img src="../Comida/atol-de-piñuela.jpg">
-    <h4><span data-atoles="3">Atol Piñuela.</span></h4>
-    <p><span data-atoles="4">El sabroso y tradicional Atol de Piñuela, es otra de las ricas variedades de atoles que tenemos. </span></p>
+            <?php
+            if ($conexion) {
+                $consu = "SELECT * FROM `subir`";
+                $result = mysqli_query($conexion, $consu);
+                if ($result) {
 
-    <div class="ver"><span data-atoles="5"> Ver más</span></div>
-      
-</div></a>
 
-<a href="../COMIDAS/quesadillas.php"> <div class="card">
-    <img src="../Comida/quesadillaas.jpg">
-    <h4><span data-atoles="6">Quesadilla.</span></h4>
-    <p> <span data-atoles="7">La quesadilla salvadoreña es un pan dulce, similar a un bizcocho.</span></p><br>
+                    while ($most = $result->fetch_array()) { ?>
+                        <a href="../COMIDAS/plantilla.php?estiben=<?php echo $most['id-subir']; ?>">
+                            <div class="card">
+                                <img src="../IMG-comunidad/<?php echo $most['imagen']; ?>">
+                                <h4><span data-atoles="3"><?php echo $most['nombre-receta']; ?></span></h4>
+                                <p><span data-atoles="4"><?php echo  $most['descripcion']; ?></span></p>
 
-    <div class="ver"> <span data-atoles="8">Ver más</span></div>
-</div></a>
+                                <div class="ver"><span data-atoles="5"> Ver más</span></div>
 
-<a href="../COMIDAS/pupusas-frijolqueso copy.php"> <div class="card">
-    <img src="../Comida/pupusas revueltas.jpg">
-    <h4><span data-atoles="9">Pupusas revueltas</span></h4>
-    <p><span data-atoles="10">Las pupusas son un platillo tradicional de El Salvador, existen de diferentes rellenos, en este caso te dejamos la receta de pupusas con frijos y queso</span></p>
+                            </div>
+                        </a>
 
-    <div class="ver"><span data-atoles="11"> Ver más</span></div>
-</div> </a>
-</section>
+            <?php          }
+                }
+            }
+            ?>
+
+    </section>
     <!--::::Pie de Pagina::::::-->
     <footer>
         <div class="contar">
-            <h3 class="log"> <span data-atoles="12">  Los Tipiquisimos</span></h3>
-            <p>&copy; <span data-atoles="13">  Los Tipiquisimos 2022-Derechos reservados</span></p>
+            <h3 class="log"> <span data-atoles="12"> Los Tipiquisimos</span></h3>
+            <p>&copy; <span data-atoles="13"> Los Tipiquisimos 2022-Derechos reservados</span></p>
         </div>
         <div class="container3">
             <a href="https://www.facebook.com/Los-Tipiquisimos-110215061699961/?ref=page_internal"><img src="../Img/facebook.png" alt="" class="Photographs"></a><br>

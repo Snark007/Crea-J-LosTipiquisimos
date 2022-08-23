@@ -36,7 +36,7 @@
         </div>
 
 <div class="login-box">
-    <img src="../Img/cocineromejorado.png" class="avatar" alt="Avatar Image">
+ <a href="../Html/Index.php"><img  src="../Img/cocineromejorado.png" class="avatar" alt="Avatar Image"></a>
     <h1> <span data-inicio="4"> Inicio de sesión</span></h1>
     <form  action="verificar.php" method="POST">
       <!-- Usuario -->
