@@ -4,8 +4,6 @@ html {
     text-size-adjust: 100%;
     line-height: 1.4;
 }
-
-
 * {
     margin: 0;
     padding: 0;
@@ -13,12 +11,10 @@ html {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
 body {
     color: #404040;
     font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
 }
-
 /*=====================================
 estilos de la utilidad
 Copiar esto
@@ -30,16 +26,11 @@ Copiar esto
     flex-direction: column;
     align-items: center;
 }
-
 .seccion-perfil-usuario .perfil-usuario-header {
     width: 100%;
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-    /*background: linear-gradient(#2a4aff, transparent);*/
-=======
     background: linear-gradient(#9cc5ff, transparent);
->>>>>>> b71abce29a642ee3158aba19435a3e3bb1d384a1
     margin-bottom: 1.25rem;
 }
 
@@ -47,16 +38,10 @@ Copiar esto
     display: block;
     position: relative;
     width: 90%;
-<<<<<<< HEAD
-    height: 17rem;
-    background-image: linear-gradient(45deg, #7caaff, #317FFF);
-=======
     height: 15rem;
     background-image: linear-gradient(45deg, #005bb1, #a4d9ff);
->>>>>>> b71abce29a642ee3158aba19435a3e3bb1d384a1
     border-radius: 0 0 20px 20px;
 }
-
 .seccion-perfil-usuario .perfil-usuario-portada .boton-portada {
     position: absolute;
     top: 1rem;
@@ -68,8 +53,6 @@ Copiar esto
     color: #fff;
     cursor: pointer;
 }
-
-
 .seccion-perfil-usuario .perfil-usuario-avatar {
     display: flex;
     width: 180px;
@@ -92,7 +75,6 @@ Copiar esto
     border-radius: 50%;
     height: 160px;
 }
-
 .seccion-perfil-usuario .perfil-usuario-avatar .boton-avatar {
     position: absolute;
     left: -2px;
@@ -105,13 +87,11 @@ Copiar esto
     border-radius: 50%;
     cursor: pointer;
 }
-
 .seccion-perfil-usuario .perfil-usuario-body {
     width: 70%;
     position: relative;
     max-width: 750px;
 }
-
 .seccion-perfil-usuario .perfil-usuario-body .titulo {
     display: block;
     width: 100%;
@@ -119,7 +99,6 @@ Copiar esto
     margin-bottom: 0.5rem;
     margin-bottom: 15px;
 }
-
 .seccion-perfil-usuario .perfil-usuario-body .texto {
     color: #848484;
     font-size: 0.95em;
@@ -136,53 +115,19 @@ Copiar esto
     width: 100%;
     margin-bottom: 30px;
 }
-
 .seccion-perfil-usuario .perfil-usuario-bio {
     margin-bottom: 1.25rem;
     text-align: center;
 }
-
 .seccion-perfil-usuario .lista-datos {
     width: 50%;
     list-style: none;
 }
-
 .seccion-perfil-usuario .lista-datos li {
     padding: 5px 0;
 }
-
 .seccion-perfil-usuario .lista-datos li>.icono {
     margin-right: 1rem;
     font-size: 1.2rem;
     vertical-align: middle;
-}
-
-
-
-
-
-
-
-/* adactacion a dispositivos */
-@media (max-width: 750px) {
-    .seccion-perfil-usuario .lista-datos {
-        width: 100%;
-    }
-
-    .seccion-perfil-usuario .perfil-usuario-portada,
-    .seccion-perfil-usuario .perfil-usuario-body {
-        width: 95%;
-    }
-
-
-}
-
-.mensaje a {
-    color: inherit;
-    margin-right: .5rem;
-    display: inline-block;
-}
-.mensaje a:hover {
-    color: #309B76;
-    transform: scale(1.4)
 }
