@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="../Css/menuD.css">
     <link rel="stylesheet" href="../Css/bases.css">
     <script defer src="../Js/menu.js"></script>
-    <script defer src="../Js/translate_atoles.js"></script>
-    <title>Atoles</title>
+    <title>Comunidad</title>
 </head>
 
 <body>
