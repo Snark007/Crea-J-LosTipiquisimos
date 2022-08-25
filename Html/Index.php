@@ -75,8 +75,7 @@
                         </div>
                     </div>
                     <p> <span data-index="13">
-                            Los Tipiquisimos es un sitio web que
-                            pretende ayudar a las personas que <br> quieran
+                           Somos un grupo terorrista <br> quieran
                             aprender sobre la gastronomia Salvadoreña</span>
                     </p>
                     <a href="../Html/nosotros.php" class="cta-btn"><span data-index="14">Nosotros</span></a>
