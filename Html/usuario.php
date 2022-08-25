@@ -19,40 +19,55 @@
     <!--MENU-->
     <?php
     include "hader.php";
+    include "m-comunidad.php"; 
     ?>
     <!--BASE-->
     <section class="seccion-perfil-usuario">
-        <div class="perfil-usuario-header">
-            <div class="perfil-usuario-portada">
-                <div class="perfil-usuario-avatar">
-                    <img src="../Img/chef.png" alt="img-avatar">
+        <?php
+        if ($conexion) {
+            //$id = $_GET["lean"];
+            $consu = "SELECT * FROM `user_info` WHERE `id-registro`";
+            $result = mysqli_query($conexion, $consu);
+            if ($result) {
 
-                    <i class="far fa-image"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="perfil-usuario-body">
-            <div class="perfil-usuario-bio">
-                <h3 class="titulo">Gordon James Ramsay</h3>
 
-            </div>
-            <div class="perfil-usuario-footer">
-                <ul class="lista-datos">
-                    <li><i class="icono fas fa-map-signs"></i> Nombre de usuario:</li>
-                    <li><i class="icono fas fa-phone-alt"></i> Correo</li>
-                    <li><i class="icono fas fa-briefcase"></i> Contraseña</li>
-                </ul>
-                <ul class="lista-datos">
-                    <li><i class="icono fas fa-map-marker-alt"></i> Ramsay</li>
-                    <li><i class="icono fas fa-calendar-alt"></i> Gordon@gordonramsay.com</li>
-                    <li><i class="icono fas fa-user-check"></i> *********</li>
-                </ul>
-            </div>
-        </div>
+                while ($most = $result->fetch_array()) {
+        ?>
+                    <div class="perfil-usuario-header">
+                        <div class="perfil-usuario-portada">
+                            <div class="perfil-usuario-avatar">
+                                <img src="../Img/chef.png" alt="img-avatar">
+
+                                <i class="far fa-image"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="perfil-usuario-body">
+                        <div class="perfil-usuario-bio">
+                            <h3 class="titulo"><?php echo $most['nombre']; ?></h3>
+
+                        </div>
+                        <div class="perfil-usuario-footer">
+                            <ul class="lista-datos">
+                                <li><i class="icono fas fa-map-signs"></i> Nombre de usuario:</li>
+                                <li><i class="icono fas fa-phone-alt"></i> Correo:</li>
+                                <li><i class="icono fas fa-briefcase"></i> Contraseña:</li>
+                            </ul>
+                            <ul class="lista-datos">
+                                <li><i class="icono fas fa-map-marker-alt"></i><?php echo $most['nombre_usu']; ?></li>
+                                <li><i class="icono fas fa-calendar-alt"></i><?php echo $most['correo']; ?></li>
+                                <li><i class="icono fas fa-user-check"></i><?php echo $most['contrasenia']; ?></li>
+                            </ul>
+                        </div>
+                    </div>
     </section>
+<?php          }
+            }
+        }
+?>
 
-    </div>
+</div>
 </body>
 
 </html>

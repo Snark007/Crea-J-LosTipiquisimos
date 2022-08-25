@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
     <script defer src="../Js/menu.js"></script>
-    <script defer src="../Js/translate.js"></script>
-    <title>Arroz con leche</title>
+    <script defer src="../Js/space.js"></script>
+    <title>Comunidad</title>
 </head>
 
 <body>
@@ -19,7 +19,16 @@
     <!--MENU-->
     <?php
     include "../Html/hader.php";
-    include "../Html/m-comunidad.php"
+    include "../Html/m-comunidad.php";
+    ?>
+
+    <?php
+    if (isset($_POST['ingre'])){
+        $text = $_POST['ingre'];
+        $text = preg_replace("#\[sp\]#", "&nbsp;" , $text);
+        $text = preg_replace("#\[nl\]#", "<br>\n" , $text);
+        echo $text;
+    }
     ?>
     <!--BASE-->
     <section>
@@ -28,7 +37,6 @@
             if ($conexion) {
                 $id = $_GET["estiben"];
                 $consu = "SELECT * FROM `subir` WHERE `id-subir` = $id";
-                //echo $consu;
                 $result = mysqli_query($conexion, $consu);
                 if ($result) {
 

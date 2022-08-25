@@ -103,7 +103,7 @@
         </div>
         <div class="form">
 
-            <form action="v-subir.php" method="POST" enctype="multipart/form-data">
+            <form action="v-subir.php" method="POST" enctype="multipart/form-data" onsubmit="addNewLines()">
                 <div class="wrapper-form">
                     <h2 class="instructions-title"> <span data-subir="12"> Solicitud de recetas</span></h2>
 
@@ -119,7 +119,7 @@
                         </div>
                         <div class="textarea-form">
                             <label for="descripcion-receta" class="label-form"> <span data-subir="15">Igredientes</span></label>
-                            <textarea name="ingre" id="" cols="20" rows="5" class="textarea"></textarea>
+                            <textarea name="ingre" id="levi" cols="20" rows="5" class="textarea"></textarea>
                         </div>
                         <div class="textarea-form">
                             <label for="descripcion-receta" class="label-form"> <span data-subir="16">Preparacion </span></label>
@@ -139,7 +139,14 @@
         </div>
 
     </main>
-
+<?php
+    if (isset($_POST['ingre'])){
+        $text = $_POST['ingre'];
+        $text = preg_replace("#\[sp\]#", "&nbsp;" , $text);
+        $text = preg_replace("#\[nl\]#", "<br>\n" , $text);
+        echo $text;
+    }
+?>
 
 
     <!--PIE DE PAGINA-->
