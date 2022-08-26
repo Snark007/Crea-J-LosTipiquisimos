@@ -7,7 +7,6 @@
   <title>Inicio de sesión</title>
   <link rel="icon" href="../Img/cocina.png">
   <link rel="stylesheet" href="../Css/iniciarsecion.css">
-  
   <link rel="stylesheet" href="../Css/footer.css">
   <link rel="stylesheet" href="../Css/traducir_iniciar.css">
   <script defer src="../Js/translate_iniciar.js"></script>

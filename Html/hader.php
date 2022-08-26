@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <header>
     <div class="wrapper-menu">
         <div class="btn-translate-hide wrapper-caja ">

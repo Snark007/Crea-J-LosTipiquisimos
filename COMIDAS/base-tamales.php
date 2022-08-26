@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,7 +39,7 @@
 
         <div class="container2">
 
-        <a href="../COMIDAS/tamales-pisques.php"><div class="card">
+        <a href="../COMIDAS/tamales-piques.php"><div class="card">
                 <img src="../Comida/pisque.jpg">
                 <h4>Tamal pisques</h4>
                 <p>Está elaborado con masa de maíz, piloncillo y manteca de cerdo. </p><br>

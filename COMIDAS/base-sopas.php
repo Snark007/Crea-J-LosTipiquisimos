@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -52,7 +55,7 @@
                 <div class="ver"><span data-sopa="8"> Ver más</span></div>
             </div></a>
 
-            <a href="../COMIDAS/sopade pollo.html"> <div class="card">
+            <a href="../COMIDAS/sopa-pollo.php"> <div class="card">
                 <img src="../Comida/gallina.jpg">
                 <h4><span data-sopa="9">Sopa de gallina</span></h4>
                 <p><span data-sopa="10">El caldo de pollo es una sopa a menudo se sirve con trozos de carne de pollo.</span></p>
