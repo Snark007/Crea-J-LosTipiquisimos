@@ -4,6 +4,9 @@
         header("location:iniciarsecion.php");
         
     }
+    
+    
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -146,14 +149,7 @@
         </div>
 
     </main>
-<?php
-    if (isset($_POST['ingre'])){
-        $text = $_POST['ingre'];
-        $text = preg_replace("#\[sp\]#", "&nbsp;" , $text);
-        $text = preg_replace("#\[nl\]#", "<br>\n" , $text);
-        echo $text;
-    }
-?>
+
 
 
     <!--PIE DE PAGINA-->
