@@ -26,10 +26,10 @@ session_start();
     ?>
 
     <?php
-    if (isset($_POST['ingre'])){
+    if (isset($_POST['ingre'])) {
         $text = $_POST['ingre'];
-        $text = preg_replace("#\[sp\]#", "&nbsp;" , $text);
-        $text = preg_replace("#\[nl\]#", "<br>\n" , $text);
+        $text = preg_replace("#\[sp\]#", "&nbsp;", $text);
+        $text = preg_replace("#\[nl\]#", "<br>\n", $text);
         echo $text;
     }
     ?>
@@ -61,18 +61,18 @@ session_start();
             <div class="ingredientes2">
                 <h1>Ingredientes:</h1>
                 <p>
-                <ul type="square">
-                    <li><?php echo $most['ingredientes']; ?></li>
-                </ul>
+
+                    <?php echo $most['ingredientes']; ?></li>
+
                 </p>
             </div>
             <div class="ingredientes-pasos">
                 <h1>Preparación:</h1>
-                <ol>
-                    <li>
-                        <?php echo $most['pasos']; ?>
-                    </li><br>
-                </ol>
+
+
+                <p> <?php echo $most['pasos']; ?></p>
+
+
             </div>
         </div>
 <?php

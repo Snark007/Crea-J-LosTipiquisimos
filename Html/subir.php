@@ -121,23 +121,23 @@
 
                         <div class="inputs-form">
                             <label for="nombre-receta" class="label-form"> <span data-subir="13">Nombre de la receta</span> </label>
-                            <input type="text" name="nombre" class="input">
+                            <input type="text" name="nombre" required class="input">
                         </div>
                         <div class="textarea-form">
                             <label for="descripcion-receta" class="label-form"> <span data-subir="14">Descripcion</span></label>
-                            <textarea name="desc" id="" cols="20" rows="5" class="textarea"></textarea>
+                            <textarea name="desc" id="" cols="20" rows="5" required class="textarea"></textarea>
                         </div>
                         <div class="textarea-form">
                             <label for="descripcion-receta" class="label-form"> <span data-subir="15">Igredientes</span></label>
-                            <textarea name="ingre" id="levi" cols="20" rows="5" class="textarea"></textarea>
+                            <textarea name="ingre" id="levi" cols="20" rows="5" required class="textarea"></textarea>
                         </div>
                         <div class="textarea-form">
                             <label for="descripcion-receta" class="label-form"> <span data-subir="16">Preparacion </span></label>
-                            <textarea name="proce" id="" cols="20" rows="5" class="textarea"></textarea>
+                            <textarea name="proce" id="" cols="20" rows="5" required class="textarea"></textarea>
                         </div>
                         <div class="imgs-forms">
                             <label for="img-receta" class="label-form container-bom" > <span data-subir="17">Imagen</span></label>
-                            <input type="file" class="img-input" id='img-receta' name='img-receta'>
+                            <input type="file" class="img-input" id='img-receta' required name='img-receta'>
                         </div>
 
                         <button type="submit" class="submit-form">Enviar</button>
