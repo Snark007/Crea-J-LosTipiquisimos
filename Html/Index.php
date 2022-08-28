@@ -70,6 +70,7 @@ session_start();
 
                 <div class="res-des basicc">
                     <div class="global">
+                        <div class="container_aroow">
                         <h2 class="h2-sub">
                             <span class="disco-titulo" data-index="11">Descubre</span>
                         </h2>
@@ -77,11 +78,14 @@ session_start();
                         <div class="circle">
                         </div>
                     </div>
+                    </div>
+                    <div class="container_aroo">
                     <p> <span data-index="13">
                             Los Tipiquisimos es un sitio web que
                             pretende ayudar a las personas que <br> quieran
                             aprender sobre la gastronomia Salvadoreña</span>
                     </p>
+                    </div>
                     <a href="../Html/nosotros.php" class="cta-btn"><span data-index="14">Nosotros</span></a>
                 </div>
 
