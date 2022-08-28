@@ -13,6 +13,7 @@ session_start();
     <link rel="stylesheet" href="../Css/estructura.css">
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
+    <link rel="stylesheet" href="../Css/barra.css">
     <script defer src="../Js/menu.js"></script>
     <script defer src="../Js/translate_index.js"></script>
 </head>
