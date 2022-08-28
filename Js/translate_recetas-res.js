@@ -31,6 +31,7 @@ Cuando empiece a hervir agrega las pasas y el azúcar restante.
 Cuando tenga una consistencia muy espesa, casi sólida, retira del fuego y vierte inmediatamente en tazones pequeños o copas para helado.
 Espolvorea con nuez moscada moscada molida y deja refrescar.
 Pon en el refrigerador por 30 minutos antes de servir.
+© Los Tipiquisimos 2022-Derechos reservados
 `
 let resIngles = `
 BEEF SOUP
@@ -64,6 +65,7 @@ When it starts to boil add the raisins and the remaining sugar.
 When it has a very thick, almost solid consistency, remove from the heat and immediately pour into small bowls or ice cream cups.
 Sprinkle with ground nutmeg and let cool.
 Place in the refrigerator for 30 minutes before serving.
+© Los Tipiquisimos 2022-Rights reserved.
 `
 let navEspañol = `
 Elegir idioma
