@@ -78,7 +78,7 @@ session_start();
                         </div>
                     </div>
                     <p> <span data-index="13">
-                            Los Tipiquisimos es un sitio web que
+                            os Tipiquisimos es un sitio web que
                             pretende ayudar a las personas que <br> quieran
                             aprender sobre la gastronomia Salvadoreña</span>
                     </p>
