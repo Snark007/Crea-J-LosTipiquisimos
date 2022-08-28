@@ -264,3 +264,12 @@ footer .container3 {
 p {
     word-break:break-all ;
 }
+body::-webkit-scrollbar{
+    width: 10px;
+    background: rgb(239, 253, 255);
+}
+body::-webkit-scrollbar-thumb{
+    background: #0044a4;
+    border-radius: 10px;
+    border-right: 0.5px solid rgb(239, 253, 255);
+}
