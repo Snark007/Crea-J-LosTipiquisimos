@@ -1,9 +1,11 @@
 // let español, english;
-let tamalEspañol = `
-
+let tamaleloteEspañol = `
+TAMAL DE ELOTE
+Acá te explicamos paso a paso la preparación de los tradicionales tamales de elotes, que tanto gustan. El exquisito sabor del maíz es lo que caracteriza este plato.
 `
-let tamalIngles = `
-
+let tamaleloteIngles = `
+CORN TAMALES
+Here we explain step by step the preparation of the traditional corn tamales, which are so popular. The exquisite flavor of corn is what characterizes this dish.
 `
 let navEspañol = `
 Elegir idioma
@@ -41,8 +43,8 @@ Atoles
 Community
 Log in
 `
-tamalIngles = tamalIngles.split("\n");
-tamalEspañol = tamalEspañol.split("\n");
+tamaleloteIngles = tamaleloteIngles.split("\n");
+tamaleloteEspañol = tamaleloteEspañol.split("\n");
 
 navIngles = navIngles.split("\n");
 navEspañol = navEspañol.split("\n");
@@ -67,10 +69,10 @@ function  traducir(element) {
                 document.querySelector("[data-nav='"+i+"']").innerHTML = element;
             }
         });
-        tamalIngles.forEach((element, i) => {
+        tamaleloteIngles.forEach((element, i) => {
             if(!element) return
              
-            document.querySelector("[data-tamal='"+i+"']").innerHTML = element;
+            document.querySelector("[data-tamalelote='"+i+"']").innerHTML = element;
         });
 
        sessionStorage.setItem("lang", "en");
@@ -86,9 +88,9 @@ function  traducir(element) {
                 document.querySelector("[data-nav='"+i+"']").innerHTML = element;
             }
         });
-        tamalEspañol.forEach((element, i) => {
+        tamaleloteEspañol.forEach((element, i) => {
             if(!element) return
-            document.querySelector("[data-tamal='"+i+"']").innerHTML = element;
+            document.querySelector("[data-tamalelote='"+i+"']").innerHTML = element;
         });
 
        sessionStorage.setItem("lang", "es");
