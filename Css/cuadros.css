@@ -73,6 +73,7 @@ body{
 
 .card {
     width: 33.333333%;
+    word-break:break-all ;
     
    
 }
