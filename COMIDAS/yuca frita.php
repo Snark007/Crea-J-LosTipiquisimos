@@ -11,7 +11,7 @@ session_start();
     <link rel="stylesheet" href="../css/stilo.css">
     <link rel="stylesheet" href="../Css/estructura.css">
     <link rel="icon" href="../Img/cocina.png">
-    <link rel="stylesheet" href="../Css/translate.css">9
+    <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
     <script defer src="../Js/menu.js"></script>
     <script defer src="../Js/translate_recetas-yuca.js"></script>

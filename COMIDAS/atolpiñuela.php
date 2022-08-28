@@ -14,7 +14,7 @@ session_start();
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
     <script defer src="../Js/menu.js"></script>
-    <script defer src="../Js/translate.js"></script>
+    <script defer src="../Js/translate_recetas-piñuela.js"></script>
     <title>Atol de Piñeula</title>
 </head>
 
@@ -28,11 +28,11 @@ session_start();
         <div class="recetas">
             <img src="../Comida/atol_piñuela.png" alt="">
             <div class="recetas-letras">
-                <h1>ATOL DE PIÑUELA</h1>
-                <p>
+                <h1><span data-piñuela="1">ATOL DE PIÑUELA<span></h1>
+                <p><span data-piñuela="2">
                     El sabroso y tradicional Atol de Piñuela, es otra de las ricas variedades de atoles que tenemos en El Salvador. Y ahora, usted lo puede hacer en casa utilizando esta receta.
                     Fuente: Recetas Salvadoreñas
-
+                    <span>
                 </p>
             </div>
         </div>
@@ -41,34 +41,34 @@ session_start();
         </div>
         <div class="ingredientes">
             <div class="ingredientes2">
-                <h1>Ingredientes:</h1>
+                <h1><span data-piñuela="3">Ingredientes:<span></h1>
                 <p>
                 <ul type="square">
-                    <li> 1 piñuela</li>
-                    <li> 2 dulces de atado</li>
-                    <li> 3 tazas de harina de arroz</li>
-                    <li> Canela en rajas a tu gusto </li>
-                    <li> 8 granos de pimienta gorda</li>
-                    <li> ½ cucharada de sal</li>
-                    <li> Azúcar al gusto</li>
+                    <li><span data-piñuela="4"> 1 piñuela<span></li>
+                    <li><span data-piñuela="5"> 2 dulces de atado<span></li>
+                    <li><span data-piñuela="6"> 3 tazas de harina de arroz<span></li>
+                    <li><span data-piñuela="7"> Canela en rajas a tu gusto<span> </li>
+                    <li><span data-piñuela="8"> 8 granos de pimienta gorda<span></li>
+                    <li><span data-piñuela="9"> ½ cucharada de sal<span></li>
+                    <li><span data-piñuela="10"> Azúcar al gusto<span></li>
 
                 </ul>
                 </p>
             </div>
             <div class="ingredientes-pasos">
-                <h1>Preparación:</h1>
+                <h1><span data-piñuela="11">Preparación:<span></h1>
                 <ol>
-                    <li>Corta todas las piñitas del gajo, quilates la puntita con un cuchillo y luego las pones a hervir en agua por diez minutos. Retirarás del fuego, déjalas enfriar y luego a cada una le
-                        extraes el contenido del cual tienes que separar las semillas. El siguiente paso es volver a introducir el contenido en cada una de las piñitas.</li><br>
+                    <li><span data-piñuela="12">Corta todas las piñitas del gajo, quilates la puntita con un cuchillo y luego las pones a hervir en agua por diez minutos. Retirarás del fuego, déjalas enfriar y luego a cada una le
+                        extraes el contenido del cual tienes que separar las semillas. El siguiente paso es volver a introducir el contenido en cada una de las piñitas.<span></li><br>
 
-                    <li>Ahora en una olla con dos tazas de agua derrite el atado con la canela luego integras las piñitas y cocina a fuego lento para que se conserven muy bien. Este proceso lleva 45 minutos aproximadamente.</li><br>
+                    <li><span data-piñuela="13">Ahora en una olla con dos tazas de agua derrite el atado con la canela luego integras las piñitas y cocina a fuego lento para que se conserven muy bien. Este proceso lleva 45 minutos aproximadamente.<span></li><br>
 
-                    <li>Mientras tanto, en otro depósito disuelve la harina de arroz con 10 tazas de agua y cuela en una servilleta de tela.</li><br>
+                    <li><span data-piñuela="14">Mientras tanto, en otro depósito disuelve la harina de arroz con 10 tazas de agua y cuela en una servilleta de tela.<span></li><br>
 
-                    <li>Cuando las piñitas estén bien conservadas agrega la preparación anterior. Continua la cocción e incorpora la pimienta gorda, cuidando de remover para que no se pegue. Verifica el sabor de
-                        las piñas y si hace falta agrega una porción más de dulce de panela cuando este se derrita. Cuando hierva, retira del fuego.</li><br>
+                    <li><span data-piñuela="15">Cuando las piñitas estén bien conservadas agrega la preparación anterior. Continua la cocción e incorpora la pimienta gorda, cuidando de remover para que no se pegue. Verifica el sabor de
+                        las piñas y si hace falta agrega una porción más de dulce de panela cuando este se derrita. Cuando hierva, retira del fuego.<span></li><br>
 
-                    <li>Y ya esta listo disfruta de tu sabroso atol</li><br>
+                    <li><span data-piñuela="16">Y ya esta listo disfruta de tu sabroso atol<span></li><br>
                 </ol>
             </div>
         </div>
@@ -77,7 +77,7 @@ session_start();
     <footer>
         <div class="contar">
             <h3 class="log">Los Tipiquisimos</h3>
-            <p>&copy; Los Tipiquisimos 2022-Derechos reservados</p>
+            <p>&copy; <span data-piñuela="17">Los Tipiquisimos 2022-Derechos reservados<span></p>
         </div>
         <div class="container3">
             <a href="https://www.facebook.com/Los-Tipiquisimos-110215061699961/?ref=page_internal"><img src="../Img/facebook.png" alt="" class="Photographs"></a><br>
