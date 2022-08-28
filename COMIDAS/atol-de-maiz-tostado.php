@@ -37,7 +37,7 @@ session_start();
     <!--BASE-->
     <section>
         <div class="recetas">
-            <img src="../Comida/Atol-de-Maiz-Tostado.jpg" alt="">
+            <img src="../Comida/tostado.png" alt="">
             <div class="recetas-letras">
                 <h1>ATOL DE MAÍZ TOSTADO</h1>
                 <p>

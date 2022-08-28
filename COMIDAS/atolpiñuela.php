@@ -26,7 +26,7 @@ session_start();
     <!--BASE-->
     <section>
         <div class="recetas">
-            <img src="../Comida/atol-de-piñuela.jpg" alt="">
+            <img src="../Comida/atol_piñuela.png" alt="">
             <div class="recetas-letras">
                 <h1>ATOL DE PIÑUELA</h1>
                 <p>

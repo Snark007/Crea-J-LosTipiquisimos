@@ -37,7 +37,7 @@ session_start();
     <!--BASE-->
     <section>
         <div class="recetas">
-            <img src="../Comida/Atol-de-elote.jpg" alt="">
+            <img src="../Comida/Atol-de-maiz.jpg" alt="">
             <div class="recetas-letras">
                 <h1>ATOL DE ELOTE</h1>
                 <p>
