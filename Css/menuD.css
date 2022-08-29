@@ -11,13 +11,12 @@
     position: absolute;
     background-color: white;
     padding-top: 15px;
-    padding-bottom: 10px;
+    /*padding-bottom: 10px;*/
     /*margin-left: -50px;*/
     width: 175px;
     line-height: 1.8rem;
-   
-   
 }
+
 .more-options-recetas:hover{
     display: block;
 }
@@ -166,4 +165,5 @@ header a:hover {
 
 .more-options-recetas>p:hover{
     color: #002b89;
+    background-color: #bbd0ff;
 }
