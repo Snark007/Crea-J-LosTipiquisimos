@@ -34,7 +34,7 @@
     <!--BASE-->
     <main class="instructions-container">
         <div class="instructions">
-            <h1 class="instructions-title"> <span data-subir="1"> Quieres subir tus recetas debes realizar los siguientes pasos al pie de la
+            <h1 class="instructions-title"> <span data-subir="1"> Quieres subir tus receta debes realizar los siguientes pasos al pie de la
                     letra como te indican. </span></h1>
 
             <div class="instructions-pasos">
@@ -45,10 +45,10 @@
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
-                            <h3> <span data-subir="2">Para empezar</span></h3>
+                            <h3> <span data-subir="2">Para empezar.</span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p> <span data-subir="3">Primero ingresa el nombre de tu recetas de forma presisa como: pupusas de queso con loroco</span></p>
+                            <p> <span data-subir="3">Primero ingresa el nombre de tu recetas de forma presisa como: pupusas de queso con loroco.</span></p>
                         </div>
                     </div>
                 </div>
@@ -59,10 +59,10 @@
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
-                            <h3> <span data-subir="4"> Despues de eso</span></h3>
+                            <h3> <span data-subir="4"> Despues de eso.</span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p> <span data-subir="5">Tendrás que poner una descripción de tus receta que anterior mente avías mencionado</span> </p>
+                            <p> <span data-subir="5">Tendrás que poner una descripción de tus receta que anterior mente avías mencionado.</span> </p>
                         </div>
                     </div>
                 </div>
@@ -73,10 +73,10 @@
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
-                            <h3> <span data-subir="6"> Una vez ya hecho el punto anterior </span></h3>
+                            <h3> <span data-subir="6"> Una vez ya hecho el punto anterior. </span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p> <span data-subir="7"> tienes que ingresar los igredientes de tu receta </span></p>
+                            <p> <span data-subir="7"> tienes que ingresar los igredientes de tu receta. </span></p>
                         </div>
                     </div>
                 </div>
@@ -87,10 +87,10 @@
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
-                            <h3> <span data-subir="8"> Ahora tienes que </span></h3>
+                            <h3> <span data-subir="8"> Ahora tienes que. </span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p> <span data-subir="9">Poner como lo preparastes para que los demas usuarios puedan segir la receta al pie de la letra </span> </p>
+                            <p> <span data-subir="9">Poner como lo preparastes para que los demas usuarios puedan segir la receta al pie de la letra. </span> </p>
                         </div>
                     </div>
                 </div>
@@ -101,10 +101,10 @@
                     </div>
                     <div class="pasos-descripcion">
                         <div class="pasos-titulo">
-                            <h3> <span data-subir="10"> Ya para terminar </span></h3>
+                            <h3> <span data-subir="10"> Ya para terminar. </span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p> <span data-subir="11"> Solo tienes que poner poner una imagen de referencia como que te tiene que quedar </span></p>
+                            <p> <span data-subir="11"> Solo tienes que poner poner una imagen de referencia como que te tiene que quedar. </span></p>
                         </div>
                     </div>
                 </div>
