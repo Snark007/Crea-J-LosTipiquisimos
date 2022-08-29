@@ -47,7 +47,7 @@
       <!-- secion -->
       <button type="submit" value="Iniciar" required><span data-inicio="9"> iniciar sesion</span></button>
       <!-- registrase -->
-      <a href="../Html/registrarse.php"><span data-inicio="10"> No tienes cuenta ¿Registrarse?</span></a>
+      <a href="../Html/registrarse.php" class="container_date"><span data-inicio="10"> No tienes cuenta ¿Registrarse?</span></a>
     </form>
   </div>
   
