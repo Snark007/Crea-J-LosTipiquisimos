@@ -3,34 +3,46 @@ let panpolloEspañol = `
 PANES CON POLLO
 Muy ricos aperitivos de El Salvador que podemos degustar de forma tradicional en fiestas patrióticas o en las fiestas decembrinas. La alternativa ideal para conocer la gastronomía de la tierra centroamericana, que envuelve con su deliciosa salsa de pollo, sazón salvadoreña
 Ingredientes:
-30 jocotes
-2 litros de agua
-1 dulce de atado (panela) ó 1 lb de azúcar
-Canela al gusto
-2/3 taza de ceniza
+panes (tipo francés)
+pechuga de pollo de preferencia
+Tomates
+Pepino
+Lechuga romana
+Repollo
+Mayonesa
+Zanahorias
+Cebolla
+Hojitas de laurel
+Margarina
+Vinagre
 Preparación:
-Prepare una mezcla de agua para agregar la ceniza. Posteriormente hervirla. Cuando el agua rompa el hervor agregue los jocotes.
-Una vez vea que los jocotes se han agrietado sáquelos del agua y quíteles la cáscara con la mano. Cuando los haya pelado corte en cruz sin quitar la semilla y resérvelos para próximo paso.
-En otra olla ponga a hervir a fuego lento el agua con el dulce de atado y la canela. Agregue los jocotes ya pelados y déjelos cocinar durante una hora.
-Revise si la miel ya está conservada. Sino déjela hasta conservar. La ceniza permite pelar mejor los jocotes, que éstos no pierdan su textura ni su tamaño.
-Recomendación: Seleccionar jocotes de tipo ácido (en Semana Santa). También puede hacerse del tipo dulce de invierno (de junio hasta agosto). No se recomienda hacerlo del de corona (de agosto a septiembre).
+Limpia el pollo y córtalo en partes, condiméntalo a tu gusto y déjalo uno minutos para que se adhiera el sabor, cóselo a fuego lento, guarda su consomé, una vez seco separa el consomé del pollo y sofríe el pollo hasta que dore, junta el consomé en la licuadora con los tomates, la cebolla, el ajo y salpimienta.
+Júntalo con el pollo y sofríe hasta que la salsa quede completamente cocida
+Luego corta la zanahoria, el pepino y puedes agregar coliflor para crear escabeche, agrega la margarina y el vinagre luego remoja con mayonesa
+Lo último es cortar el pan agrega mayonesa en ambos lados, incluye la salsa de pollo, y rellénalo con el pollo y el resto de ingredientes a tu gusto
 Los Tipiquisimos 2022-Derechos reservados
 `
 let panpolloIngles = `
-BREAD WITH CHIKEN
-Very delicious appetizers from El Salvador that we can taste in a traditional way at patriotic parties or in the December holidays. The ideal alternative to know the gastronomy of the Central American land, that wraps with its delicious chicken sauce, Salvadoran seasoning
+BREADS WITH CHICKEN
+Very tasty appetizers from El Salvador that we can taste in a traditional way in patriotic celebrations or in the Christmas holidays. The ideal alternative to get to know the gastronomy of the Central American land, which wraps with its delicious chicken sauce, Salvadoran seasoning.
 Ingredients:
-30 jocotes
-2 liters of water
-1 tied sweet (panela) or 1 lb of sugar
-Cinnamon to taste
-2/3 cup ash
+bread (French type)
+chicken breast of preference
+Tomatoes
+Cucumber
+Romaine lettuce
+Cabbage
+Mayonnaise
+Carrots
+Onion
+Bay leaves
+Margarine
+Vinegar
 Preparation:
-Prepare a mixture of water to add the ash. Then boil it. When the water breaks the boil add the jocotes.
-Once you see that the jocotes have cracked, take them out of the water and remove the shell by hand. When you have peeled them, cut them crosswise without removing the seed and reserve them for the next step.
-In another pot, simmer the water with the sweet tied and cinnamon. Add the already peeled jocotes and let them cook for an hour.
-Check if the honey is already preserved. Otherwise, leave it until you keep it. The ash allows the jocotes to be peeled better, so that they do not lose their texture or their size.
-Recommendation: Select acid-type jocotes (at Easter). It can also be made of the sweet winter type (June through August). It is not recommended to do it from the corona (from August to September).
+Clean the chicken and cut it in parts, season it to your taste and leave it for a few minutes to let the flavor adhere, cook it over low heat, save the broth, once dry, separate the broth from the chicken and sauté the chicken until golden brown, put the broth in the blender with the tomatoes, onion, garlic and salt and pepper.
+Add it to the chicken and sauté until the sauce is completely cooked.
+Then chop the carrot, cucumber and you can add cauliflower to create a marinade, add the margarine and vinegar then soak with mayonnaise.
+The last thing is to cut the bread, add mayonnaise on both sides, include the chicken sauce, and fill it with the chicken and the rest of the ingredients to your liking.
 Los Tipiquisimos 2022-Rights reserved
 `
 let navEspañol = `
