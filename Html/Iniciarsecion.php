@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+$id = $_SESSION['id'] ?? '';
+
+if($id){
+    header("location:index.php");
+}
+?>
 <html lang="en">
 
 <head>

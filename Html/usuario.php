@@ -1,11 +1,15 @@
 <?php
 session_start();
 include "m-comunidad.php";
-$id = $_SESSION['id'];
+$id = $_SESSION['id'] ?? '';
 $consulta = "SELECT * FROM `user_info` WHERE `id-registro` = $id";
 $resultado = mysqli_query($conexion, $consulta);
+
 $most = mysqli_fetch_array($resultado, MYSQLI_ASSOC);
 
+if(!$most){
+    header("location:index.php");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
