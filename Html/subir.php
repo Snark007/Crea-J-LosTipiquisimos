@@ -62,7 +62,7 @@
                             <h3> <span data-subir="4"> Despues de eso.</span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p> <span data-subir="5">Tendrás que poner una descripción de tus receta que anterior mente avías mencionado.</span> </p>
+                            <p> <span data-subir="5">Tendrás que poner una breve descripción de tus receta que anterior mente avías mencionado.</span> </p>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                             <h3> <span data-subir="6"> Una vez ya hecho el punto anterior. </span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p> <span data-subir="7"> tienes que ingresar los igredientes de tu receta. </span></p>
+                            <p> <span data-subir="7">Ingresa los igredientes de tu receta. Cada ingrediente al finalizae tendra que dijitar un "Enter" y al iniciar con un "-" por motivos de separación.</span></p>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                             <h3> <span data-subir="8"> Ahora tienes que. </span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p> <span data-subir="9">Poner como lo preparastes para que los demas usuarios puedan segir la receta al pie de la letra. </span> </p>
+                            <p> <span data-subir="9">Poner como lo preparastes para que los demas usuarios puedan seguir la receta al pie de la letra. Por cada paso deberan de dar un espaciado con un enter y por cada instrucción deberan númerarla. </span> </p>
                         </div>
                     </div>
                 </div>

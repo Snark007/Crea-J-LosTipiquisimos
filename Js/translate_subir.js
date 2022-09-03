@@ -1,41 +1,41 @@
 // let español, english;
 let subirEspañol = `
 Quieres subir tus recetas debes realizar los siguientes pasos al pies de la letra como te indican.
-Para empezar
+Para empezar.
 Primero ingresa el nombre de tu recetas de forma presisa como: pupusas de queso con loroco
-Despues de eso
-Tendrás que poner una descripción de tus receta que anterior mente avías mencionado
-Una vez ya hecho el punto anterior
-tienes que ingresar los igredientes de tu receta
-Ahora tienes que
-Poner como lo preparastes para que los demas usuarios puedan segir la receta al pie de la letra
-Ya para terminar
-Solo tienes que poner poner una imagen de referencia como que te tiene que quedar
-Solicitud de recetas
-Nombre de la receta
-Descripcion
-Igredientes
-Preparacion
-Imagen
+Despues de eso.
+Tendrás que poner una descripción de tus receta que anterior mente avías mencionado.
+Una vez ya hecho el punto anterior.
+Ingresa los igredientes de tu receta. Cada ingrediente al finalizae tendra que dijitar un "Enter" y al iniciar con un "-" por motivos de separación.
+Ahora tienes que.
+Poner como lo preparastes para que los demas usuarios puedan seguir la receta al pie de la letra. Por cada paso deberan de dar un espaciado con un enter y por cada instrucción deberan númerarla. 
+Ya para terminar.
+Solo tienes que poner una imagen de referencia como que te tiene que quedar.
+Solicitud de recetas.
+Nombre de la receta.
+Descripcion.
+Igredientes.
+Preparacion.
+Imagen.
 `
 let subirIngles = `
 If you want to upload your recipes, you must follow the steps below as indicated.
 To get started
-First enter the name of your recipe in a short form like: pupusas de queso con loroco
+First enter the name of your recipe in a short form like: pupusas de queso con loroco.
 After that
 You will have to put a description of your recipe that you mentioned before.
 Once you have done the previous point
-you have to enter the ingredients of your recipe
+Enter the ingredients of your recipe. Each ingredient at the end will have to say an "Enter" and at the beginning with a "-" for separation reasons.
 Now you have to
-Put how you prepared it so that other users can follow the recipe to the letter.
+Put how you prepared it so that other users can follow the recipe to the letter. For each step you will have to space it with an enter and for each instruction you will have to number it. 
 Now to finish
 All you have to do is put a reference image of how it should look like.
-Request for prescriptions
-Name of the recipe
-Description
-Ingredients
-Preparation
-Image
+Request for prescriptions.
+Name of the recipe.
+Description.
+Ingredients.
+Preparation.
+Image.
 `
 let navEspañol = `
 Elegir idioma
