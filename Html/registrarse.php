@@ -8,6 +8,7 @@
     <link rel="icon" href="../Img/cocina.png">
     <link rel="stylesheet" href="../Css/registro.css">
     <link rel="stylesheet" href="../Css/traducir_iniciar.css">
+    <link rel="stylesheet" href="../Css/ojo1.css">
   <script defer src="../Js/translate_ingresar.js"></script>
 </head>
 <body>
@@ -48,6 +49,10 @@
       <!--Contraseña -->
       <label for="password"><span data-ingresar="5">Contraseña</span></label>
       <input type="password" name="contra" placeholder="Ingrese su contraseña" required id="translato">
+      <input type="checkbox"  id="ania">
+      <label for="ania">
+      <img src="../img/ojo.svg" alt="" class="icon" id="eye">
+      </label>
       <!-- index-->
 
       <button type="submit" name="enviar"><span data-ingresar="6">registrarse</span></button>
@@ -57,7 +62,7 @@
     </form>
   </div>
 </body>
-
+<script src="../Js/code.js"></script>
  
 </body>
 </html>
