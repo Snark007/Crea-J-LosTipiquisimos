@@ -1,12 +1,13 @@
 <?php
-    session_start();
-    if( !isset($_SESSION['aña']) ){
-        header("location:iniciarsecion.php");
-        
-    }
-    
-    
-
+session_start();
+if (!isset($_SESSION['aña'])) {
+    echo "
+        <script>
+            alert('Debes iniciar sesión primero para poder subir tu receta.');
+            window . location . href = 'http://localhost/Crea-J/Html/Iniciarsecion.php';
+        </script>
+        ";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
