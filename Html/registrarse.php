@@ -23,7 +23,7 @@
             <div class="options">
                 <div class="pais" id="idioma-español" onclick="traducir(this)">
                     <img src="../Img/translateIcons/es.webp" alt="">
-                    <p data-inicio="2">España</p>
+                    <p data-inicio="2">Español</p>
                 </div>
                 <div class="pais" id="idioma-ingles" onclick="traducir(this)">
                     <img src="../Img/translateIcons/en.webp" alt="">

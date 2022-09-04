@@ -47,7 +47,7 @@ Los Tipiquisimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma
-España
+Español
 Ingles
 ¡Sobre nosotros!
 Recetas

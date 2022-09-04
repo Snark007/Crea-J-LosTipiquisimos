@@ -2,14 +2,14 @@
 
 let inicioEspañol = `
 Elegir idioma
-España
+Español
 Ingles
 Inicio de sesión
 Usuario
 Ingrese su usuario
 Contraseña
 Ingrese su contraseña
-iniciar sesion 
+iniciar sesión 
 No tienes cuenta ¿Registrarse?
 `
 let inicioIngles = `

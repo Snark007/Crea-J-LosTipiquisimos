@@ -48,7 +48,7 @@ session_start();
 
 
                     while ($most = $result->fetch_array()) { ?>
-                        <a href="../COMIDAS/plantilla.php?estiben=<?php echo $most['id-subir']; ?>">
+                        <a href="../COMIDAS/plantilla.php?receta-comunidad=<?php echo $most['id-subir']; ?>">
                             <div class="card">
                                 <img src="../IMG-comunidad/<?php echo $most['imagen']; ?>">
                                 <h4><span data-atoles="3"><?php echo $most['nombre-receta']; ?></span></h4>

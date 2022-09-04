@@ -11,15 +11,16 @@ if (!$conexion) {
 
 if ($_POST) {
 
-    if ($_FILES['img-receta']['type'] != "image/jpeg" && $_FILES['img-receta']['type'] != "image/png" && $_FILES['img-receta']['type'] != "image/gif") {
+    if ($_FILES['img-receta']['type'] != "image/jpeg" && $_FILES['img-receta']['type'] != "image/png" && $_FILES['img-receta']['type'] != "image/jpg") {
+        
 ?>
-        <div class="error">
-            <h1>Error esa cosa no va bro......</h1>
-        </div>
+        <script>
+            window.alert("El formato de la imagen no es valido...");
+        </script>
 
 <?php
-        header("location:subir.php");
-        mysqli_close($conexion);
+        include "subir.php";
+        //mysqli_close($conexion);
     } else {
         $descripcion_r = $_POST['desc'];
         $ingredientes_r = nl2br($_POST['ingre']);
@@ -38,17 +39,8 @@ if ($_POST) {
             echo "New record created successfully";
         }
         header("location:comunidad.php");
-        mysqli_close($conexion);
+        //mysqli_close($conexion);
     }
 }
-
-
-
-
-
-
-
-
-
-
+mysqli_close($conexion);
 ?>

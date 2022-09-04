@@ -18,7 +18,6 @@
     <title>Tipiquisimos</title>
     <link rel="icon" href="../Img/cocina.png">
     <link rel="stylesheet" href="../Css/subirRecetas.css">
-    <link rel="stylesheet" href="../Css/cuadros.css">
     <link rel="stylesheet" href="../Css/estructura.css">
     <link rel="stylesheet" href="../Css/translate.css">
     <link rel="stylesheet" href="../Css/menuD.css">
@@ -136,7 +135,7 @@
                             <textarea name="proce" id="" cols="20" rows="5" required class="textarea"></textarea>
                         </div>
                         <div class="imgs-forms">
-                            <label for="img-receta" class="label-form container-bom" > <span data-subir="17">Imagen</span></label>
+                            <label for="img-receta" class="label-form-container-bom" > <span data-subir="17">Imagen</span></label>
                             <input type="file" class="img-input" id='img-receta' required name='img-receta'>
                         </div>
 

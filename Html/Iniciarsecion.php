@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 
 $id = $_SESSION['id'] ?? '';
 
@@ -34,7 +34,7 @@ if($id){
             <div class="options">
                 <div class="pais" id="idioma-español" onclick="traducir(this)">
                     <img src="../Img/translateIcons/es.webp" alt="">
-                    <p data-inicio="2">España</p>
+                    <p data-inicio="2">Español</p>
                 </div>
                 <div class="pais" id="idioma-ingles" onclick="traducir(this)">
                     <img src="../Img/translateIcons/en.webp" alt="">
@@ -54,7 +54,7 @@ if($id){
       <label for="password"><span data-inicio="7"> Contraseña</span></label>
       <input type="password" name="contrasenia" placeholder="Ingrese su contraseña" required data-inicio="8" id="translato">
       <!-- secion -->
-      <button type="submit" value="Iniciar" required><span data-inicio="9"> iniciar sesion</span></button>
+      <button type="submit" value="Iniciar" required><span data-inicio="9"> iniciar sesión</span></button>
       <!-- registrase -->
       <a href="../Html/registrarse.php" class="container_date"><span data-inicio="10"> No tienes cuenta ¿Registrarse?</span></a>
     </form>
