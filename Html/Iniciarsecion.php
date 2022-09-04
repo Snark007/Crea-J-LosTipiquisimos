@@ -17,6 +17,7 @@ if($id){
   <link rel="icon" href="../Img/cocina.png">
   <link rel="stylesheet" href="../Css/iniciarsecion.css">
   <link rel="stylesheet" href="../Css/footer.css">
+  <link rel="stylesheet" href="../Css/ojo.css">
   <link rel="stylesheet" href="../Css/traducir_iniciar.css">
   <script defer src="../Js/translate_iniciar.js"></script>
 </head>
@@ -53,6 +54,10 @@ if($id){
       <!--contra -->
       <label for="password"><span data-inicio="7"> Contraseña</span></label>
       <input type="password" name="contrasenia" placeholder="Ingrese su contraseña" required data-inicio="8" id="translato">
+      <input type="checkbox"  id="ania">
+      <label for="ania">
+      <img src="../img/ojo.svg" alt="" class="icon" id="eye">
+      </label>
       <!-- secion -->
       <button type="submit" value="Iniciar" required><span data-inicio="9"> iniciar sesión</span></button>
       <!-- registrase -->
@@ -60,7 +65,7 @@ if($id){
     </form>
   </div>
   
-
+  <script src="../Js/code.js"></script>
 
 </body>
 </html>
