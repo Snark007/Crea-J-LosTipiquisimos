@@ -68,7 +68,7 @@
                 </div>
                 <!--Pasos a seguir-->
                 <div class="pasos-seguir">
-                    <div class="pasos-numero">
+                    <div class="numero">
                         <div class="num1"><span>3</span></div>
                     </div>
                     <div class="pasos-descripcion">
@@ -82,7 +82,7 @@
                 </div>
                 <!--Pasos a seguir-->
                 <div class="pasos-seguir">
-                    <div class="pasos-numero">
+                    <div class="numero4">
                         <div class="num1"><span>4</span></div>
                     </div>
                     <div class="pasos-descripcion">
