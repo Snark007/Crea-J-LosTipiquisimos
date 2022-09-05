@@ -1,0 +1,16 @@
+.icon{
+    position: absolute;
+    height: 13%;
+    top: 53%;
+    right: 20px;
+    transform: translateY(25%);
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+.icon:hover{
+    opacity: 0.8;
+}
+#ania{
+    display: none;
+}

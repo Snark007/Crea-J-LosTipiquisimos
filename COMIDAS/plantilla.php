@@ -38,7 +38,7 @@ session_start();
         <div class="recetas">
             <?php
             if ($conexion) {
-                $id = $_GET["estiben"];
+                $id = $_GET["receta-comunidad"];
                 $consu = "SELECT * FROM `subir` WHERE `id-subir` = $id";
                 $result = mysqli_query($conexion, $consu);
                 if ($result) {

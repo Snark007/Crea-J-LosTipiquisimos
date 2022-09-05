@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 
 $id = $_SESSION['id'] ?? '';
 
@@ -17,6 +17,7 @@ if($id){
   <link rel="icon" href="../Img/cocina.png">
   <link rel="stylesheet" href="../Css/iniciarsecion.css">
   <link rel="stylesheet" href="../Css/footer.css">
+  <link rel="stylesheet" href="../Css/ojo.css">
   <link rel="stylesheet" href="../Css/traducir_iniciar.css">
   <script defer src="../Js/translate_iniciar.js"></script>
 </head>
@@ -34,7 +35,7 @@ if($id){
             <div class="options">
                 <div class="pais" id="idioma-español" onclick="traducir(this)">
                     <img src="../Img/translateIcons/es.webp" alt="">
-                    <p data-inicio="2">España</p>
+                    <p data-inicio="2">Español</p>
                 </div>
                 <div class="pais" id="idioma-ingles" onclick="traducir(this)">
                     <img src="../Img/translateIcons/en.webp" alt="">
@@ -53,14 +54,18 @@ if($id){
       <!--contra -->
       <label for="password"><span data-inicio="7"> Contraseña</span></label>
       <input type="password" name="contrasenia" placeholder="Ingrese su contraseña" required data-inicio="8" id="translato">
+      <input type="checkbox"  id="ania">
+      <label for="ania">
+      <img src="../img/ojo.svg" alt="" class="icon" id="eye">
+      </label>
       <!-- secion -->
-      <button type="submit" value="Iniciar" required><span data-inicio="9"> iniciar sesion</span></button>
+      <button type="submit" value="Iniciar" required><span data-inicio="9"> iniciar sesión</span></button>
       <!-- registrase -->
       <a href="../Html/registrarse.php" class="container_date"><span data-inicio="10"> No tienes cuenta ¿Registrarse?</span></a>
     </form>
   </div>
   
-
+  <script src="../Js/code.js"></script>
 
 </body>
 </html>
