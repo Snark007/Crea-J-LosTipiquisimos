@@ -49,7 +49,9 @@
         <?php if (!isset($_SESSION['aña'])) { ?>
             <a href="../Html/Iniciarsecion.php" class="hide-login"><button class="but" data-nav="16">Iniciar sesión</button></a>
         <?php } else {  ?>
-            <p class="main-text"><data-nav="5"><a href="../Html/usuario.php"><img src="../icons/icon-iniciar.png"></a></p>
+            <div class="borde-perfil">
+            <p class="main-text"><data-nav="5"><a href="../Html/usuario.php"><img src="../img/chef.png" id="icono-perfil"></a></p>
+            </div>
 
             <div class="more-options-recetas-i">
             <a href="../Html/close.php" class="hide-login"><button class="but">Cerrar Sesión</button></a>
