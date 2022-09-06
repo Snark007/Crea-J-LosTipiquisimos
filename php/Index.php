@@ -87,7 +87,7 @@ session_start();
                             aprender sobre la gastronomia Salvadoreña</span>
                     </p>
                     </div>
-                    <a href="../Html/nosotros.php" class="cta-btn"><span data-index="14">Nosotros</span></a>
+                    <a href="../php/nosotros.php" class="cta-btn"><span data-index="14">Nosotros</span></a>
                 </div>
 
             </div>
@@ -115,7 +115,7 @@ session_start();
                 <div class="disco-descripcion">
                     <p class="bajar"><span data-index="19"> Podras subir tus recetas de comida de el salvador y demostrar
                          tus habilidades en la cocina</span> <br> <span  data-index="20">para que los demas usuarios puedan recrear tus recetas</span> </p><br>
-                    <a class="disco-boton" href="../Html/subir.php"><span data-index="21">subir mi receta</span></a>
+                    <a class="disco-boton" href="../php/subir.php"><span data-index="21">subir mi receta</span></a>
                 </div>
             </div>
             <div class="imagen-4">

@@ -34,9 +34,9 @@
         </div>
 
 <div class="login-box">
-    <a href="../Html/Index.php"><img src="../Img/cocineromejorado.png" class="avatar" alt="Avatar Image"></a>
+    <a href="../php/Index.php"><img src="../Img/cocineromejorado.png" class="avatar" alt="Avatar Image"></a>
     <h1> <span data-ingresar="1"> Registarse</span></h1>
-    <form action="../Html/db.php" method="post">
+    <form action="../php/db.php" method="post">
       <!--nombre -->
       <label for="username"><span data-ingresar="2">Digite su nombre</span></label>
       <input type="text" name="nombre" placeholder="Nombre" class="difun" required id="translata">
@@ -58,7 +58,7 @@
       <button type="submit" name="enviar"><span data-ingresar="6">registrarse</span></button>
 
       <!--No tienes -->
-      <a href="../Html/Iniciarsecion.php" class="boton"><span data-ingresar="7">Ya tienes cuenta ¿Inicia sesión?</span></a>
+      <a href="../php/Iniciarsecion.php" class="boton"><span data-ingresar="7">Ya tienes cuenta ¿Inicia sesión?</span></a>
     </form>
   </div>
 </body>

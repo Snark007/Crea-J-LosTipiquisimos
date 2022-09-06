@@ -23,8 +23,8 @@ session_start();
 <body>
     <!--MENU-->
     <?php
-    include "../Html/hader.php";
-    include "../Html/m-comunidad.php";
+    include "../php/hader.php";
+    include "../php/m-comunidad.php";
     ?>
     <!--BASE-->
 

@@ -21,8 +21,8 @@ session_start();
 
     <!--MENU-->
     <?php
-    include "../Html/hader.php";
-    include "../Html/m-comunidad.php";
+    include "../php/hader.php";
+    include "../php/m-comunidad.php";
     ?>
 
     <?php

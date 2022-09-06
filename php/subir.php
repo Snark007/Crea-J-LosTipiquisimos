@@ -4,7 +4,7 @@ if (!isset($_SESSION['aña'])) {
     echo "
         <script>
             alert('Debes iniciar sesión primero para poder subir tu receta.');
-            window . location . href = 'http://localhost/Crea-J/Html/Iniciarsecion.php';
+            window . location . href = 'http://localhost/Crea-J/php/Iniciarsecion.php';
         </script>
         ";
 }

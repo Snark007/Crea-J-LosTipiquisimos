@@ -45,7 +45,7 @@ if($id){
         </div>
 
 <div class="login-box">
- <a href="../Html/Index.php"><img  src="../Img/cocineromejorado.png" class="avatar" alt="Avatar Image"></a>
+ <a href="../php/Index.php"><img  src="../Img/cocineromejorado.png" class="avatar" alt="Avatar Image"></a>
     <h1> <span data-inicio="4"> Inicio de sesión</span></h1>
     <form  action="verificar.php" method="POST">
       <!-- Usuario -->
@@ -61,7 +61,7 @@ if($id){
       <!-- secion -->
       <button type="submit" value="Iniciar" required><span data-inicio="9"> iniciar sesión</span></button>
       <!-- registrase -->
-      <a href="../Html/registrarse.php" class="container_date"><span data-inicio="10"> No tienes cuenta ¿Registrarse?</span></a>
+      <a href="../php/registrarse.php" class="container_date"><span data-inicio="10"> No tienes cuenta ¿Registrarse?</span></a>
     </form>
   </div>
   

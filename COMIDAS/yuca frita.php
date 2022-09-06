@@ -19,22 +19,22 @@ session_start();
 </head>
 
 <body>
-     <!--MENU-->
+    <!--MENU-->
     <?php
-    include "../Html/hader.php";
+    include "../php/hader.php";
     ?>
     <!--BASE-->
     <section>
         <div class="recetas">
             <img src="../Comida/yuca.jpg "">
-            <div class="recetas-letras">
-                <h1><span data-yuca="1">YUCA FRITA<span></h1>
-                <p><span data-yuca="2">
+            <div class=" recetas-letras">
+            <h1><span data-yuca="1">YUCA FRITA<span></h1>
+            <p><span data-yuca="2">
                     En este artículo aprenderás a hacer yuca frita al estilo de una receta salvadoreña. Así que veamos antes un poco acerca de este delicioso alimento que nos cautiva a muchos cuando lo probamos.
 
                     <span>
-                </p>
-            </div>
+            </p>
+        </div>
         </div>
         <div class="linea">
             <hr>
@@ -45,8 +45,8 @@ session_start();
                 <p>
                 <ul type="square">
                     <li><span data-yuca="4"> ½ lb de yuca<span></li><br>
-            <li><span data-yuca="5">Sal al gusto<span></li><br>
-            <li><span data-yuca="6">Aceite<span></li><br>
+                    <li><span data-yuca="5">Sal al gusto<span></li><br>
+                    <li><span data-yuca="6">Aceite<span></li><br>
                 </ul>
                 </p>
             </div>
@@ -54,13 +54,13 @@ session_start();
                 <h1><span data-yuca="7">Preparación:<span></h1>
                 <ol>
                     <li><span data-yuca="8">Si deseamos freír nuestras porciones de yuca, una vez que ya estén sancochadas, las colocamos en la sartén con suficiente aceite, asegúrese de cortar la yuca en trozos alargados, se pone a freír y damos un tiempo de 3 a 5 minutos.<span></li><br>
-    
+
                     <li><span data-yuca="9">Por último, servimos nuestro plato caliente junto con chicharrones, curtido o salsa de tomate.<span></li><br>
-        
+
                     <li><span data-yuca="10">Los ingredientes para acompañar este plato quedan a su gusto.<span></li><br>
-    
+
                     <li><span data-yuca="11">Listo. Nos disponemos a degustar.<span></li>
-    
+
                 </ol>
             </div>
         </div>
