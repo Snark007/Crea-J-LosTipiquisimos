@@ -19,11 +19,11 @@
             </div>
         </div>
         <img src="../Img/menu.svg" alt="" class="menu-hamburguer">
-        <a href="../Html/Index.php" class="logo-grid">
+        <a href="../php/Index.php" class="logo-grid">
             <h3 class="logo ">Los Tipiquisimos</h3>
         </a>
         <nav class="nav-hide">
-            <a href="../Html/nosotros.php" data-nav="4">¡Sobre nosotros!</a>
+            <a href="../php/nosotros.php" data-nav="4">¡Sobre nosotros!</a>
             <div class="container-menu-desplegable">
 
                 <p class="main-text"><a href="" data-nav="5">Recetas</a></p>
@@ -41,20 +41,20 @@
 
             </div>
             </a>
-            <a href="../Html/subir.php" data-nav="14">¿Quieres subir tu receta?</a>
-            <a href="../Html/comunidad.php" data-nav="15">Comunidad</a>
+            <a href="../php/subir.php" data-nav="14">¿Quieres subir tu receta?</a>
+            <a href="../php/comunidad.php" data-nav="15">Comunidad</a>
         </nav>
 
 
         <?php if (!isset($_SESSION['aña'])) { ?>
-            <a href="../Html/Iniciarsecion.php" class="hide-login"><button class="but" data-nav="16">Iniciar sesión</button></a>
+            <a href="../php/Iniciarsecion.php" class="hide-login"><button class="but" data-nav="16">Iniciar sesión</button></a>
         <?php } else {  ?>
             <div class="borde-perfil">
-            <p class="main-text"><data-nav="5"><a href="../Html/usuario.php"><img src="../img/chef.png" id="icono-perfil"></a></p>
+            <p class="main-text"><data-nav="5"><a href="../php/usuario.php"><img src="../img/chef.png" id="icono-perfil"></a></p>
             </div>
 
             <div class="more-options-recetas-i">
-            <a href="../Html/close.php" class="hide-login"><button class="but">Cerrar Sesión</button></a>
+            <a href="../php/close.php" class="hide-login"><button class="but">Cerrar Sesión</button></a>
             </div>
 
         <?php } ?>
