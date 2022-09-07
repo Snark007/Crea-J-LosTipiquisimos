@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 .container-basic {
@@ -36,7 +37,7 @@
 .container-photos{
     width: 425px;
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 100px;
 }
 
 h1{
@@ -51,8 +52,8 @@ h1{
 }
 
 .linea hr {
-    height: 8rem;
-    width: 0.5rem;
+    height: 15rem;
+    width: 0.7rem;
     border: none;
     background-color: #0044a4;
     border-radius: 10px;
@@ -63,5 +64,7 @@ h1{
 }
 
 .box{
-    margin-left: 10px;
+    margin-left: 70px;
+    margin-right: 10px; ;
+
 }
