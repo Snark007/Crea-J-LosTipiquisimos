@@ -76,7 +76,7 @@ if (!isset($_SESSION['aña'])) {
                             <h3> <span data-subir="6"> Una vez ya hecho el punto anterior. </span></h3>
                         </div>
                         <div class="pasos-descripcion">
-                            <p> <span data-subir="7">Ingresa los igredientes de tu receta. Cada ingrediente al finalizae tendra que dijitar un "Enter" y al iniciar con un "-" por motivos de separación.</span></p>
+                            <p> <span data-subir="7">Ingresa los igredientes de tu receta. Cada ingrediente al finalizar tendra que digitar un "Enter" y al iniciar colocar un "-" por motivos de separación.</span></p>
                         </div>
                     </div>
                 </div>
@@ -124,12 +124,12 @@ if (!isset($_SESSION['aña'])) {
                             <input type="text" name="nombre" required class="input">
                         </div>
                         <div class="textarea-form">
-                            <label for="descripcion-receta" class="label-form"> <span data-subir="14">Descripcion</span></label>
-                            <textarea name="desc" id="" cols="20" rows="5" required class="textarea"></textarea>
+                            <label for="descripcion-receta" class="label-form"> <span data-subir="14">Descripción</span></label>
+                            <textarea name="desc" id="" cols="20" rows="5" required class="textarea" maxlength="120"></textarea>
                         </div>
                         <div class="textarea-form">
                             <label for="descripcion-receta" class="label-form"> <span data-subir="15">Igredientes</span></label>
-                            <textarea name="ingre" id="levi" cols="20" rows="5" required class="textarea"></textarea>
+                            <textarea name="ingre" id="levi" cols="20" rows="5" required class="textarea" ></textarea>
                         </div>
                         <div class="textarea-form">
                             <label for="descripcion-receta" class="label-form"> <span data-subir="16">Preparacion </span></label>
