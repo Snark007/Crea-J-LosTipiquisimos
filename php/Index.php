@@ -35,13 +35,13 @@ session_start();
                 <h1><span data-index="1">Recetas Fáciles</span><br><span data-index="2">¡Animate a Cocinar!</span></h1>
             </section>
             <section id="hero">
-                <h1><span data-index="3">Casate con alguien que cocine rico</span><br><span data-index="4">la belleza se acaba el hambre no</span></h1>
+                <h1><span data-index="3">La cocina es una parte esencial de</span><br><span data-index="4">una dieta equilibrada</span></h1>
             </section>
             <section id="hero">
-                <h1><span data-index="5"> Los abdominales son temporales</span><br> <span data-index="6">El chocolate es para siempre</span></h1>
+                <h1><span data-index="5">Una receta no tiene alma, es el cocinero quien debe</span><br> <span data-index="6">darle alma a la receta.</span></h1>
             </section>
             <section id="hero">
-                <h1><span data-index="7">La que cocina no está</span><br><span data-index="8">pero la que está no cocina</span></h1>
+                <h1><span data-index="7">Receta mañanera; una taza de optimismo, dos cucharadas de </span><br><span data-index="8">dulzura y dos kilos de energía positiva.</span></h1>
             </section>
             <section id="hero">
                 <h1><span data-index="9">Lo único que me gusta más que hablar</span><br><span data-index="10">de comida es comer</span></h1>
