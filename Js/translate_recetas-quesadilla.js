@@ -18,7 +18,7 @@ Precalentar el horno a 350°F. En un recipiente grande, con un mezclador eléctr
 En un recipiente pequeño mezcla la harina, levadura en polvo, y sal. Añade esta combinación a la anterior de huevo, hasta que estén bien mezclados. Añade el Queso Fresco Tropical y mezclar bien.
 Engrasar dos cacerolas de hornear redondas de 8”. Añade la masa a las cacerolas. Espolvorea cada barra de pan con semillas de sésamo. Hornear por 40 minutos hasta que puedas introducir un palillo al centro del pan y salga limpio.
 Luego sirve y disfruta.
-Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos 2022-Derechos reservados
 `
 let quesadillaIngles = `
 QUESADILLAS
@@ -39,7 +39,7 @@ Preheat oven to 350°F. In a large bowl, with an electric mixer, cream together 
 In a small bowl mix flour, baking powder, and salt. Add this combination to the previous egg combination, until well blended. Add the Queso Fresco Tropical and mix well.
 Grease two 8" round baking pans. Add the batter to the pans. Sprinkle each loaf of bread with sesame seeds. Bake for 40 minutes until you can insert a toothpick into the center of the loaf and it comes out clean.
 Then serve and enjoy.
-Los Tipiquisimos 2022-Rights Reserved
+Los Tipiquísimos 2022-Rights Reserved
 `
 let navEspañol = `
 Elegir idioma

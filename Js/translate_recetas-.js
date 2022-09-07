@@ -18,7 +18,7 @@ Cuando los pescados secos ya hayan escurrido toda la sal, los secamos con papel 
 Licue los tomates, cebolla y chile verde con poquita sal, agregue agua y licuamos; vertemos la salsa en una olla hasta hervir. SE agrega el consomé de camarón o el que haya elegido y probamos de sabor, no dejar muy sazonada la salsa por los pescados.
 Cuando la salsa ya haya hervido agregamos los pescados envueltos en huevo hasta hervir por unos 5 minutos y se sirve con arroz blanco y ensalada fresca.
 Y ya tienes tu platillo para disfrutar.
-Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos 2022-Derechos reservados
 `
 let pescadocalzadoIngles = `
 SHOE FISH 
@@ -39,7 +39,7 @@ When the dried fish have already drained all the salt, we dry them with absorben
 Blend the tomatoes, onion and green chili with a little salt, add water and blend; Pour the sauce into a pot until it boils. Add the shrimp consommé or the one you have chosen and taste it, do not leave the sauce too seasoned for the fish.
 When the sauce has already boiled, add the fish wrapped in egg until boiling for about 5 minutes and serve with white rice and fresh salad.
 And now you have your dish to enjoy.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

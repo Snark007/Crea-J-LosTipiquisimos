@@ -16,7 +16,7 @@ En este paso puedes agregar los chicharrones para darle un toque delicioso.
 Con las hojas de tusa vamos agregar dos o tres cucharadas de la masa y los enrollamos, con las puntas vamos a doblar para que queden cerrados.
 En una olla grande vamos agregar en el fondo una cama de tamales para luego colocar los demás en forma vertical, agregamos suficiente agua pero que no cubra por completo los tamales y cocinamos durante unos 30 minutos.
 Tapamos con las hojas para que conserve aún más el sabor, listo transcurrido el tiempo verificamos que la hoja esté de color amarilla este nos indicará que están en su punto, servimos y disfrutamos con un toque de crema.
-© Los Tipiquisimos 2022-Derechos reservados
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let tamaleloteIngles = `
 CORN TAMALES
@@ -35,7 +35,7 @@ In this step you can add the cracklings to give it a delicious touch.
 With the tusa leaves add two or three spoonfuls of the dough and roll them up, with the ends we are going to fold them so that they are closed.
 In a large pot we are going to add a bed of tamales at the bottom and then place the rest vertically, add enough water but do not cover the tamales completely and cook for about 30 minutes.
 Cover with the leaves to preserve even more flavor, ready after the time has elapsed check that the leaf is yellow this will indicate that they are ready, serve and enjoy with a touch of cream.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

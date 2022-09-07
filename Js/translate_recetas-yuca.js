@@ -11,7 +11,7 @@ Si deseamos freír nuestras porciones de yuca, una vez que ya estén sancochadas
 Por último, servimos nuestro plato caliente junto con chicharrones, curtido o salsa de tomate.
 Los ingredientes para acompañar este plato quedan a su gusto.
 Listo. Nos disponemos a degustar.
-© Los Tipiquisimos 2022-Derechos reservados
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let yucaIngles = `
 FRIED YUCA
@@ -25,7 +25,7 @@ If we wish to fry our yucca portions, once they are already parboiled, we place 
 Finally, we serve our hot dish along with chicharrones, curtido or tomato sauce.
 The ingredients to accompany this dish are left to your taste.
 Ready. We are ready to taste.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

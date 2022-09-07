@@ -16,7 +16,7 @@ Ahora en una olla con dos tazas de agua derrite el atado con la canela luego int
 Mientras tanto, en otro depósito disuelve la harina de arroz con 10 tazas de agua y cuela en una servilleta de tela.
 Cuando las piñitas estén bien conservadas agrega la preparación anterior. Continua la cocción e incorpora la pimienta gorda, cuidando de remover para que no se pegue. Verifica el sabor de las piñas y si hace falta agrega una porción más de dulce de panela cuando este se derrita. Cuando hierva, retira del fuego.
 Y ya esta listo disfruta de tu sabroso atol
-© Los Tipiquisimos 2022-Derechos reservados
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let piñuelaIngles = `
 ATOL DE PIÑUELA
@@ -35,7 +35,7 @@ Now in a pot with two cups of water melt the bundle with the cinnamon and then i
 Meanwhile, in another tank, dissolve the rice flour with 10 cups of water and strain through a cloth napkin.
 When the piñitas are well preserved, add the previous preparation. Continue cooking and add the coarse pepper, taking care to stir so that it does not stick. Check the flavor of the pineapples and if necessary add a portion more of dulce de panela when it melts. When it boils, remove from heat.
 And now you are ready to enjoy your tasty atol.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

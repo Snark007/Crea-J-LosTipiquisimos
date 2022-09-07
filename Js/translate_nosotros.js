@@ -6,8 +6,8 @@ MISIÓN
 Dar a conocer la comida salvadoreña brindando recetas de buena calidad y excelentes pasos, para llegar a recrearlas con el fin de que las personas puedan lograr hacer todo tipo de comida típica salvadoreña.
 VISIÓN
 Ser el mejor website que brinde recetas de comidas tipicas salvadoreñas logrando ser mundialmente conocido y logrando que las personas conozcan la gran variedad de platillos que se encuentran en nuestro país.
-Los Tipiquisimos
-© Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let nosotrosIngles = `
 ABOUT US
@@ -16,8 +16,8 @@ MISSION
 To make Salvadoran food known by providing good quality recipes and excellent steps, in order to recreate them so that people can make all kinds of typical Salvadoran food.
 VIEW
 To be the best website that offers recipes of typical Salvadoran food, achieving to be known worldwide and making people know the great variety of dishes found in our country.
-Los Tipiquisimos
-Tipiquisimos 2022-Rights Reserved
+Los Tipiquísimos
+Tipiquísimos 2022-Rights Reserved
 `
 let navEspañol = `
 Elegir idioma

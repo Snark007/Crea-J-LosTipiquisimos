@@ -13,7 +13,7 @@ Licuar los granos de maíz/elote con el agua hasta formar una mezcla consistente
 Verter la mezcla colada en una cacerola a fuego bajo. Agregar el azúcar, la Leche Evaporada la canela y cocinar por 10 minutos fuego bajo revolviendo constantemente hasta que espese.
 Retirar las rajas de canela y servir en jarra.
 Servir tibio o refrigerar por 4 horas para disfrutar frio.
-© Los Tipiquisimos 2022-Derechos reservados
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let eloteIngles = `
 ELOTE ATOL
@@ -29,7 +29,7 @@ Blend the corn kernels/elote with the water until a consistent mixture is formed
 Pour the strained mixture into a saucepan over low heat. Add the sugar, Evaporated Milk and cinnamon and cook for 10 minutes over low heat stirring constantly until it thickens.
 Remove the cinnamon sticks and serve in a pitcher.
 Serve warm or refrigerate for 4 hours to enjoy chilled.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

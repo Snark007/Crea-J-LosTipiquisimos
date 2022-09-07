@@ -21,7 +21,7 @@ Cocer las porciones en agua con sazonador de pollo junto con las cebollas y el a
 Después, para darle olor al caldo con la albahaca de gallina y la hierbabuena, al mismo tiempo sazonarla con sal y pimienta al gusto.
 También se suele sacar las piezas grandes de la gallina y se ponen a asar a las brazas para acompañar la sopita.
 La gallina asada se sirve aparte con arroz y ensalada, y por supuesto, tortillas recién hechas o tostadas. Una verdadera delicia
-© Los Tipiquisimos 2022-Derechos reservados
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let sopgallinaIngles = `
 CHICKEN SOUP
@@ -45,7 +45,7 @@ Cook the portions in water with chicken seasoning along with the onions and garl
 Then to scent the broth with the hen basil and mint, at the same time season it with salt and pepper to taste.
 Also the big pieces of the hen are usually taken out and put to roast to accompany the soup.
 The roasted hen is served on the side with rice and salad, and of course, freshly made or toasted tortillas. A true delight
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

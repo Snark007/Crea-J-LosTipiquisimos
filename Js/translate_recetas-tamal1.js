@@ -14,7 +14,7 @@ A la masa de maíz le agregamos un poco de agua, de manera que no quede ni muy d
 El siguiente paso es preparar las hojas de huerta, que son indispensables para darles un mejor sabor a los tamales, sin embargo, necesitamos que estas hojas estén firmes y para ello debemos ponerlas en el sol hasta que se encuentren un poco tostadas, se recomienda lavar las hojas antes de ponerlas al sol, ya que podrían contener polvo.
 Ahora comienza la preparación de los tamales pisques y para ello se corta un pedazo de hoja de unos 25 centímetros, se agregan dos cucharadas soperas de masa y en el centro se agrega una cucharada de frijoles, luego debe envolver estos ingredientes en la hoja, de manera que no se salga la masa y que quede bien firme, si lo desea puede usar papel plástico para cubrir la hoja del tamal.
 El último paso consiste en colocar los tamales en una olla al fuego, agregándole agua a la olla y dejándolos al fuego por un tiempo de una hora y media hasta que se encuentren bien cocidos.
-Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos 2022-Derechos reservados
 `
 let tamal1Ingles = `
 PIQUE TAMAL
@@ -31,7 +31,7 @@ To the corn dough we add a little water, so that it is neither too hard nor too 
 The next step is to prepare the garden leaves, which are indispensable to give a better flavor to the tamales, however, we need these leaves to be firm and for this we must put them in the sun until they are a little toasted, it is recommended to wash the leaves before putting them in the sun, as they may contain dust.
 Now begins the preparation of the tamales pisques and to do this cut a piece of leaf of about 25 centimeters, add two tablespoons of dough and in the center add a spoonful of beans, then you must wrap these ingredients in the leaf, so that the dough does not come out and is very firm, if you want you can use plastic wrap to cover the tamale leaf.
 The last step consists of placing the tamales in a pot on the fire, adding water to the pot and leaving them on the fire for an hour and a half until they are well cooked.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

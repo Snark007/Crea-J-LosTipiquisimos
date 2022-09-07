@@ -19,7 +19,7 @@ Siempre verificando para que no quede muy dulce. Se le añade una cucharadita de
 Se pisan los plátanos con un tenedor hasta que quede una masa. Se toma un poco de la mala y se forman pequeñas tortillitas, a estas tortillitas se le van a poner la leche poleada que esta fría y dura, se cierra la tortillita como un sobre, sellando los bordes para que no se le salga el relleno.
 Luego se prosigue a freír cada empanada en aceite caliente hasta que las empanadas estén doraditas.
 Listas para disfrutar con un poco de azúcar rociada por encima.
-Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos 2022-Derechos reservados
 `
 let empanadasIngles = `
 PLANTAIN EMPANADAS
@@ -41,7 +41,7 @@ Always making sure it is not too sweet. Add a teaspoon of vanilla and cinnamon p
 Mash the bananas with a fork until a dough is formed. Take some of the dough and form small tortillas, to these tortillas you will put the milk that is cold and hard, close the tortilla like an envelope, sealing the edges so that the filling does not come out.
 Then proceed to fry each empanada in hot oil until the empanadas are golden brown.
 Ready to enjoy with a sprinkling of sugar on top.
-Los Tipiquisimos 2022-Rights Reserved
+Los Tipiquísimos 2022-Rights Reserved
 `
 let navEspañol = `
 Elegir idioma

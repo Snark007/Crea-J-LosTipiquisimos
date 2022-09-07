@@ -11,8 +11,8 @@ Ver más
 Sopa de gallina
 El caldo de pollo es una sopa a menudo se sirve con trozos de carne de pollo.
 Ver más
-Los Tipiquisimos
-© Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let sopaIngles = `
 Soup Recipes
@@ -26,8 +26,8 @@ See more
 Chicken soup
 Chicken broth is a soup often served with pieces of chicken meat.
 See more
-Los Tipiquisimos
-Tipiquisimos 2022-Rights Reserved
+Los Tipiquísimos
+Tipiquísimos 2022-Rights Reserved
 `
 let navEspañol = `
 Elegir idioma

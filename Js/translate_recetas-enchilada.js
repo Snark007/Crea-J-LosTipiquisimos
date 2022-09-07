@@ -29,7 +29,7 @@ Para la masa: Mezcla la harina, el achiote, la sal y el consomé en un bowl, des
 Para el relleno: Agrega la mantequilla en un sartén, cuando esté derretida añade la cebolla, el ajo, el jitomate y el pimiento. Cocina por 5 minutos. Agrega el pollo, el curry, la salsa inglesa y el sazonador. Mezcla y cocina por 10 minutos. Reserva.
 En una olla calienta el aceite a fuego medio. Con ayuda de tus manos forma una bolita de masa y aplasta, formando una tortillita no tan delgada, un poco gruesa y de 5 cm de diámetro. Agrega al aceite y fríe por 8 minutos o hasta que estén doradas. Coloca en un plato extendido con papel absorbente y reserva.
 Para el montaje de las enchiladas salvadoreñas: Coloca una enchilada en un plato extendido y cubre con frijoles, posteriormente el pollo, lechuga, jitomate rebanado, pepino, huevo cocido y el queso fresco rallado. Acompaña con agua de sabor y salsa roja.
-© Los Tipiquisimos 2022-Derechos reservados
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let enchiladaIngles = `
 ENCHILADAS
@@ -61,7 +61,7 @@ For the dough: Mix the flour, achiote, salt and consommé in a bowl, then pour t
 For the filling: Add the butter in a frying pan, when it is melted add the onion, garlic, tomato and bell pepper. Cook for 5 minutes. Add the chicken, curry, Worcestershire sauce and seasoning. Mix and cook for 10 minutes. Set aside.
 Heat the oil in a saucepan over medium heat. With the help of your hands form a ball of dough and flatten, forming a small tortilla not so thin, a little thick and 5 cm in diameter. Add to the oil and fry for 8 minutes or until golden brown. Place on a plate spread with paper towels and set aside.
 To assemble the enchiladas salvadoreñas: Place an enchilada on a plate and cover with beans, then the chicken, lettuce, sliced tomato, cucumber, boiled egg and grated fresh cheese. Serve with flavored water and red sauce.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

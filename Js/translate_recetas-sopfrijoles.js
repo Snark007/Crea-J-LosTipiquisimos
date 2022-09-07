@@ -21,7 +21,7 @@ Luego le echamos los dientes de ajos ya pelados. y revolvemos para que todo se d
 Ahora esperamos que los frijoles se ablanden, este proceso puede durar 2 horas o más, así que toca esperar.
 Una vez los frijoles estén blandos es momento de echarle el consomé de costilla y sal al gusto, puedes ir echándole sal de a poco e ir revolviendo hasta encontrar el punto deseado.
 Unos minutos después de echarle la sal y el consomé la sopa estará lista para consumir, retiramos del fuego y servimos.
-© Los Tipiquisimos 2022-Derechos sopfrijoleservados
+© Los Tipiquísimos 2022-Derechos sopfrijoleservados
 `
 let sopfrijolesIngles = `
 BEAN SOUP
@@ -45,7 +45,7 @@ Then we add the peeled garlic cloves and stir so that everything is well dispers
 Now we wait for the beans to soften, this process can take 2 hours or more, so it's time to wait.
 Once the beans are soft it is time to add the rib consommé and salt to taste, you can add salt a little at a time and stir until you find the desired point.
 A few minutes after adding the salt and consommé the soup will be ready to eat, remove from the heat and serve.
-© Los Tipiquisimos 2022-Rights sopfrijoleserved.
+© Los Tipiquísimos 2022-Rights sopfrijoleserved.
 `
 let navEspañol = `
 Elegir idioma

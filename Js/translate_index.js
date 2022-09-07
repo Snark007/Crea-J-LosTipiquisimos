@@ -1,18 +1,18 @@
 // let español, english;
 let indexEspañol = `
 Recetas Faciles
-¡Animate a Cocinar!
-la belleza se acaba el hambre no
-Casate con alguien que cocine rico
-Los abdominales son temporales.
-El chocolate es para siempre
-La que cocina no esta
-pero la que esta no cocina
+¡Anímate a Cocinar!
+La cocina es una parte esencial de
+una dieta equilibrada.
+Una receta no tiene alma, es el cocinero quien debe
+darle alma a la receta.
+Receta mañanera; una taza de optimismo, dos cucharadas de 
+dulzura y dos kilos de energía positiva.
 Lo único que me gusta más que hablar
-de comida es comer
+de comida es comer.
 Descubre
-La Historia
-Los Tipiquisimos somos un Sitio Web que pretende ayudar a las personas que quieran aprender sobre la gastronomia Salvadoreña
+la historia
+Los Tipiquisimos es Sitio Web que pretende ayudar a las personas que quieran aprender sobre la gastronomia salvadoreña.
 Nosotros
 Lo mejor de la comida
 Salvadoreña
@@ -21,8 +21,8 @@ en la cocina
 Podras subir tus recetas de comida de el salvador y demostrar tus habilidades en la cocina
 para que los demas usuarios puedan recrear tus recetas
 subir mi receta
-Los Tipiquisimos
-© Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let indexIngles = `
 Easy Recipes
@@ -46,8 +46,8 @@ in the kitchen
 You will be able to upload your food recipes from el salvador and show your skills in the kitchen
 so that other users can recreate your recipes.
 upload my recipe
-Los Tipiquisimos
-Tipiquisimos 2022-Rights Reserved
+Los Tipiquísimos
+Tipiquísimos 2022-Rights Reserved
 `
 let navEspañol = `
 Elegir idioma

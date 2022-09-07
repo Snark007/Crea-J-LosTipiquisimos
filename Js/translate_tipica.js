@@ -11,8 +11,8 @@ Ver más
 Enchiladas
 Las enchiladas salvadoreñas son un plato muy típico de la cocina de El Salvador.
 Ver más
-Los Tipiquisimos
-© Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let tipicaIngles = `
 Food recipes
@@ -26,8 +26,8 @@ See more
 Enchiladas
 Enchiladas salvadoreñas are a very typical dish of El Salvador's cuisine.
 See more
-Los Tipiquisimos
-Tipiquisimos 2022-Rights Reserved
+Los Tipiquísimos
+Tipiquísimos 2022-Rights Reserved
 `
 let navEspañol = `
 Elegir idioma

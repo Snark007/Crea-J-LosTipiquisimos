@@ -11,8 +11,8 @@ Ver más
 Jocotes en miel
 Los jocotes en miel son unas de las comidas dulces más deliciosas de Semana Santa
 Ver más
-Los Tipiquisimos
-© Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let santaIngles = `
 Easter Recipes
@@ -26,8 +26,8 @@ See more
 Jocotes in honey
 Jocotes in honey are one of the most delicious sweet dishes of Easter.
 See more
-Los Tipiquisimos
-Tipiquisimos 2022-Rights Reserved
+Los Tipiquísimos
+Tipiquísimos 2022-Rights Reserved
 `
 let navEspañol = `
 Elegir idioma

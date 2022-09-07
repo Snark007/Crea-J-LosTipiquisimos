@@ -17,7 +17,7 @@ Elija a su gusto. Al colocar el relleno a la masa, la cubrimos con la otra parte
 Preparamos la sartén con abundante aceite y echamos uno a uno los pastelitos que hemos preparado. Se debe estar atento para evitar se quemen.
 Basta con dejarlos entre 3 a 5 minutos. Transcurrido ese tiempo, y ver que están doraditos, sacamos para que escurran.
 Listo. Nos disponemos a degustar.
-© Los Tipiquisimos 2022-Derechos reservados
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let pastelitosIngles = `
 PASTELITOS
@@ -37,7 +37,7 @@ Choose to your taste. Once the filling is placed on the dough, we cover it with 
 Prepare the frying pan with abundant oil and place one by one the small cakes we have prepared. Be careful not to burn them.
 It is enough to leave them between 3 to 5 minutes. Once this time has elapsed, and we see that they are golden brown, we take them out to drain.
 That's it. We are ready to taste.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

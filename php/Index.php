@@ -129,8 +129,8 @@ session_start();
     <!--::::Pie de Pagina::::::-->
     <footer>
         <div class="contar">
-            <h3 class="log"><span data-index="22">Los Tipiquisimos</span> </h3>
-            <p>&copy; <span data-index="23">Los Tipiquisimos 2022-Derechos reservados</span></p>
+            <h3 class="log"><span data-index="22">Los Tipiquísimos</span> </h3>
+            <p>&copy; <span data-index="23">Los Tipiquísimos 2022-Derechos reservados</span></p>
         </div>
         
         <div class="container3">

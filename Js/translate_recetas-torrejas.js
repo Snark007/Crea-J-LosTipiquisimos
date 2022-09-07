@@ -14,7 +14,7 @@ En un recipiente batir las claras de los huevos muy bien. Una vez estén espumos
 En una sartén, poner a calentar el aceite.
 Mientras tanto, pasar los panes por la leche en un tazón, luego por la mezcla de huevos y finalmente freír muy bien por ambos lados, hasta que queden dorados y crujientes.
 Servir las torrejas ya fritas bañándolas con la miel de abeja al gusto.
-© Los Tipiquisimos 2022-Derechos reservados
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let torrejasIngles = `
 TORREJAS IN HONEY
@@ -31,7 +31,7 @@ In a bowl beat the egg whites very well. Once they are foamy add the cornstarch 
 In a frying pan, heat the oil.
 Meanwhile, dip the breads in the milk in a bowl, then in the egg mixture and finally fry very well on both sides, until golden brown and crispy.
 Serve the fried torrejas with honey to taste.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

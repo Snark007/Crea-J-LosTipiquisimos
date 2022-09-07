@@ -11,8 +11,8 @@ Ver más
 Pupusas de queso
 Las pupusas son la comida típica salvadoreña por excelencia.
 Ver más
-Los Tipiquisimos
-© Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let pupusaIngles = `
 Pupusas Recipes.
@@ -26,8 +26,8 @@ See more
 Cheese Pupusas
 Pupusas are the typical Salvadoran food par excellence.
 See more
-Los Tipiquisimos
-Tipiquisimos 2022-Rights Reserved
+Los Tipiquísimos
+Tipiquísimos 2022-Rights Reserved
 `
 let navEspañol = `
 Elegir idioma

@@ -14,7 +14,7 @@ Una vez vea que los jocotes se han agrietado sáquelos del agua y quíteles la c
 En otra olla ponga a hervir a fuego lento el agua con el dulce de atado y la canela. Agregue los jocotes ya pelados y déjelos cocinar durante una hora.
 Revise si la miel ya está conservada. Sino déjela hasta conservar. La ceniza permite pelar mejor los jocotes, que éstos no pierdan su textura ni su tamaño.
 Recomendación: Seleccionar jocotes de tipo ácido (en Semana Santa). También puede hacerse del tipo dulce de invierno (de junio hasta agosto). No se recomienda hacerlo del de corona (de agosto a septiembre).
-Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos 2022-Derechos reservados
 `
 let jocoteIngles = `
 JOCOTES HONEY
@@ -31,7 +31,7 @@ Once you see that the jocotes have cracked, take them out of the water and remov
 In another pot, bring the water to a simmer with the tied candy and the cinnamon. Add the already peeled jocotes and let them cook for an hour.
 Check if the honey is already preserved. Otherwise, leave it until you keep it. The ash allows the jocotes to be better peeled, so that they do not lose their texture or their size.
 Recommendation: Select acid-type jocotes (at Easter). It can also be made of the sweet winter type (June through August). It is not recommended to do it from the corona (from August to September).
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

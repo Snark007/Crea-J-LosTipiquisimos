@@ -11,8 +11,8 @@ Ver más
 Pavo en salsa
 Sabroso pavo al estilo de El Salvador para disfrutar en las fiestas decembrinas.
 Ver más
-Los Tipiquisimos
-© Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let navideñaIngles = `
 Christmas Recipes
@@ -26,8 +26,8 @@ See more
 Turkey in sauce
 Tasty turkey in El Salvador style to enjoy during the Christmas holidays.
 See more
-Los Tipiquisimos
-Tipiquisimos 2022-Rights Reserved
+Los Tipiquísimos
+Tipiquísimos 2022-Rights Reserved
 `
 let navEspañol = `
 Elegir idioma

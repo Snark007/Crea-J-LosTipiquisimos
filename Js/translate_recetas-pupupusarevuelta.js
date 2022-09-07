@@ -16,7 +16,7 @@ Si al amasar notamos que la masa está algo dura, agregaremos un poco más de ag
 Debes tener un envase con agua y aceite, el cual te ayudará a dar forma a las pupusas, de manera que la masa no se pegue a tus manos. Ahora, con las manos humedecidas, debes tomar una pelotita de masa y con ambas manos la vas aplanando hasta que quede como una tortilla.
 Mientras das forma a la masa, debes ir humedeciendo tus manos en el agua. Si se te hace complicado, puedes utilizar tus dedos para hacer en el centro una pequeña hendidura, donde colocarás el relleno. Tomando un poco de frijoles revueltos previamente con el quesillo y el chicharron
 Una vez que has colocado el relleno, se procede a envolver, dando forma de esférica. Finalmente, vuelves a aplanar y se coloca la pupusa en un comal o plancha bien caliente. Después de un rato, debes voltear con una espátula, de forma que no se pasen de cocción. Eso sí, cada vez que des vuelta a las pupusas debes mojar la espátula en el agua con aceite, así será más fácil. Con esto, ya estás listo para degustar unas ricas pupusas totalmente salvadoreñas.
-Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos 2022-Derechos reservados
 `
 let pupusarIngles = `
 PUPUSA REVUELTA
@@ -35,7 +35,7 @@ If when kneading we notice that the dough is somewhat hard, we will add a little
 You must have a container with water and oil, which will help you shape the pupusas, so that the dough does not stick to your hands. Now, with moistened hands, you must take a small ball of dough and with both hands you flatten it until it is like a tortilla.
 While you shape the dough, you must moisten your hands in the water. If you find it difficult, you can use your fingers to make a small indentation in the center, where you will place the filling. Taking some scrambled beans previously with the quesillo and pork rinds
 Once you have placed the filling, proceed to wrap it, giving it a spherical shape. Finally, flatten again and place the pupusa on a very hot griddle or griddle. After a while, you must turn with a spatula, so that they do not overcook. Of course, every time you turn the pupusas you must dip the spatula in the water with oil, that way it will be easier. With this, you are ready to taste some delicious totally Salvadoran pupusas.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

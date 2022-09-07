@@ -20,7 +20,7 @@ Limpia el pollo y córtalo en partes, condiméntalo a tu gusto y déjalo uno min
 Júntalo con el pollo y sofríe hasta que la salsa quede completamente cocida
 Luego corta la zanahoria, el pepino y puedes agregar coliflor para crear escabeche, agrega la margarina y el vinagre luego remoja con mayonesa
 Lo último es cortar el pan agrega mayonesa en ambos lados, incluye la salsa de pollo, y rellénalo con el pollo y el resto de ingredientes a tu gusto
-Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos 2022-Derechos reservados
 `
 let panpolloIngles = `
 BREADS WITH CHICKEN
@@ -43,7 +43,7 @@ Clean the chicken and cut it in parts, season it to your taste and leave it for 
 Add it to the chicken and sauté until the sauce is completely cooked.
 Then chop the carrot, cucumber and you can add cauliflower to create a marinade, add the margarine and vinegar then soak with mayonnaise.
 The last thing is to cut the bread, add mayonnaise on both sides, include the chicken sauce, and fill it with the chicken and the rest of the ingredients to your liking.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

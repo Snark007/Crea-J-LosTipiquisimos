@@ -17,7 +17,7 @@ Luego colocamos una cucharada de recaudo, un trozo de pollo, papa, chile, aceitu
 En una olla grande, colocas dos hojas o capas de hojas en el fondo, luego colocas los tamales ya elaborados. Vierte el agua hasta la mitad de la altura de los tamales, los cubres con dos capas de hojas, colocas su tapa y dejas que hiervan por unos 40 minutos.
 Chequea que la hoja parece como sudada, ese es la señal que indica que tus los deliciosos tamales ya están listos.
 Listo. Nos disponemos a degustar.
-Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos 2022-Derechos reservados
 `
 let tamal_polloIngles = `
 Chicken tamale
@@ -37,7 +37,7 @@ Then we put a spoonful of collection, a piece of chicken, potato, chili, olives 
 In a large pot, you place two leaves or layers of leaves on the bottom, then place the already made tamales. Pour the water up to half the height of the tamales, cover them with two layers of leaves, put the lid on and let them boil for about 40 minutes.
 Check that the leaf looks sweaty, that is the sign that your delicious tamales are ready.
 Clever. We are ready to taste.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

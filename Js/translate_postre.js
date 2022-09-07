@@ -11,8 +11,8 @@ Ver más
 Empanadas de plátano
 Es un dulce económico y fácil de hacer ideal para hacer una merienda rápida. No puedes dejar de probarlo.
 Ver más
-Los Tipiquisimos
-© Los Tipiquisimos 2022-Derechos reservados
+Los Tipiquísimos
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let postreIngles = `
 Dessert Recipes
@@ -26,8 +26,8 @@ See more
 Plantain Empanadas
 It is an economical and easy-to-make sweet ideal for a quick snack. You can't miss it.
 See more
-Los Tipiquisimos
-Tipiquisimos 2022-Rights Reserved
+Los Tipiquísimos
+Tipiquísimos 2022-Rights Reserved
 `
 let navEspañol = `
 Elegir idioma

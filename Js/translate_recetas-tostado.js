@@ -15,7 +15,7 @@ Disuelve la harina de maíz en 10 tazas de agua y cuela en una manta de colar.
 Luego lo pones al fuego en una olla, agrega el resto de la canela, la pimienta, sal y azúcar revuelve y deja que hierva, revuelve constantemente.
 Cuando el atol este hirviendo agrega los dos vasos de leche. Espera que suelte hervor y retira del fuego.
 Cuando este colando el maíz, procura no echar demasiada agua, ya que podría quedar muy líquido.
-© Los Tipiquisimos 2022-Derechos reservados
+© Los Tipiquísimos 2022-Derechos reservados
 `
 let tostadoIngles = `
 ROASTED CORN ATOL
@@ -33,7 +33,7 @@ Dissolve the corn flour in 10 cups of water and strain it through a strainer.
 Then you put it to the fire in a pot, add the rest of the cinnamon, pepper, salt and sugar, stir and let it boil, stirring constantly.
 When the atol is boiling add the two glasses of milk. Wait for it to boil and remove from heat.
 When the corn is straining, try not to add too much water, because it could be too liquid.
-Los Tipiquisimos 2022-Rights reserved
+Los Tipiquísimos 2022-Rights reserved
 `
 let navEspañol = `
 Elegir idioma

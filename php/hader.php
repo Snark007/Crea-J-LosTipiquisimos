@@ -20,7 +20,7 @@
         </div>
         <img src="../Img/menu.svg" alt="" class="menu-hamburguer">
         <a href="../php/Index.php" class="logo-grid">
-            <h3 class="logo ">Los Tipiquisimos</h3>
+            <h3 class="logo ">Los Tipiquísimos</h3>
         </a>
         <nav class="nav-hide">
             <a href="../php/nosotros.php" data-nav="4">¡Sobre nosotros!</a>
