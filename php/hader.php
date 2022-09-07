@@ -25,7 +25,7 @@
         <nav class="nav-hide">
             <a href="../php/nosotros.php" data-nav="4">¡Sobre nosotros!</a>
             <div class="container-menu-desplegable">
-
+ 
                 <p class="main-text"><a href="" data-nav="5">Recetas</a></p>
 
                 <div class="more-options-recetas">
