@@ -26,7 +26,7 @@ session_start();
     <!--BASE-->
     <section>
         <div class="recetas">
-            <img src="../Comida/tamales-pisques.jpg" alt="">
+            <img src="../Comida/pisque.jpg" alt="">
             <div class="recetas-letras">
                 <h1><span data-tamal1="1">TAMAL DE PIQUE<span></h1>
                 <p>

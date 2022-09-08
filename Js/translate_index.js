@@ -25,26 +25,26 @@ Los Tipiquísimos
 © Los Tipiquísimos 2022-Derechos reservados
 `
 let indexIngles = `
-Easy Recipes
-Get Cooking!
-Marry someone who cooks good food
-beauty is over hunger is not
-Abs are temporary.
-Chocolate is forever
-The one who cooks is not here
-but the one who is not cooking
-The only thing I like more than talking about
-about food is eating
+Easy recipes
+Cheer up to cook!
+The kitchen is an essential part of
+a balanced diet.
+A recipe does not have a soul, it is the cook who must
+give soul to the recipe.
+morning recipe; a cup of optimism, two tablespoons of
+sweetness and two kilos of positive energy.
+The only thing I like more than talking
+of food is eating.
 Discover
-The History
-The Tipiquisimos is a website that aims to help people who want to learn about Salvadoran want to learn about Salvadoran gastronomy.
-We
-The best of the food
+the history
+Los Tipiquisimos is a website that aims to help people who want to learn about Salvadoran cuisine.
+Us
+best of food
 Salvadoran
-Discover your talent
+discover your talent
 in the kitchen
-You will be able to upload your food recipes from el salvador and show your skills in the kitchen
-so that other users can recreate your recipes.
+You can upload your food recipes from El Salvador and demonstrate your skills in the kitchen
+so that other users can recreate your recipes
 upload my recipe
 Los Tipiquísimos
 Tipiquísimos 2022-Rights Reserved
